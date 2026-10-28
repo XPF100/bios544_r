@@ -1,0 +1,3230 @@
+[
+  {
+    "objectID": "weeks/week-14.html",
+    "href": "weeks/week-14.html",
+    "title": "Week 14: Reproducible reporting & final projects",
+    "section": "",
+    "text": "Reproducible research\nSlides\nLab\nCheat sheet\nAssignment (HW 13)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "weeks/week-14.html#topics",
+    "href": "weeks/week-14.html#topics",
+    "title": "Week 14: Reproducible reporting & final projects",
+    "section": "Topics",
+    "text": "Topics\n\nWriting a reproducible analysis report in Quarto\nTables (gtsummary) and figure captions\nProject organization and package versions (renv)\nFinal project presentations",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "weeks/week-14.html#learning-objectives",
+    "href": "weeks/week-14.html#learning-objectives",
+    "title": "Week 14: Reproducible reporting & final projects",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nProduce a polished, fully reproducible Quarto report\nMake a Table 1 with gtsummary\nOrganize a project so someone else can rerun it",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "weeks/week-14.html#data",
+    "href": "weeks/week-14.html#data",
+    "title": "Week 14: Reproducible reporting & final projects",
+    "section": "Data",
+    "text": "Data\nEach team’s project data",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "weeks/week-14.html#project",
+    "href": "weeks/week-14.html#project",
+    "title": "Week 14: Reproducible reporting & final projects",
+    "section": "Project",
+    "text": "Project\nFinal presentations; written report due finals week",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "weeks/week-14.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-14.html#adapted-from-data-science-in-a-box",
+    "title": "Week 14: Reproducible reporting & final projects",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu2-d17-doing-data-science",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html",
+    "href": "weeks/week-12.html",
+    "title": "Week 12: Linear regression II: multiple predictors & model building",
+    "section": "",
+    "text": "Making rigorous conclusions\nSlides\nLab\nCheat sheet\nAssignment (HW 11)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 12: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#topics",
+    "href": "weeks/week-12.html#topics",
+    "title": "Week 12: Linear regression II: multiple predictors & model building",
+    "section": "Topics",
+    "text": "Topics\n\nAdding predictors and adjusting for confounders\nCategorical predictors and interaction terms\nComparing models (adjusted R-squared, AIC)\nChecking model assumptions",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 12: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#learning-objectives",
+    "href": "weeks/week-12.html#learning-objectives",
+    "title": "Week 12: Linear regression II: multiple predictors & model building",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nFit and interpret a multiple regression\nInterpret a categorical predictor and an interaction\nCompare candidate models and justify a choice",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 12: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#data",
+    "href": "weeks/week-12.html#data",
+    "title": "Week 12: Linear regression II: multiple predictors & model building",
+    "section": "Data",
+    "text": "Data\nNHANES: systolic BP ~ age + BMI + sex + smoking",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 12: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-12.html#adapted-from-data-science-in-a-box",
+    "title": "Week 12: Linear regression II: multiple predictors & model building",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu4-d04-model-multiple-predictors\nu4-d05-more-model-multiple-predictors",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 12: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html",
+    "href": "weeks/week-10.html",
+    "title": "Week 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "",
+    "text": "Making rigorous conclusions\nSlides\nLab\nCheat sheet\nAssignment (HW 09)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#topics",
+    "href": "weeks/week-10.html#topics",
+    "title": "Week 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "Topics",
+    "text": "Topics\n\nCorrelation (Pearson, Spearman)\nTwo-sample and paired t-tests\nChi-square test of independence\nTidy test output with broom",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#learning-objectives",
+    "href": "weeks/week-10.html#learning-objectives",
+    "title": "Week 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nChoose a test that matches the variable types\nRun and interpret cor.test(), t.test(), chisq.test()\nReport results in a sentence with estimate, CI, and p-value",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#data",
+    "href": "weeks/week-10.html#data",
+    "title": "Week 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "Data",
+    "text": "Data\nNHANES: blood pressure by sex, smoking x diabetes, BMI vs. BP",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#project",
+    "href": "weeks/week-10.html#project",
+    "title": "Week 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "Project",
+    "text": "Project\nProject data analysis checkpoint",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-10.html#adapted-from-data-science-in-a-box",
+    "title": "Week 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu4-d12-hypothesis-testing\nu4-d13-inference-overview",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html",
+    "href": "weeks/week-08.html",
+    "title": "Week 8: Functions & iteration",
+    "section": "",
+    "text": "Exploring data\nSlides\nLab\nCheat sheet\nAssignment (HW 07)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#topics",
+    "href": "weeks/week-08.html#topics",
+    "title": "Week 8: Functions & iteration",
+    "section": "Topics",
+    "text": "Topics\n\nWhy write functions\nFunction arguments and defaults\nIterating with across() and purrr::map()\nReading and combining many files",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#learning-objectives",
+    "href": "weeks/week-08.html#learning-objectives",
+    "title": "Week 8: Functions & iteration",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nWrite a function that removes repeated code\nApply a summary across many columns with across()\nRead a folder of files into one data frame",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#data",
+    "href": "weeks/week-08.html#data",
+    "title": "Week 8: Functions & iteration",
+    "section": "Data",
+    "text": "Data\nNHANES; a folder of county-level files (built for the course)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#project",
+    "href": "weeks/week-08.html#project",
+    "title": "Week 8: Functions & iteration",
+    "section": "Project",
+    "text": "Project\nProject proposal due",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-08.html#adapted-from-data-science-in-a-box",
+    "title": "Week 8: Functions & iteration",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu2-d21-functions\nu2-d22-iteration",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html",
+    "href": "weeks/week-06.html",
+    "title": "Week 6: Data wrangling II: joins & reshaping",
+    "section": "",
+    "text": "Exploring data\nSlides\nLab\nCheat sheet\nAssignment (HW 05)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#topics",
+    "href": "weeks/week-06.html#topics",
+    "title": "Week 6: Data wrangling II: joins & reshaping",
+    "section": "Topics",
+    "text": "Topics\n\nWorking with multiple data frames\nleft_join(), inner_join(), anti_join()\npivot_longer() and pivot_wider()\nCalculating rates per population",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#learning-objectives",
+    "href": "weeks/week-06.html#learning-objectives",
+    "title": "Week 6: Data wrangling II: joins & reshaping",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nChoose the right join for a question\nReshape between long and wide formats\nJoin case counts to population to compute incidence rates",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#data",
+    "href": "weeks/week-06.html#data",
+    "title": "Week 6: Data wrangling II: joins & reshaping",
+    "section": "Data",
+    "text": "Data\nWHO tuberculosis data (tidyr::who2, tidyr::population)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-06.html#adapted-from-data-science-in-a-box",
+    "title": "Week 6: Data wrangling II: joins & reshaping",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu2-d08-multi-df\nu2-d09-tidying",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html",
+    "href": "weeks/week-04.html",
+    "title": "Week 4: Data visualization II: numeric & categorical data",
+    "section": "",
+    "text": "Exploring data\nSlides\nLab\nCheat sheet\nAssignment (HW 03)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#topics",
+    "href": "weeks/week-04.html#topics",
+    "title": "Week 4: Data visualization II: numeric & categorical data",
+    "section": "Topics",
+    "text": "Topics\n\nHistograms, density plots, boxplots, scatterplots\nBar charts and segmented bars\nPrinciples of effective visualization\nEthics: misrepresentation with graphs",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#learning-objectives",
+    "href": "weeks/week-04.html#learning-objectives",
+    "title": "Week 4: Data visualization II: numeric & categorical data",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nChoose an appropriate plot for one or two variables\nImprove a plot’s readability (scales, themes, labels)\nRecognize misleading axes and cherry-picked comparisons",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#data",
+    "href": "weeks/week-04.html#data",
+    "title": "Week 4: Data visualization II: numeric & categorical data",
+    "section": "Data",
+    "text": "Data\nNHANES; CDC COVID-era public charts (critique examples)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-04.html#adapted-from-data-science-in-a-box",
+    "title": "Week 4: Data visualization II: numeric & categorical data",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu2-d03-viz-num\nu2-d04-viz-cat\nu2-d14-effective-dataviz\nu3-d01-misrepresentation",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html",
+    "href": "weeks/week-02.html",
+    "title": "Week 2: Reproducible research: Quarto, Git & GitHub",
+    "section": "",
+    "text": "Reproducible research\nSlides\nLab\nCheat sheet\nAssignment (HW 01)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 02: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#topics",
+    "href": "weeks/week-02.html#topics",
+    "title": "Week 2: Reproducible research: Quarto, Git & GitHub",
+    "section": "Topics",
+    "text": "Topics\n\nWhy reproducibility matters in public health research\nQuarto documents: YAML, text, code chunks, rendering\nVersion control with Git; GitHub repositories\nCommit, push, pull from RStudio",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 02: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#learning-objectives",
+    "href": "weeks/week-02.html#learning-objectives",
+    "title": "Week 2: Reproducible research: Quarto, Git & GitHub",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nRender a Quarto document to HTML\nControl chunk output with execution options\nClone a GitHub repo, commit changes, and push them back",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 02: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#data",
+    "href": "weeks/week-02.html#data",
+    "title": "Week 2: Reproducible research: Quarto, Git & GitHub",
+    "section": "Data",
+    "text": "Data\nmedicaldata::covid_testing",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 02: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-02.html#adapted-from-data-science-in-a-box",
+    "title": "Week 2: Reproducible research: Quarto, Git & GitHub",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu1-d03-toolkit-git\nae-02-bechdel-rmarkdown",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 02: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Placeholder. Paste the final BIOS 544 Fall 2026 syllabus text here, or link the PDF."
+  },
+  {
+    "objectID": "syllabus.html#grading",
+    "href": "syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "Grading",
+    "text": "Grading\n\n\n\nComponent\nWeight\n\n\n\n\nAssignments and labs\n60%\n\n\nFinal group project\n40%"
+  },
+  {
+    "objectID": "slides/week-13.html#this-week",
+    "href": "slides/week-13.html#this-week",
+    "title": "Logistic regression & model validation",
+    "section": "This week",
+    "text": "This week\n\nFit a logistic regression and report odds ratios with CIs\nEvaluate predictions on held-out data\nDescribe how a prediction model can treat groups unfairly"
+  },
+  {
+    "objectID": "slides/week-13.html#before-next-class",
+    "href": "slides/week-13.html#before-next-class",
+    "title": "Logistic regression & model validation",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 12"
+  },
+  {
+    "objectID": "slides/week-11.html#this-week",
+    "href": "slides/week-11.html#this-week",
+    "title": "Linear regression I",
+    "section": "This week",
+    "text": "This week\n\nFit a model with lm() and interpret its coefficients\nVisualize the fitted line and residuals\nExplain what R-squared does and does not tell you"
+  },
+  {
+    "objectID": "slides/week-11.html#before-next-class",
+    "href": "slides/week-11.html#before-next-class",
+    "title": "Linear regression I",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 10"
+  },
+  {
+    "objectID": "slides/week-09.html#this-week",
+    "href": "slides/week-09.html#this-week",
+    "title": "Study design, confounding & Simpson’s paradox",
+    "section": "This week",
+    "text": "This week\n\nClassify a study as observational or experimental\nIdentify a potential confounder in a public health question\nShow Simpson’s paradox with a grouped summary"
+  },
+  {
+    "objectID": "slides/week-09.html#before-next-class",
+    "href": "slides/week-09.html#before-next-class",
+    "title": "Study design, confounding & Simpson’s paradox",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 08"
+  },
+  {
+    "objectID": "slides/week-07.html#this-week",
+    "href": "slides/week-07.html#this-week",
+    "title": "Data types, import & recoding",
+    "section": "This week",
+    "text": "This week\n\nDiagnose and fix variable type problems\nImport CSV and Excel files with readr / readxl\nRecode and reorder factor levels\nExplain why de-identified data can still put people at risk"
+  },
+  {
+    "objectID": "slides/week-07.html#before-next-class",
+    "href": "slides/week-07.html#before-next-class",
+    "title": "Data types, import & recoding",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 06"
+  },
+  {
+    "objectID": "slides/week-05.html#this-week",
+    "href": "slides/week-05.html#this-week",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "This week",
+    "text": "This week\n\nIdentify tidy vs. untidy data\nChain dplyr verbs with the pipe |&gt;\nCompute grouped summary statistics\n\n\nProject: form your teams this week (up to 4 people)."
+  },
+  {
+    "objectID": "slides/week-05.html#what-makes-data-tidy",
+    "href": "slides/week-05.html#what-makes-data-tidy",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "What makes data tidy?",
+    "text": "What makes data tidy?\n\nEach variable is a column\nEach observation is a row\nEach value is a cell\n\n\nTidy data is the shape dplyr and ggplot2 expect. Most of your time cleaning data goes into getting it there."
+  },
+  {
+    "objectID": "slides/week-05.html#untidy-one-column-per-day",
+    "href": "slides/week-05.html#untidy-one-column-per-day",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "Untidy: one column per day",
+    "text": "Untidy: one column per day\n\n\n\nclinic\nday_1\nday_2\nday_3\n\n\n\n\nclinical lab\n12\n18\n25\n\n\nemergency dept\n4\n9\n7\n\n\n\n\n“Day” is a variable, but its values are stuck in the column names. (Fix: pivot_longer(), next week.)"
+  },
+  {
+    "objectID": "slides/week-05.html#tidy-one-row-per-clinic-day",
+    "href": "slides/week-05.html#tidy-one-row-per-clinic-day",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "Tidy: one row per clinic-day",
+    "text": "Tidy: one row per clinic-day\n\n\n\nclinic\nday\ntests\n\n\n\n\nclinical lab\n1\n12\n\n\nclinical lab\n2\n18\n\n\nclinical lab\n3\n25\n\n\nemergency dept\n1\n4\n\n\n…\n…\n…"
+  },
+  {
+    "objectID": "slides/week-05.html#our-data-covid-19-testing-at-chop",
+    "href": "slides/week-05.html#our-data-covid-19-testing-at-chop",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "Our data: COVID-19 testing at CHOP",
+    "text": "Our data: COVID-19 testing at CHOP\n15,524 tests from the first 107 days of the pandemic at the Children’s Hospital of Philadelphia (medicaldata::covid_testing). One row = one test, not one person.\n\nglimpse(covid)\n\nRows: 15,524\nColumns: 17\n$ subject_id      &lt;int&gt; 1412, 533, 9134, 8518, 8967, 11048, 663, 215…\n$ fake_first_name &lt;chr&gt; \"jhezane\", \"penny\", \"grunt\", \"melisandre\", \"…\n$ fake_last_name  &lt;chr&gt; \"westerling\", \"targaryen\", \"rivers\", \"swyft\"…\n$ gender          &lt;chr&gt; \"female\", \"female\", \"male\", \"female\", \"male\"…\n$ pan_day         &lt;int&gt; 4, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9,…\n$ test_id         &lt;chr&gt; \"covid\", \"covid\", \"covid\", \"covid\", \"covid\",…\n$ clinic_name     &lt;chr&gt; \"inpatient ward a\", \"clinical lab\", \"clinica…\n$ result          &lt;chr&gt; \"negative\", \"negative\", \"negative\", \"negativ…\n$ demo_group      &lt;chr&gt; \"patient\", \"patient\", \"patient\", \"patient\", …\n$ age             &lt;dbl&gt; 0.0, 0.0, 0.8, 0.8, 0.8, 0.8, 0.8, 0.0, 0.0,…\n$ drive_thru_ind  &lt;int&gt; 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1,…\n$ ct_result       &lt;dbl&gt; 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, …\n$ orderset        &lt;int&gt; 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1,…\n$ payor_group     &lt;chr&gt; \"government\", \"commercial\", NA, NA, \"governm…\n$ patient_class   &lt;chr&gt; \"inpatient\", \"not applicable\", NA, NA, \"emer…\n$ col_rec_tat     &lt;dbl&gt; 1.4, 2.3, 7.3, 5.8, 1.2, 1.4, 2.6, 0.7, 1.0,…\n$ rec_ver_tat     &lt;dbl&gt; 5.2, 5.8, 4.7, 5.0, 6.4, 7.0, 4.2, 6.3, 5.6,…"
+  },
+  {
+    "objectID": "slides/week-05.html#read-as-and-then",
+    "href": "slides/week-05.html#read-as-and-then",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "Read |> as “and then”",
+    "text": "Read |&gt; as “and then”\n\ncovid |&gt;\n  filter(result == \"positive\") |&gt;\n  count(clinic_name)\n\n\n\nTake covid, and then keep the positive tests, and then count them by clinic.\n\n\n\nWithout the pipe, the same code reads inside-out:\n\ncount(filter(covid, result == \"positive\"), clinic_name)\n\n\n\n\nShortcut: Cmd/Ctrl + Shift + M types |&gt;. You may also see %&gt;%. It works the same way for our purposes."
+  },
+  {
+    "objectID": "slides/week-05.html#filter-keep-rows-that-match",
+    "href": "slides/week-05.html#filter-keep-rows-that-match",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "filter(): keep rows that match",
+    "text": "filter(): keep rows that match\n\ncovid |&gt;\n  filter(result == \"positive\")\n\n# A tibble: 865 × 17\n  subject_id fake_first_name fake_last_name gender pan_day test_id\n       &lt;int&gt; &lt;chr&gt;           &lt;chr&gt;          &lt;chr&gt;    &lt;int&gt; &lt;chr&gt;  \n1       2114 azzak           tully          male        10 covid  \n2       7240 arryk           mormont        male        11 covid  \n3      11391 zei             umber          female      11 covid  \n4        902 owen            seaworth       male        12 covid  \n5       2573 glendon         lannister      male        12 covid  \n# ℹ 860 more rows\n# ℹ 11 more variables: clinic_name &lt;chr&gt;, result &lt;chr&gt;,\n#   demo_group &lt;chr&gt;, age &lt;dbl&gt;, drive_thru_ind &lt;int&gt;,\n#   ct_result &lt;dbl&gt;, orderset &lt;int&gt;, payor_group &lt;chr&gt;,\n#   patient_class &lt;chr&gt;, col_rec_tat &lt;dbl&gt;, rec_ver_tat &lt;dbl&gt;"
+  },
+  {
+    "objectID": "slides/week-05.html#multiple-conditions",
+    "href": "slides/week-05.html#multiple-conditions",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "Multiple conditions",
+    "text": "Multiple conditions\n\n# both must be true: comma (or &)\ncovid |&gt; filter(result == \"positive\", age &gt;= 18)\n\n# either can be true: |\ncovid |&gt; filter(clinic_name == \"nicu\" | clinic_name == \"picu\")\n\n# match any value in a list: %in%\ncovid |&gt; filter(clinic_name %in% c(\"nicu\", \"picu\"))\n\n# not equal\ncovid |&gt; filter(result != \"invalid\")\n\n\n\n\n\n\n\n\nWarning\n\n\n= assigns, == compares. filter(result = \"positive\") is an error."
+  },
+  {
+    "objectID": "slides/week-05.html#your-turn-filter",
+    "href": "slides/week-05.html#your-turn-filter",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "Your turn: filter()",
+    "text": "Your turn: filter()\nKeep the tests collected at the emergency dept that were positive. How many rows?"
+  },
+  {
+    "objectID": "slides/week-05.html#arrange-sort-rows",
+    "href": "slides/week-05.html#arrange-sort-rows",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "arrange(): sort rows",
+    "text": "arrange(): sort rows\n\ncovid |&gt;\n  select(subject_id, age, demo_group) |&gt;\n  arrange(desc(age))\n\n# A tibble: 15,524 × 3\n  subject_id   age demo_group \n       &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;      \n1       3049   138 client     \n2       4078   119 patient    \n3      12293   119 other adult\n4      11177   119 client     \n5        337   119 misc adult \n# ℹ 15,519 more rows\n\n\n\nAn age of 138? Sorting is a fast way to catch data errors."
+  },
+  {
+    "objectID": "slides/week-05.html#select-keep-columns",
+    "href": "slides/week-05.html#select-keep-columns",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "select(): keep columns",
+    "text": "select(): keep columns\n\ncovid |&gt;\n  select(subject_id, age, result)\n\n# A tibble: 15,524 × 3\n  subject_id   age result  \n       &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;   \n1       1412   0   negative\n2        533   0   negative\n3       9134   0.8 negative\n4       8518   0.8 negative\n5       8967   0.8 negative\n# ℹ 15,519 more rows"
+  },
+  {
+    "objectID": "slides/week-05.html#select-helpers",
+    "href": "slides/week-05.html#select-helpers",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "select() helpers",
+    "text": "select() helpers\n\ncovid |&gt; select(subject_id:gender)      # a range\ncovid |&gt; select(-fake_first_name, -fake_last_name)  # drop\ncovid |&gt; select(starts_with(\"demo\"))   # by name pattern\ncovid |&gt; select(ends_with(\"_tat\"))\ncovid |&gt; select(where(is.numeric))     # by type"
+  },
+  {
+    "objectID": "slides/week-05.html#mutate-add-or-change-columns",
+    "href": "slides/week-05.html#mutate-add-or-change-columns",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "mutate(): add or change columns",
+    "text": "mutate(): add or change columns\n\ncovid |&gt;\n  mutate(\n    age_months = age * 12,\n    positive   = result == \"positive\"\n  ) |&gt;\n  select(subject_id, age, age_months, result, positive)\n\n# A tibble: 15,524 × 5\n  subject_id   age age_months result   positive\n       &lt;int&gt; &lt;dbl&gt;      &lt;dbl&gt; &lt;chr&gt;    &lt;lgl&gt;   \n1       1412   0          0   negative FALSE   \n2        533   0          0   negative FALSE   \n3       9134   0.8        9.6 negative FALSE   \n4       8518   0.8        9.6 negative FALSE   \n5       8967   0.8        9.6 negative FALSE   \n# ℹ 15,519 more rows\n\n\n\n\nmutate() returns a new data frame. Save it with &lt;- if you want to keep the change."
+  },
+  {
+    "objectID": "slides/week-05.html#count",
+    "href": "slides/week-05.html#count",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "count()",
+    "text": "count()\n\ncovid |&gt;\n  count(result)\n\n# A tibble: 3 × 2\n  result       n\n  &lt;chr&gt;    &lt;int&gt;\n1 invalid    301\n2 negative 14358\n3 positive   865\n\n\n\n\ncovid |&gt;\n  count(clinic_name, sort = TRUE)\n\n# A tibble: 88 × 2\n  clinic_name           n\n  &lt;chr&gt;             &lt;int&gt;\n1 clinical lab       7500\n2 emergency dept     3413\n3 oncology day hosp   533\n4 nicu                294\n5 laboratory          270\n# ℹ 83 more rows"
+  },
+  {
+    "objectID": "slides/week-05.html#summarize-collapse-to-one-row",
+    "href": "slides/week-05.html#summarize-collapse-to-one-row",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "summarize(): collapse to one row",
+    "text": "summarize(): collapse to one row\n\ncovid |&gt;\n  summarize(\n    n_tests      = n(),\n    mean_age     = mean(age),\n    pct_positive = mean(result == \"positive\") * 100\n  )\n\n# A tibble: 1 × 3\n  n_tests mean_age pct_positive\n    &lt;int&gt;    &lt;dbl&gt;        &lt;dbl&gt;\n1   15524     14.2         5.57\n\n\n\nWhy does mean(result == \"positive\") give a proportion? TRUE counts as 1 and FALSE as 0."
+  },
+  {
+    "objectID": "slides/week-05.html#group_by-summarize",
+    "href": "slides/week-05.html#group_by-summarize",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "group_by() + summarize()",
+    "text": "group_by() + summarize()\n\ncovid |&gt;\n  group_by(drive_thru_ind) |&gt;\n  summarize(\n    n_tests      = n(),\n    pct_positive = mean(result == \"positive\") * 100\n  )\n\n# A tibble: 2 × 3\n  drive_thru_ind n_tests pct_positive\n           &lt;int&gt;   &lt;int&gt;        &lt;dbl&gt;\n1              0    7537         5.12\n2              1    7987         6.00\n\n\n\nOne row per group. This is the workhorse of descriptive epidemiology."
+  },
+  {
+    "objectID": "slides/week-05.html#missing-values",
+    "href": "slides/week-05.html#missing-values",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "Missing values",
+    "text": "Missing values\n\ncovid |&gt;\n  summarize(mean_ct = mean(ct_result))\n\n# A tibble: 1 × 1\n  mean_ct\n    &lt;dbl&gt;\n1      NA\n\n\n\n\ncovid |&gt;\n  summarize(mean_ct = mean(ct_result, na.rm = TRUE))\n\n# A tibble: 1 × 1\n  mean_ct\n    &lt;dbl&gt;\n1    44.1\n\n\n\n\n\nOne NA makes the whole mean NA. Use na.rm = TRUE, and think about why values are missing."
+  },
+  {
+    "objectID": "slides/week-05.html#your-turn-grouped-summary",
+    "href": "slides/week-05.html#your-turn-grouped-summary",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "Your turn: grouped summary",
+    "text": "Your turn: grouped summary\nFor each demo_group, find the number of tests and the median age."
+  },
+  {
+    "objectID": "slides/week-05.html#a-full-pipeline",
+    "href": "slides/week-05.html#a-full-pipeline",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "A full pipeline",
+    "text": "A full pipeline\nPositivity by gender among patients, excluding invalid tests:\n\ncovid |&gt;\n  filter(demo_group == \"patient\", result != \"invalid\") |&gt;\n  group_by(gender) |&gt;\n  summarize(\n    n = n(),\n    pct_positive = round(mean(result == \"positive\") * 100, 1)\n  )\n\n# A tibble: 2 × 3\n  gender     n pct_positive\n  &lt;chr&gt;  &lt;int&gt;        &lt;dbl&gt;\n1 female  6082          4.9\n2 male    5969          4.2"
+  },
+  {
+    "objectID": "slides/week-05.html#your-turn-build-a-pipeline",
+    "href": "slides/week-05.html#your-turn-build-a-pipeline",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "Your turn: build a pipeline",
+    "text": "Your turn: build a pipeline\nWhich clinic had the highest percent positive among clinics with at least 100 tests?"
+  },
+  {
+    "objectID": "slides/week-05.html#recap",
+    "href": "slides/week-05.html#recap",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "Recap",
+    "text": "Recap\n\n\n\nVerb\nWorks on\nDoes\n\n\n\n\nfilter()\nrows\nkeeps rows that meet a condition\n\n\narrange()\nrows\nsorts rows\n\n\nselect()\ncolumns\nkeeps or drops columns\n\n\nmutate()\ncolumns\nadds or changes columns\n\n\nsummarize()\ngroups\ncollapses to one row per group\n\n\ncount()\ngroups\nshortcut for counting"
+  },
+  {
+    "objectID": "slides/week-05.html#before-next-class",
+    "href": "slides/week-05.html#before-next-class",
+    "title": "Data wrangling I: tidy data & dplyr",
+    "section": "Before next class",
+    "text": "Before next class\n\nFinish Lab 05\nKeep the cheat sheet open while you work\nStart HW 04, due Wednesday 11:59 pm\nForm your project team\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdapted from Data Science in a Box (CC BY-SA 4.0)."
+  },
+  {
+    "objectID": "slides/week-03.html#this-week",
+    "href": "slides/week-03.html#this-week",
+    "title": "Data visualization I: the grammar of graphics",
+    "section": "This week",
+    "text": "This week\n\nBuild a ggplot layer by layer\nMap variables to color, shape, and size\nUse facets to compare subgroups"
+  },
+  {
+    "objectID": "slides/week-03.html#before-next-class",
+    "href": "slides/week-03.html#before-next-class",
+    "title": "Data visualization I: the grammar of graphics",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 02"
+  },
+  {
+    "objectID": "slides/week-01.html#this-week",
+    "href": "slides/week-01.html#this-week",
+    "title": "Welcome & the R toolkit",
+    "section": "This week",
+    "text": "This week\n\nNavigate RStudio and create an RStudio Project\nRun code in the console and in a Quarto document\nInstall and load packages; use glimpse() to inspect a data frame"
+  },
+  {
+    "objectID": "slides/week-01.html#before-next-class",
+    "href": "slides/week-01.html#before-next-class",
+    "title": "Welcome & the R toolkit",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "R for Data Science (2e) (required)"
+  },
+  {
+    "objectID": "resources.html#textbook",
+    "href": "resources.html#textbook",
+    "title": "Resources",
+    "section": "",
+    "text": "R for Data Science (2e) (required)"
+  },
+  {
+    "objectID": "resources.html#public-health-r-references",
+    "href": "resources.html#public-health-r-references",
+    "title": "Resources",
+    "section": "Public health R references",
+    "text": "Public health R references\n\nThe Epidemiologist R Handbook\nR Cookbook\nR Graphics Cookbook"
+  },
+  {
+    "objectID": "resources.html#course-datasets-r-packages",
+    "href": "resources.html#course-datasets-r-packages",
+    "title": "Resources",
+    "section": "Course datasets (R packages)",
+    "text": "Course datasets (R packages)\n\nNHANES: US National Health and Nutrition Examination Survey\nmedicaldata: teaching datasets from published medical studies\nmosaicData: includes the Whickham smoking study\ntidyr::who2, tidyr::population: WHO tuberculosis surveillance\n\ninstall.packages(c(\"tidyverse\", \"NHANES\", \"medicaldata\", \"mosaicData\",\n                   \"janitor\", \"readxl\", \"broom\", \"gtsummary\", \"rsample\"))"
+  },
+  {
+    "objectID": "resources.html#acknowledgement-and-license",
+    "href": "resources.html#acknowledgement-and-license",
+    "title": "Resources",
+    "section": "Acknowledgement and license",
+    "text": "Acknowledgement and license\nMuch of this course is adapted from Data Science in a Box by Mine Çetinkaya-Rundel and contributors, licensed under CC BY-SA 4.0. Adapted materials on this site are shared under the same license."
+  },
+  {
+    "objectID": "labs/lab-14.html",
+    "href": "labs/lab-14.html",
+    "title": "Lab 14: Reproducible reporting & final projects",
+    "section": "",
+    "text": "Data: Each team’s project data"
+  },
+  {
+    "objectID": "labs/lab-14.html#learning-goals",
+    "href": "labs/lab-14.html#learning-goals",
+    "title": "Lab 14: Reproducible reporting & final projects",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nProduce a polished, fully reproducible Quarto report\nMake a Table 1 with gtsummary\nOrganize a project so someone else can rerun it"
+  },
+  {
+    "objectID": "labs/lab-14.html#getting-started",
+    "href": "labs/lab-14.html#getting-started",
+    "title": "Lab 14: Reproducible reporting & final projects",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-14.html#exercises",
+    "href": "labs/lab-14.html#exercises",
+    "title": "Lab 14: Reproducible reporting & final projects",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "labs/lab-12.html",
+    "href": "labs/lab-12.html",
+    "title": "Lab 12: Linear regression II: multiple predictors & model building",
+    "section": "",
+    "text": "Data: NHANES: systolic BP ~ age + BMI + sex + smoking"
+  },
+  {
+    "objectID": "labs/lab-12.html#learning-goals",
+    "href": "labs/lab-12.html#learning-goals",
+    "title": "Lab 12: Linear regression II: multiple predictors & model building",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nFit and interpret a multiple regression\nInterpret a categorical predictor and an interaction\nCompare candidate models and justify a choice"
+  },
+  {
+    "objectID": "labs/lab-12.html#getting-started",
+    "href": "labs/lab-12.html#getting-started",
+    "title": "Lab 12: Linear regression II: multiple predictors & model building",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-12.html#exercises",
+    "href": "labs/lab-12.html#exercises",
+    "title": "Lab 12: Linear regression II: multiple predictors & model building",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "labs/lab-10.html",
+    "href": "labs/lab-10.html",
+    "title": "Lab 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "",
+    "text": "Data: NHANES: blood pressure by sex, smoking x diabetes, BMI vs. BP"
+  },
+  {
+    "objectID": "labs/lab-10.html#learning-goals",
+    "href": "labs/lab-10.html#learning-goals",
+    "title": "Lab 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nChoose a test that matches the variable types\nRun and interpret cor.test(), t.test(), chisq.test()\nReport results in a sentence with estimate, CI, and p-value"
+  },
+  {
+    "objectID": "labs/lab-10.html#getting-started",
+    "href": "labs/lab-10.html#getting-started",
+    "title": "Lab 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-10.html#exercises",
+    "href": "labs/lab-10.html#exercises",
+    "title": "Lab 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "labs/lab-08.html",
+    "href": "labs/lab-08.html",
+    "title": "Lab 08: Functions & iteration",
+    "section": "",
+    "text": "Data: NHANES; a folder of county-level files (built for the course)"
+  },
+  {
+    "objectID": "labs/lab-08.html#learning-goals",
+    "href": "labs/lab-08.html#learning-goals",
+    "title": "Lab 08: Functions & iteration",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nWrite a function that removes repeated code\nApply a summary across many columns with across()\nRead a folder of files into one data frame"
+  },
+  {
+    "objectID": "labs/lab-08.html#getting-started",
+    "href": "labs/lab-08.html#getting-started",
+    "title": "Lab 08: Functions & iteration",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-08.html#exercises",
+    "href": "labs/lab-08.html#exercises",
+    "title": "Lab 08: Functions & iteration",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "labs/lab-06.html",
+    "href": "labs/lab-06.html",
+    "title": "Lab 06: Data wrangling II: joins & reshaping",
+    "section": "",
+    "text": "Data: WHO tuberculosis data (tidyr::who2, tidyr::population)"
+  },
+  {
+    "objectID": "labs/lab-06.html#learning-goals",
+    "href": "labs/lab-06.html#learning-goals",
+    "title": "Lab 06: Data wrangling II: joins & reshaping",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nChoose the right join for a question\nReshape between long and wide formats\nJoin case counts to population to compute incidence rates"
+  },
+  {
+    "objectID": "labs/lab-06.html#getting-started",
+    "href": "labs/lab-06.html#getting-started",
+    "title": "Lab 06: Data wrangling II: joins & reshaping",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-06.html#exercises",
+    "href": "labs/lab-06.html#exercises",
+    "title": "Lab 06: Data wrangling II: joins & reshaping",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "labs/lab-04.html",
+    "href": "labs/lab-04.html",
+    "title": "Lab 04: Data visualization II: numeric & categorical data",
+    "section": "",
+    "text": "Data: NHANES; CDC COVID-era public charts (critique examples)"
+  },
+  {
+    "objectID": "labs/lab-04.html#learning-goals",
+    "href": "labs/lab-04.html#learning-goals",
+    "title": "Lab 04: Data visualization II: numeric & categorical data",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nChoose an appropriate plot for one or two variables\nImprove a plot’s readability (scales, themes, labels)\nRecognize misleading axes and cherry-picked comparisons"
+  },
+  {
+    "objectID": "labs/lab-04.html#getting-started",
+    "href": "labs/lab-04.html#getting-started",
+    "title": "Lab 04: Data visualization II: numeric & categorical data",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-04.html#exercises",
+    "href": "labs/lab-04.html#exercises",
+    "title": "Lab 04: Data visualization II: numeric & categorical data",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "labs/lab-02.html",
+    "href": "labs/lab-02.html",
+    "title": "Lab 02: Reproducible research: Quarto, Git & GitHub",
+    "section": "",
+    "text": "Data: medicaldata::covid_testing"
+  },
+  {
+    "objectID": "labs/lab-02.html#learning-goals",
+    "href": "labs/lab-02.html#learning-goals",
+    "title": "Lab 02: Reproducible research: Quarto, Git & GitHub",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nRender a Quarto document to HTML\nControl chunk output with execution options\nClone a GitHub repo, commit changes, and push them back"
+  },
+  {
+    "objectID": "labs/lab-02.html#getting-started",
+    "href": "labs/lab-02.html#getting-started",
+    "title": "Lab 02: Reproducible research: Quarto, Git & GitHub",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-02.html#exercises",
+    "href": "labs/lab-02.html#exercises",
+    "title": "Lab 02: Reproducible research: Quarto, Git & GitHub",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "BIOS 544: R Programming",
+    "section": "",
+    "text": "Welcome! This course teaches R for public health data analysis: importing, wrangling, visualizing, and modeling real health data, and reporting it reproducibly with Quarto and GitHub."
+  },
+  {
+    "objectID": "index.html#how-each-week-works",
+    "href": "index.html#how-each-week-works",
+    "title": "BIOS 544: R Programming",
+    "section": "How each week works",
+    "text": "How each week works\n\n\n\n\n\n\n\nMaterial\nWhat it’s for\n\n\n\n\nSlides\nConcepts and live-coding examples from class\n\n\nLab\nGuided, in-class practice with a partner\n\n\nCheat sheet\nOne page of the week’s key functions, for reference\n\n\nAssignment\nIndependent practice, due Wednesday 11:59 pm (weeks 2–14)\n\n\n\nStart with the Schedule to see the whole semester."
+  },
+  {
+    "objectID": "index.html#course-units",
+    "href": "index.html#course-units",
+    "title": "BIOS 544: R Programming",
+    "section": "Course units",
+    "text": "Course units\n\nHello world\nReproducible research\nExploring data\nMaking rigorous conclusions\n\nEthics is woven through the semester: misleading graphs (week 4), privacy (week 7), and algorithmic bias (week 13)."
+  },
+  {
+    "objectID": "homework/hw-12.html",
+    "href": "homework/hw-12.html",
+    "title": "HW 12: Logistic regression & model validation",
+    "section": "",
+    "text": "Data: NHANES: diabetes ~ age + BMI + physical activity",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 12: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "homework/hw-12.html#what-this-assignment-practices",
+    "href": "homework/hw-12.html#what-this-assignment-practices",
+    "title": "HW 12: Logistic regression & model validation",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nFit a logistic regression and report odds ratios with CIs\nEvaluate predictions on held-out data\nDescribe how a prediction model can treat groups unfairly",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 12: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "homework/hw-12.html#instructions",
+    "href": "homework/hw-12.html#instructions",
+    "title": "HW 12: Logistic regression & model validation",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 12: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "homework/hw-10.html",
+    "href": "homework/hw-10.html",
+    "title": "HW 10: Linear regression I",
+    "section": "",
+    "text": "Data: NHANES: systolic BP ~ age",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 10: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "homework/hw-10.html#what-this-assignment-practices",
+    "href": "homework/hw-10.html#what-this-assignment-practices",
+    "title": "HW 10: Linear regression I",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nFit a model with lm() and interpret its coefficients\nVisualize the fitted line and residuals\nExplain what R-squared does and does not tell you",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 10: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "homework/hw-10.html#instructions",
+    "href": "homework/hw-10.html#instructions",
+    "title": "HW 10: Linear regression I",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 10: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "homework/hw-08.html",
+    "href": "homework/hw-08.html",
+    "title": "HW 08: Study design, confounding & Simpson’s paradox",
+    "section": "",
+    "text": "Data: Whickham smoking & mortality (mosaicData::Whickham)",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 08: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "homework/hw-08.html#what-this-assignment-practices",
+    "href": "homework/hw-08.html#what-this-assignment-practices",
+    "title": "HW 08: Study design, confounding & Simpson’s paradox",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nClassify a study as observational or experimental\nIdentify a potential confounder in a public health question\nShow Simpson’s paradox with a grouped summary",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 08: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "homework/hw-08.html#instructions",
+    "href": "homework/hw-08.html#instructions",
+    "title": "HW 08: Study design, confounding & Simpson’s paradox",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 08: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "homework/hw-06.html",
+    "href": "homework/hw-06.html",
+    "title": "HW 06: Data types, import & recoding",
+    "section": "",
+    "text": "Data: A messy surveillance line list (CSV/Excel, built for the course); medicaldata::strep_tb",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 06: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "homework/hw-06.html#what-this-assignment-practices",
+    "href": "homework/hw-06.html#what-this-assignment-practices",
+    "title": "HW 06: Data types, import & recoding",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nDiagnose and fix variable type problems\nImport CSV and Excel files with readr / readxl\nRecode and reorder factor levels\nExplain why de-identified data can still put people at risk",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 06: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "homework/hw-06.html#instructions",
+    "href": "homework/hw-06.html#instructions",
+    "title": "HW 06: Data types, import & recoding",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 06: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "homework/hw-04.html",
+    "href": "homework/hw-04.html",
+    "title": "HW 04: Data wrangling with dplyr",
+    "section": "",
+    "text": "This assignment is done in RStudio, not in the browser.\n\nDownload the starter file: hw-04-starter.qmd\nSave it in your BIOS 544 RStudio Project and open it.\nPut your name in the author: field.\nIf you haven’t installed the data package yet, run this once in the Console (not in your .qmd):\ninstall.packages(\"medicaldata\")\n\nSubmit on Canvas: the rendered .html file and your .qmd file. If the file won’t render, submit the .qmd and note where it breaks.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 04: Data wrangling with dplyr"
+    ]
+  },
+  {
+    "objectID": "homework/hw-04.html#before-you-start",
+    "href": "homework/hw-04.html#before-you-start",
+    "title": "HW 04: Data wrangling with dplyr",
+    "section": "",
+    "text": "This assignment is done in RStudio, not in the browser.\n\nDownload the starter file: hw-04-starter.qmd\nSave it in your BIOS 544 RStudio Project and open it.\nPut your name in the author: field.\nIf you haven’t installed the data package yet, run this once in the Console (not in your .qmd):\ninstall.packages(\"medicaldata\")\n\nSubmit on Canvas: the rendered .html file and your .qmd file. If the file won’t render, submit the .qmd and note where it breaks.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 04: Data wrangling with dplyr"
+    ]
+  },
+  {
+    "objectID": "homework/hw-04.html#data",
+    "href": "homework/hw-04.html#data",
+    "title": "HW 04: Data wrangling with dplyr",
+    "section": "Data",
+    "text": "Data\ncovid_testing from the medicaldata package: 15,524 COVID-19 tests from the first 107 days of the pandemic at the Children’s Hospital of Philadelphia. It’s the same data as the lab. Run ?covid_testing in the Console for the codebook.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 04: Data wrangling with dplyr"
+    ]
+  },
+  {
+    "objectID": "homework/hw-04.html#questions",
+    "href": "homework/hw-04.html#questions",
+    "title": "HW 04: Data wrangling with dplyr",
+    "section": "Questions",
+    "text": "Questions\nWrite your code in the chunks provided. Answer the written parts in complete sentences below each chunk, outside the code.\n1. Getting oriented (2 pts). Load the packages and use glimpse() on covid_testing. How many rows and columns are there? What does one row represent?\n2. Tests vs. people (2 pts). Use n_distinct() to count the number of unique people (subject_id). Why is this number smaller than the number of rows?\n3. Filtering (3 pts).\n\nHow many tests had an \"invalid\" result?\nHow many tests were collected in the NICU or PICU (clinic_name is \"nicu\" or \"picu\")? Use %in%.\n\n4. A data quality check (3 pts). Use arrange() to look at the oldest ages in the data.\n\nHow many tests have an age over 100?\nCreate a new data frame covid_clean that removes those rows. Use covid_clean for the rest of the assignment.\nIn one or two sentences, explain why you think those values are in the data, and whether removing them is the right call.\n\n5. Creating variables (3 pts). Using covid_clean, add two columns with mutate():\n\nage_group: \"child\" if age is under 18, otherwise \"adult\" (use if_else())\npositive: TRUE if the result is \"positive\", otherwise FALSE\n\nSave the result back to covid_clean, then use count() to show how many tests are in each age_group.\n6. Grouped summaries (4 pts). Excluding invalid tests, compute the number of tests and the percent positive:\n\nfor each age_group\nfor each demo_group, sorted from highest to lowest percent positive\nWrite two sentences describing what you found.\n\n7. Early vs. later in the pandemic (2 pts). pan_day is the day of the pandemic the sample was collected. Create a variable period that is \"early\" for days 1–50 and \"later\" for days 51 and up. Compare the percent positive between the two periods (excluding invalid tests).\n8. Reflection (1 pt). Name one question about COVID-19 in Philadelphia that this data cannot answer, and explain why. (Hint: who gets tested at a children’s hospital?)",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 04: Data wrangling with dplyr"
+    ]
+  },
+  {
+    "objectID": "homework/hw-04.html#grading",
+    "href": "homework/hw-04.html#grading",
+    "title": "HW 04: Data wrangling with dplyr",
+    "section": "Grading",
+    "text": "Grading\n\n\n\n\nPoints\n\n\n\n\nCode runs and the document renders\nbuilt into each question\n\n\nCorrect code and output\n14\n\n\nWritten answers in complete sentences\n6\n\n\nTotal\n20",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 04: Data wrangling with dplyr"
+    ]
+  },
+  {
+    "objectID": "homework/hw-02.html",
+    "href": "homework/hw-02.html",
+    "title": "HW 02: Data visualization I: the grammar of graphics",
+    "section": "",
+    "text": "Data: NHANES: BMI, blood pressure, age, sex",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 02: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "homework/hw-02.html#what-this-assignment-practices",
+    "href": "homework/hw-02.html#what-this-assignment-practices",
+    "title": "HW 02: Data visualization I: the grammar of graphics",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nBuild a ggplot layer by layer\nMap variables to color, shape, and size\nUse facets to compare subgroups",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 02: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "homework/hw-02.html#instructions",
+    "href": "homework/hw-02.html#instructions",
+    "title": "HW 02: Data visualization I: the grammar of graphics",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 02: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-14.html",
+    "href": "cheatsheets/cheatsheet-14.html",
+    "title": "Cheat sheet 14: Reproducible reporting & final projects",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-14.html#report-structure",
+    "href": "cheatsheets/cheatsheet-14.html#report-structure",
+    "title": "Cheat sheet 14: Reproducible reporting & final projects",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-14.html#gtsummarytbl_summary",
+    "href": "cheatsheets/cheatsheet-14.html#gtsummarytbl_summary",
+    "title": "Cheat sheet 14: Reproducible reporting & final projects",
+    "section": "gtsummary::tbl_summary()",
+    "text": "gtsummary::tbl_summary()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-14.html#cross-references-and-captions",
+    "href": "cheatsheets/cheatsheet-14.html#cross-references-and-captions",
+    "title": "Cheat sheet 14: Reproducible reporting & final projects",
+    "section": "Cross-references and captions",
+    "text": "Cross-references and captions\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-14.html#project-folder-layout",
+    "href": "cheatsheets/cheatsheet-14.html#project-folder-layout",
+    "title": "Cheat sheet 14: Reproducible reporting & final projects",
+    "section": "Project folder layout",
+    "text": "Project folder layout\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-14.html#renv-basics",
+    "href": "cheatsheets/cheatsheet-14.html#renv-basics",
+    "title": "Cheat sheet 14: Reproducible reporting & final projects",
+    "section": "renv basics",
+    "text": "renv basics\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 14: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-12.html",
+    "href": "cheatsheets/cheatsheet-12.html",
+    "title": "Cheat sheet 12: Linear regression II: multiple predictors & model building",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 12: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-12.html#multiple-predictors-in-a-formula",
+    "href": "cheatsheets/cheatsheet-12.html#multiple-predictors-in-a-formula",
+    "title": "Cheat sheet 12: Linear regression II: multiple predictors & model building",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 12: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-12.html#reference-levels-for-factors",
+    "href": "cheatsheets/cheatsheet-12.html#reference-levels-for-factors",
+    "title": "Cheat sheet 12: Linear regression II: multiple predictors & model building",
+    "section": "Reference levels for factors",
+    "text": "Reference levels for factors\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 12: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-12.html#interaction-terms-vs",
+    "href": "cheatsheets/cheatsheet-12.html#interaction-terms-vs",
+    "title": "Cheat sheet 12: Linear regression II: multiple predictors & model building",
+    "section": "Interaction terms (* vs :)",
+    "text": "Interaction terms (* vs :)\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 12: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-12.html#comparing-models",
+    "href": "cheatsheets/cheatsheet-12.html#comparing-models",
+    "title": "Cheat sheet 12: Linear regression II: multiple predictors & model building",
+    "section": "Comparing models",
+    "text": "Comparing models\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 12: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-12.html#assumption-checks",
+    "href": "cheatsheets/cheatsheet-12.html#assumption-checks",
+    "title": "Cheat sheet 12: Linear regression II: multiple predictors & model building",
+    "section": "Assumption checks",
+    "text": "Assumption checks\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 12: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-10.html",
+    "href": "cheatsheets/cheatsheet-10.html",
+    "title": "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-10.html#choosing-a-test-decision-chart",
+    "href": "cheatsheets/cheatsheet-10.html#choosing-a-test-decision-chart",
+    "title": "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-10.html#cor.test",
+    "href": "cheatsheets/cheatsheet-10.html#cor.test",
+    "title": "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "cor.test()",
+    "text": "cor.test()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-10.html#t.test-formula-syntax",
+    "href": "cheatsheets/cheatsheet-10.html#t.test-formula-syntax",
+    "title": "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "t.test() formula syntax",
+    "text": "t.test() formula syntax\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-10.html#chisq.test-and-table",
+    "href": "cheatsheets/cheatsheet-10.html#chisq.test-and-table",
+    "title": "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "chisq.test() and table()",
+    "text": "chisq.test() and table()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-10.html#broomtidy",
+    "href": "cheatsheets/cheatsheet-10.html#broomtidy",
+    "title": "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "broom::tidy()",
+    "text": "broom::tidy()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-10.html#writing-up-a-result",
+    "href": "cheatsheets/cheatsheet-10.html#writing-up-a-result",
+    "title": "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square",
+    "section": "Writing up a result",
+    "text": "Writing up a result\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 10: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-08.html",
+    "href": "cheatsheets/cheatsheet-08.html",
+    "title": "Cheat sheet 08: Functions & iteration",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-08.html#function-anatomy",
+    "href": "cheatsheets/cheatsheet-08.html#function-anatomy",
+    "title": "Cheat sheet 08: Functions & iteration",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-08.html#when-to-write-a-function",
+    "href": "cheatsheets/cheatsheet-08.html#when-to-write-a-function",
+    "title": "Cheat sheet 08: Functions & iteration",
+    "section": "When to write a function",
+    "text": "When to write a function\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-08.html#across-patterns",
+    "href": "cheatsheets/cheatsheet-08.html#across-patterns",
+    "title": "Cheat sheet 08: Functions & iteration",
+    "section": "across() patterns",
+    "text": "across() patterns\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-08.html#map-map_dbl-map_dfr",
+    "href": "cheatsheets/cheatsheet-08.html#map-map_dbl-map_dfr",
+    "title": "Cheat sheet 08: Functions & iteration",
+    "section": "map(), map_dbl(), map_dfr()",
+    "text": "map(), map_dbl(), map_dfr()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-08.html#reading-many-files",
+    "href": "cheatsheets/cheatsheet-08.html#reading-many-files",
+    "title": "Cheat sheet 08: Functions & iteration",
+    "section": "Reading many files",
+    "text": "Reading many files\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 08: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-06.html",
+    "href": "cheatsheets/cheatsheet-06.html",
+    "title": "Cheat sheet 06: Data wrangling II: joins & reshaping",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-06.html#join-types-with-diagrams",
+    "href": "cheatsheets/cheatsheet-06.html#join-types-with-diagrams",
+    "title": "Cheat sheet 06: Data wrangling II: joins & reshaping",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-06.html#join-keys-and-by",
+    "href": "cheatsheets/cheatsheet-06.html#join-keys-and-by",
+    "title": "Cheat sheet 06: Data wrangling II: joins & reshaping",
+    "section": "Join keys and by =",
+    "text": "Join keys and by =\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-06.html#finding-unmatched-rows",
+    "href": "cheatsheets/cheatsheet-06.html#finding-unmatched-rows",
+    "title": "Cheat sheet 06: Data wrangling II: joins & reshaping",
+    "section": "Finding unmatched rows",
+    "text": "Finding unmatched rows\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-06.html#pivot_longer",
+    "href": "cheatsheets/cheatsheet-06.html#pivot_longer",
+    "title": "Cheat sheet 06: Data wrangling II: joins & reshaping",
+    "section": "pivot_longer()",
+    "text": "pivot_longer()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-06.html#pivot_wider",
+    "href": "cheatsheets/cheatsheet-06.html#pivot_wider",
+    "title": "Cheat sheet 06: Data wrangling II: joins & reshaping",
+    "section": "pivot_wider()",
+    "text": "pivot_wider()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-06.html#rate-cases-population-x-100000",
+    "href": "cheatsheets/cheatsheet-06.html#rate-cases-population-x-100000",
+    "title": "Cheat sheet 06: Data wrangling II: joins & reshaping",
+    "section": "Rate = cases / population x 100,000",
+    "text": "Rate = cases / population x 100,000\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 06: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-04.html",
+    "href": "cheatsheets/cheatsheet-04.html",
+    "title": "Cheat sheet 04: Data visualization II: numeric & categorical data",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-04.html#which-plot-for-which-variables",
+    "href": "cheatsheets/cheatsheet-04.html#which-plot-for-which-variables",
+    "title": "Cheat sheet 04: Data visualization II: numeric & categorical data",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-04.html#geoms-for-numeric-data",
+    "href": "cheatsheets/cheatsheet-04.html#geoms-for-numeric-data",
+    "title": "Cheat sheet 04: Data visualization II: numeric & categorical data",
+    "section": "Geoms for numeric data",
+    "text": "Geoms for numeric data\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-04.html#geoms-for-categorical-data",
+    "href": "cheatsheets/cheatsheet-04.html#geoms-for-categorical-data",
+    "title": "Cheat sheet 04: Data visualization II: numeric & categorical data",
+    "section": "Geoms for categorical data",
+    "text": "Geoms for categorical data\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-04.html#position-fill-dodge",
+    "href": "cheatsheets/cheatsheet-04.html#position-fill-dodge",
+    "title": "Cheat sheet 04: Data visualization II: numeric & categorical data",
+    "section": "position = ‘fill’ / ‘dodge’",
+    "text": "position = ‘fill’ / ‘dodge’\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-04.html#themes-and-scales",
+    "href": "cheatsheets/cheatsheet-04.html#themes-and-scales",
+    "title": "Cheat sheet 04: Data visualization II: numeric & categorical data",
+    "section": "Themes and scales",
+    "text": "Themes and scales\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-04.html#red-flags-of-misleading-graphs",
+    "href": "cheatsheets/cheatsheet-04.html#red-flags-of-misleading-graphs",
+    "title": "Cheat sheet 04: Data visualization II: numeric & categorical data",
+    "section": "Red flags of misleading graphs",
+    "text": "Red flags of misleading graphs\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 04: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-02.html",
+    "href": "cheatsheets/cheatsheet-02.html",
+    "title": "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-02.html#quarto-document-anatomy",
+    "href": "cheatsheets/cheatsheet-02.html#quarto-document-anatomy",
+    "title": "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-02.html#chunk-options-echo-eval-message",
+    "href": "cheatsheets/cheatsheet-02.html#chunk-options-echo-eval-message",
+    "title": "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub",
+    "section": "Chunk options (echo, eval, message)",
+    "text": "Chunk options (echo, eval, message)\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-02.html#markdown-basics",
+    "href": "cheatsheets/cheatsheet-02.html#markdown-basics",
+    "title": "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub",
+    "section": "Markdown basics",
+    "text": "Markdown basics\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-02.html#git-verbs-clone-commit-push-pull",
+    "href": "cheatsheets/cheatsheet-02.html#git-verbs-clone-commit-push-pull",
+    "title": "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub",
+    "section": "Git verbs: clone, commit, push, pull",
+    "text": "Git verbs: clone, commit, push, pull\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-02.html#fixing-common-git-errors",
+    "href": "cheatsheets/cheatsheet-02.html#fixing-common-git-errors",
+    "title": "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub",
+    "section": "Fixing common Git errors",
+    "text": "Fixing common Git errors\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 02: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-01.html",
+    "href": "cheatsheets/cheatsheet-01.html",
+    "title": "Cheat sheet 01: Welcome & the R toolkit",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 01: Welcome & the R toolkit"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-01.html#rstudio-panes-shortcuts",
+    "href": "cheatsheets/cheatsheet-01.html#rstudio-panes-shortcuts",
+    "title": "Cheat sheet 01: Welcome & the R toolkit",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 01: Welcome & the R toolkit"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-01.html#objects-and-assignment",
+    "href": "cheatsheets/cheatsheet-01.html#objects-and-assignment",
+    "title": "Cheat sheet 01: Welcome & the R toolkit",
+    "section": "Objects and assignment",
+    "text": "Objects and assignment\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 01: Welcome & the R toolkit"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-01.html#functions-and-arguments",
+    "href": "cheatsheets/cheatsheet-01.html#functions-and-arguments",
+    "title": "Cheat sheet 01: Welcome & the R toolkit",
+    "section": "Functions and arguments",
+    "text": "Functions and arguments\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 01: Welcome & the R toolkit"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-01.html#installing-vs.-loading-packages",
+    "href": "cheatsheets/cheatsheet-01.html#installing-vs.-loading-packages",
+    "title": "Cheat sheet 01: Welcome & the R toolkit",
+    "section": "Installing vs. loading packages",
+    "text": "Installing vs. loading packages\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 01: Welcome & the R toolkit"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-01.html#inspecting-data-glimpse-head-view",
+    "href": "cheatsheets/cheatsheet-01.html#inspecting-data-glimpse-head-view",
+    "title": "Cheat sheet 01: Welcome & the R toolkit",
+    "section": "Inspecting data: glimpse(), head(), View()",
+    "text": "Inspecting data: glimpse(), head(), View()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 01: Welcome & the R toolkit"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-03.html",
+    "href": "cheatsheets/cheatsheet-03.html",
+    "title": "Cheat sheet 03: Data visualization I: the grammar of graphics",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 03: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-03.html#ggplot-template",
+    "href": "cheatsheets/cheatsheet-03.html#ggplot-template",
+    "title": "Cheat sheet 03: Data visualization I: the grammar of graphics",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 03: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-03.html#common-aesthetics",
+    "href": "cheatsheets/cheatsheet-03.html#common-aesthetics",
+    "title": "Cheat sheet 03: Data visualization I: the grammar of graphics",
+    "section": "Common aesthetics",
+    "text": "Common aesthetics\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 03: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-03.html#mapping-vs.-setting",
+    "href": "cheatsheets/cheatsheet-03.html#mapping-vs.-setting",
+    "title": "Cheat sheet 03: Data visualization I: the grammar of graphics",
+    "section": "Mapping vs. setting",
+    "text": "Mapping vs. setting\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 03: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-03.html#facet_wrap-vs.-facet_grid",
+    "href": "cheatsheets/cheatsheet-03.html#facet_wrap-vs.-facet_grid",
+    "title": "Cheat sheet 03: Data visualization I: the grammar of graphics",
+    "section": "facet_wrap() vs. facet_grid()",
+    "text": "facet_wrap() vs. facet_grid()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 03: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-03.html#labels-with-labs",
+    "href": "cheatsheets/cheatsheet-03.html#labels-with-labs",
+    "title": "Cheat sheet 03: Data visualization I: the grammar of graphics",
+    "section": "Labels with labs()",
+    "text": "Labels with labs()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 03: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-05.html#try-it",
+    "href": "cheatsheets/cheatsheet-05.html#try-it",
+    "title": "Cheat sheet 05: tidy data & dplyr",
+    "section": "Try it",
+    "text": "Try it",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 05: tidy data & dplyr"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-07.html",
+    "href": "cheatsheets/cheatsheet-07.html",
+    "title": "Cheat sheet 07: Data types, import & recoding",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-07.html#type-checks-class-typeof",
+    "href": "cheatsheets/cheatsheet-07.html#type-checks-class-typeof",
+    "title": "Cheat sheet 07: Data types, import & recoding",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-07.html#converting-types-as.",
+    "href": "cheatsheets/cheatsheet-07.html#converting-types-as.",
+    "title": "Cheat sheet 07: Data types, import & recoding",
+    "section": "Converting types (as.*)",
+    "text": "Converting types (as.*)\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-07.html#read_csv-read_excel-arguments",
+    "href": "cheatsheets/cheatsheet-07.html#read_csv-read_excel-arguments",
+    "title": "Cheat sheet 07: Data types, import & recoding",
+    "section": "read_csv() / read_excel() arguments",
+    "text": "read_csv() / read_excel() arguments\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-07.html#janitorclean_names",
+    "href": "cheatsheets/cheatsheet-07.html#janitorclean_names",
+    "title": "Cheat sheet 07: Data types, import & recoding",
+    "section": "janitor::clean_names()",
+    "text": "janitor::clean_names()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-07.html#case_when-if_else",
+    "href": "cheatsheets/cheatsheet-07.html#case_when-if_else",
+    "title": "Cheat sheet 07: Data types, import & recoding",
+    "section": "case_when() / if_else()",
+    "text": "case_when() / if_else()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-07.html#forcats-fct_relevel-fct_recode-fct_lump",
+    "href": "cheatsheets/cheatsheet-07.html#forcats-fct_relevel-fct_recode-fct_lump",
+    "title": "Cheat sheet 07: Data types, import & recoding",
+    "section": "forcats: fct_relevel, fct_recode, fct_lump",
+    "text": "forcats: fct_relevel, fct_recode, fct_lump\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-07.html#dates-with-lubridate-dates-only",
+    "href": "cheatsheets/cheatsheet-07.html#dates-with-lubridate-dates-only",
+    "title": "Cheat sheet 07: Data types, import & recoding",
+    "section": "Dates with lubridate (dates only)",
+    "text": "Dates with lubridate (dates only)\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-09.html",
+    "href": "cheatsheets/cheatsheet-09.html",
+    "title": "Cheat sheet 09: Study design, confounding & Simpson’s paradox",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 09: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-09.html#study-design-vocabulary",
+    "href": "cheatsheets/cheatsheet-09.html#study-design-vocabulary",
+    "title": "Cheat sheet 09: Study design, confounding & Simpson’s paradox",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 09: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-09.html#spotting-confounders",
+    "href": "cheatsheets/cheatsheet-09.html#spotting-confounders",
+    "title": "Cheat sheet 09: Study design, confounding & Simpson’s paradox",
+    "section": "Spotting confounders",
+    "text": "Spotting confounders\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 09: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-09.html#stratifying-with-group_by",
+    "href": "cheatsheets/cheatsheet-09.html#stratifying-with-group_by",
+    "title": "Cheat sheet 09: Study design, confounding & Simpson’s paradox",
+    "section": "Stratifying with group_by()",
+    "text": "Stratifying with group_by()\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 09: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-09.html#simpsons-paradox-in-3-steps",
+    "href": "cheatsheets/cheatsheet-09.html#simpsons-paradox-in-3-steps",
+    "title": "Cheat sheet 09: Study design, confounding & Simpson’s paradox",
+    "section": "Simpson’s paradox in 3 steps",
+    "text": "Simpson’s paradox in 3 steps\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 09: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-11.html",
+    "href": "cheatsheets/cheatsheet-11.html",
+    "title": "Cheat sheet 11: Linear regression I",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 11: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-11.html#lm-formula-syntax",
+    "href": "cheatsheets/cheatsheet-11.html#lm-formula-syntax",
+    "title": "Cheat sheet 11: Linear regression I",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 11: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-11.html#reading-tidy-and-glance-output",
+    "href": "cheatsheets/cheatsheet-11.html#reading-tidy-and-glance-output",
+    "title": "Cheat sheet 11: Linear regression I",
+    "section": "Reading tidy() and glance() output",
+    "text": "Reading tidy() and glance() output\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 11: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-11.html#interpreting-coefficients",
+    "href": "cheatsheets/cheatsheet-11.html#interpreting-coefficients",
+    "title": "Cheat sheet 11: Linear regression I",
+    "section": "Interpreting coefficients",
+    "text": "Interpreting coefficients\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 11: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-11.html#residual-plots",
+    "href": "cheatsheets/cheatsheet-11.html#residual-plots",
+    "title": "Cheat sheet 11: Linear regression I",
+    "section": "Residual plots",
+    "text": "Residual plots\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 11: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-11.html#geom_smoothmethod-lm",
+    "href": "cheatsheets/cheatsheet-11.html#geom_smoothmethod-lm",
+    "title": "Cheat sheet 11: Linear regression I",
+    "section": "geom_smooth(method = ‘lm’)",
+    "text": "geom_smooth(method = ‘lm’)\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 11: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-13.html",
+    "href": "cheatsheets/cheatsheet-13.html",
+    "title": "Cheat sheet 13: Logistic regression & model validation",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 13: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-13.html#glm-for-logistic-regression",
+    "href": "cheatsheets/cheatsheet-13.html#glm-for-logistic-regression",
+    "title": "Cheat sheet 13: Logistic regression & model validation",
+    "section": "",
+    "text": "To come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 13: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-13.html#odds-ratios-expcoef",
+    "href": "cheatsheets/cheatsheet-13.html#odds-ratios-expcoef",
+    "title": "Cheat sheet 13: Logistic regression & model validation",
+    "section": "Odds ratios: exp(coef)",
+    "text": "Odds ratios: exp(coef)\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 13: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-13.html#tidyexponentiate-true-conf.int-true",
+    "href": "cheatsheets/cheatsheet-13.html#tidyexponentiate-true-conf.int-true",
+    "title": "Cheat sheet 13: Logistic regression & model validation",
+    "section": "tidy(exponentiate = TRUE, conf.int = TRUE)",
+    "text": "tidy(exponentiate = TRUE, conf.int = TRUE)\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 13: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-13.html#traintest-split",
+    "href": "cheatsheets/cheatsheet-13.html#traintest-split",
+    "title": "Cheat sheet 13: Logistic regression & model validation",
+    "section": "Train/test split",
+    "text": "Train/test split\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 13: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-13.html#cross-validation-in-brief",
+    "href": "cheatsheets/cheatsheet-13.html#cross-validation-in-brief",
+    "title": "Cheat sheet 13: Logistic regression & model validation",
+    "section": "Cross-validation in brief",
+    "text": "Cross-validation in brief\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 13: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "cheatsheets/cheatsheet-13.html#questions-to-ask-about-bias",
+    "href": "cheatsheets/cheatsheet-13.html#questions-to-ask-about-bias",
+    "title": "Cheat sheet 13: Logistic regression & model validation",
+    "section": "Questions to ask about bias",
+    "text": "Questions to ask about bias\n\nTo come.",
+    "crumbs": [
+      "Home",
+      "Cheat sheets",
+      "Cheat sheet 13: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "homework/hw-01.html",
+    "href": "homework/hw-01.html",
+    "title": "HW 01: Reproducible research: Quarto, Git & GitHub",
+    "section": "",
+    "text": "Data: medicaldata::covid_testing",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 01: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "homework/hw-01.html#what-this-assignment-practices",
+    "href": "homework/hw-01.html#what-this-assignment-practices",
+    "title": "HW 01: Reproducible research: Quarto, Git & GitHub",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nRender a Quarto document to HTML\nControl chunk output with execution options\nClone a GitHub repo, commit changes, and push them back",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 01: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "homework/hw-01.html#instructions",
+    "href": "homework/hw-01.html#instructions",
+    "title": "HW 01: Reproducible research: Quarto, Git & GitHub",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 01: Reproducible research: Quarto, Git & GitHub"
+    ]
+  },
+  {
+    "objectID": "homework/hw-03.html",
+    "href": "homework/hw-03.html",
+    "title": "HW 03: Data visualization II: numeric & categorical data",
+    "section": "",
+    "text": "Data: NHANES; CDC COVID-era public charts (critique examples)",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 03: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "homework/hw-03.html#what-this-assignment-practices",
+    "href": "homework/hw-03.html#what-this-assignment-practices",
+    "title": "HW 03: Data visualization II: numeric & categorical data",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nChoose an appropriate plot for one or two variables\nImprove a plot’s readability (scales, themes, labels)\nRecognize misleading axes and cherry-picked comparisons",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 03: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "homework/hw-03.html#instructions",
+    "href": "homework/hw-03.html#instructions",
+    "title": "HW 03: Data visualization II: numeric & categorical data",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 03: Data visualization II: numeric & categorical data"
+    ]
+  },
+  {
+    "objectID": "homework/hw-05.html",
+    "href": "homework/hw-05.html",
+    "title": "HW 05: Data wrangling II: joins & reshaping",
+    "section": "",
+    "text": "Data: WHO tuberculosis data (tidyr::who2, tidyr::population)",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 05: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "homework/hw-05.html#what-this-assignment-practices",
+    "href": "homework/hw-05.html#what-this-assignment-practices",
+    "title": "HW 05: Data wrangling II: joins & reshaping",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nChoose the right join for a question\nReshape between long and wide formats\nJoin case counts to population to compute incidence rates",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 05: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "homework/hw-05.html#instructions",
+    "href": "homework/hw-05.html#instructions",
+    "title": "HW 05: Data wrangling II: joins & reshaping",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 05: Data wrangling II: joins & reshaping"
+    ]
+  },
+  {
+    "objectID": "homework/hw-07.html",
+    "href": "homework/hw-07.html",
+    "title": "HW 07: Functions & iteration",
+    "section": "",
+    "text": "Data: NHANES; a folder of county-level files (built for the course)",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 07: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "homework/hw-07.html#what-this-assignment-practices",
+    "href": "homework/hw-07.html#what-this-assignment-practices",
+    "title": "HW 07: Functions & iteration",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nWrite a function that removes repeated code\nApply a summary across many columns with across()\nRead a folder of files into one data frame",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 07: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "homework/hw-07.html#instructions",
+    "href": "homework/hw-07.html#instructions",
+    "title": "HW 07: Functions & iteration",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 07: Functions & iteration"
+    ]
+  },
+  {
+    "objectID": "homework/hw-09.html",
+    "href": "homework/hw-09.html",
+    "title": "HW 09: Comparing groups: correlation, t-tests & chi-square",
+    "section": "",
+    "text": "Data: NHANES: blood pressure by sex, smoking x diabetes, BMI vs. BP",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 09: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "homework/hw-09.html#what-this-assignment-practices",
+    "href": "homework/hw-09.html#what-this-assignment-practices",
+    "title": "HW 09: Comparing groups: correlation, t-tests & chi-square",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nChoose a test that matches the variable types\nRun and interpret cor.test(), t.test(), chisq.test()\nReport results in a sentence with estimate, CI, and p-value",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 09: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "homework/hw-09.html#instructions",
+    "href": "homework/hw-09.html#instructions",
+    "title": "HW 09: Comparing groups: correlation, t-tests & chi-square",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 09: Comparing groups: correlation, t-tests & chi-square"
+    ]
+  },
+  {
+    "objectID": "homework/hw-11.html",
+    "href": "homework/hw-11.html",
+    "title": "HW 11: Linear regression II: multiple predictors & model building",
+    "section": "",
+    "text": "Data: NHANES: systolic BP ~ age + BMI + sex + smoking",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 11: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "homework/hw-11.html#what-this-assignment-practices",
+    "href": "homework/hw-11.html#what-this-assignment-practices",
+    "title": "HW 11: Linear regression II: multiple predictors & model building",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nFit and interpret a multiple regression\nInterpret a categorical predictor and an interaction\nCompare candidate models and justify a choice",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 11: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "homework/hw-11.html#instructions",
+    "href": "homework/hw-11.html#instructions",
+    "title": "HW 11: Linear regression II: multiple predictors & model building",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 11: Linear regression II: multiple predictors & model building"
+    ]
+  },
+  {
+    "objectID": "homework/hw-13.html",
+    "href": "homework/hw-13.html",
+    "title": "HW 13: Reproducible reporting & final projects",
+    "section": "",
+    "text": "Data: Each team’s project data",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 13: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "homework/hw-13.html#what-this-assignment-practices",
+    "href": "homework/hw-13.html#what-this-assignment-practices",
+    "title": "HW 13: Reproducible reporting & final projects",
+    "section": "What this assignment practices",
+    "text": "What this assignment practices\n\nProduce a polished, fully reproducible Quarto report\nMake a Table 1 with gtsummary\nOrganize a project so someone else can rerun it",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 13: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "homework/hw-13.html#instructions",
+    "href": "homework/hw-13.html#instructions",
+    "title": "HW 13: Reproducible reporting & final projects",
+    "section": "Instructions",
+    "text": "Instructions\n\nQuestions to come. Submit the rendered HTML and the .qmd on Canvas.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "HW 13: Reproducible reporting & final projects"
+    ]
+  },
+  {
+    "objectID": "labs/lab-01.html",
+    "href": "labs/lab-01.html",
+    "title": "Lab 01: Welcome & the R toolkit",
+    "section": "",
+    "text": "Data: NHANES (NHANES package)"
+  },
+  {
+    "objectID": "labs/lab-01.html#learning-goals",
+    "href": "labs/lab-01.html#learning-goals",
+    "title": "Lab 01: Welcome & the R toolkit",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nNavigate RStudio and create an RStudio Project\nRun code in the console and in a Quarto document\nInstall and load packages; use glimpse() to inspect a data frame"
+  },
+  {
+    "objectID": "labs/lab-01.html#getting-started",
+    "href": "labs/lab-01.html#getting-started",
+    "title": "Lab 01: Welcome & the R toolkit",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-01.html#exercises",
+    "href": "labs/lab-01.html#exercises",
+    "title": "Lab 01: Welcome & the R toolkit",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "labs/lab-03.html",
+    "href": "labs/lab-03.html",
+    "title": "Lab 03: Data visualization I: the grammar of graphics",
+    "section": "",
+    "text": "Data: NHANES: BMI, blood pressure, age, sex"
+  },
+  {
+    "objectID": "labs/lab-03.html#learning-goals",
+    "href": "labs/lab-03.html#learning-goals",
+    "title": "Lab 03: Data visualization I: the grammar of graphics",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nBuild a ggplot layer by layer\nMap variables to color, shape, and size\nUse facets to compare subgroups"
+  },
+  {
+    "objectID": "labs/lab-03.html#getting-started",
+    "href": "labs/lab-03.html#getting-started",
+    "title": "Lab 03: Data visualization I: the grammar of graphics",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-03.html#exercises",
+    "href": "labs/lab-03.html#exercises",
+    "title": "Lab 03: Data visualization I: the grammar of graphics",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "labs/lab-05.html#the-data",
+    "href": "labs/lab-05.html#the-data",
+    "title": "Lab 05: Data wrangling with dplyr",
+    "section": "The data",
+    "text": "The data\ncovid holds 15,524 COVID-19 tests from the first 107 days of the pandemic at the Children’s Hospital of Philadelphia (from the medicaldata package). Names in the data are fake. Some of the columns:\n\n\n\n\n\n\n\nColumn\nMeaning\n\n\n\n\nsubject_id\nPerson tested\n\n\ngender\nGender\n\n\nage\nAge in years\n\n\npan_day\nDay of the pandemic the test was collected (day 1 = start of data)\n\n\nclinic_name\nWhere the sample was collected\n\n\nresult\n\"positive\", \"negative\", or \"invalid\"\n\n\ndemo_group\n\"patient\", \"client\", \"misc adult\", \"other adult\", \"unidentified\"\n\n\ndrive_thru_ind\n1 = collected at a drive-through site, 0 = not\n\n\nct_result\nPCR cycle threshold (45 = virus not detected)\n\n\n\nRun this block to take a look:"
+  },
+  {
+    "objectID": "labs/lab-05.html#part-1-is-it-tidy",
+    "href": "labs/lab-05.html#part-1-is-it-tidy",
+    "title": "Lab 05: Data wrangling with dplyr",
+    "section": "Part 1: Is it tidy?",
+    "text": "Part 1: Is it tidy?\nRemember the three rules of tidy data: each variable is a column, each observation is a row, and each value is a cell.\n\n\n\n\n\n\nTipQuestion: What is one row of covid? Think, then click to check.\n\n\n\n\n\nOne row is one test. Some people were tested more than once, so one row is not one person. That matters when you count: nrow(covid) counts tests, not people.\n\n\n\n\n\n\n\n\n\nTipQuestion: Imagine a table with one row per clinic and a separate column for each pandemic day’s test count. Is that tidy?\n\n\n\n\n\nNo. “Day” is a variable, but in that table its values are spread across column names. You’ll learn to fix that shape with pivot_longer() next week."
+  },
+  {
+    "objectID": "labs/lab-05.html#part-2-working-with-rows",
+    "href": "labs/lab-05.html#part-2-working-with-rows",
+    "title": "Lab 05: Data wrangling with dplyr",
+    "section": "Part 2: Working with rows",
+    "text": "Part 2: Working with rows\n\nExercise 1: filter()\nKeep only the positive tests.\n\n\n\n\n\n\n\n\n\nresult is a character column, so the value goes in quotes: \"positive\".\n\n\ncovid |&gt;\n  filter(result == \"positive\")\nThere are 865 positive tests.\n\n\n\n\n\n\nExercise 2: filter() with two conditions\nKeep positive tests from people who are 18 or older.\n\n\n\n\n\n\n\n\n\nSeparating conditions with a comma inside filter() means both must be true. Use &gt;= for “greater than or equal to.”\n\n\ncovid |&gt;\n  filter(result == \"positive\", age &gt;= 18)\n\n\n\n\n\n\nExercise 3: arrange()\nSort the tests from oldest to youngest person. Look at the top of the result.\n\n\n\n\n\n\n\n\n\narrange() sorts smallest-to-largest by default. Wrap the column in desc() to reverse it.\n\n\ncovid |&gt;\n  select(subject_id, age, demo_group) |&gt;\n  arrange(desc(age))\n\n\n\n\n\n\n\n\n\n\nImportantThink about it: what’s wrong with the top rows?\n\n\n\n\n\nThe oldest “person” is 138, and several are 119. Those ages are almost certainly data entry errors or placeholder values. Real data always needs a sanity check before analysis. Sorting is one of the quickest ways to find problems."
+  },
+  {
+    "objectID": "labs/lab-05.html#part-3-working-with-columns",
+    "href": "labs/lab-05.html#part-3-working-with-columns",
+    "title": "Lab 05: Data wrangling with dplyr",
+    "section": "Part 3: Working with columns",
+    "text": "Part 3: Working with columns\n\nExercise 4: select()\nKeep only the columns subject_id, age, clinic_name, and result, in that order.\n\n\n\n\n\n\n\n\n\nList the column names inside select(), separated by commas. No quotes needed.\n\n\ncovid |&gt;\n  select(subject_id, age, clinic_name, result)\n\n\n\n\n\n\nExercise 5: mutate()\nAdd a new column age_months that is age in months.\n\n\n\n\n\n\n\n\n\nThere are 12 months in a year. Columns can be used in arithmetic: age * 2.\n\n\ncovid |&gt;\n  mutate(age_months = age * 12) |&gt;\n  select(subject_id, age, age_months)"
+  },
+  {
+    "objectID": "labs/lab-05.html#part-4-summarizing",
+    "href": "labs/lab-05.html#part-4-summarizing",
+    "title": "Lab 05: Data wrangling with dplyr",
+    "section": "Part 4: Summarizing",
+    "text": "Part 4: Summarizing\n\nExercise 6: count()\nHow many tests came from each clinic_name? Show the largest first.\n\n\n\n\n\n\n\n\n\ncount() has an argument sort. Set it to TRUE.\n\n\ncovid |&gt;\n  count(clinic_name, sort = TRUE)\n\n\n\n\n\n\nExercise 7: group_by() + summarize()\nWere drive-through tests more likely to be positive? For each value of drive_thru_ind, compute the number of tests (n) and the percent positive (pct_positive).\n\n\n\n\n\n\n\n\n\nGroup by the column that marks drive-through tests.\nWhy does mean(result == \"positive\") work? result == \"positive\" gives TRUE/FALSE, which R treats as 1/0. The mean of 1s and 0s is a proportion.\n\n\ncovid |&gt;\n  group_by(drive_thru_ind) |&gt;\n  summarize(\n    n = n(),\n    pct_positive = mean(result == \"positive\") * 100\n  )\n\n\n\n\n\n\nExercise 8: your turn, from scratch\nFind the median age for each demo_group. Call the summary column median_age.\n\n\n\n\n\n\n\n\n\nSame pattern as Exercise 7: group_by() then summarize(). Use median(age).\n\n\ncovid |&gt;\n  group_by(demo_group) |&gt;\n  summarize(median_age = median(age))"
+  },
+  {
+    "objectID": "labs/lab-05.html#part-5-put-it-all-together",
+    "href": "labs/lab-05.html#part-5-put-it-all-together",
+    "title": "Lab 05: Data wrangling with dplyr",
+    "section": "Part 5: Put it all together",
+    "text": "Part 5: Put it all together\n\nExercise 9\nAmong patients only, and excluding invalid tests, what percent of tests were positive for each gender? Round pct_positive to 1 decimal place.\n\n\n\n\n\n\n\n\n\nTwo conditions in filter(): demo_group == \"patient\" and result != \"invalid\" (!= means “not equal to”).\n\n\nFor the percent, reuse mean(result == \"positive\") * 100 from Exercise 7.\n\n\ncovid |&gt;\n  filter(demo_group == \"patient\", result != \"invalid\") |&gt;\n  group_by(gender) |&gt;\n  summarize(\n    n = n(),\n    pct_positive = round(mean(result == \"positive\") * 100, 1)\n  )"
+  },
+  {
+    "objectID": "labs/lab-05.html#wrap-up",
+    "href": "labs/lab-05.html#wrap-up",
+    "title": "Lab 05: Data wrangling with dplyr",
+    "section": "Wrap-up",
+    "text": "Wrap-up\nYou used the five core dplyr verbs today:\n\n\n\nVerb\nDoes what to the data\n\n\n\n\nfilter()\nkeeps rows that meet a condition\n\n\narrange()\nsorts rows\n\n\nselect()\nkeeps columns\n\n\nmutate()\nadds or changes columns\n\n\ngroup_by() + summarize()\ncollapses each group to one row\n\n\n\nNext: HW 04 practices these verbs in RStudio. The Week 5 cheat sheet has all the syntax on one page."
+  },
+  {
+    "objectID": "labs/lab-07.html",
+    "href": "labs/lab-07.html",
+    "title": "Lab 07: Data types, import & recoding",
+    "section": "",
+    "text": "Data: A messy surveillance line list (CSV/Excel, built for the course); medicaldata::strep_tb"
+  },
+  {
+    "objectID": "labs/lab-07.html#learning-goals",
+    "href": "labs/lab-07.html#learning-goals",
+    "title": "Lab 07: Data types, import & recoding",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nDiagnose and fix variable type problems\nImport CSV and Excel files with readr / readxl\nRecode and reorder factor levels\nExplain why de-identified data can still put people at risk"
+  },
+  {
+    "objectID": "labs/lab-07.html#getting-started",
+    "href": "labs/lab-07.html#getting-started",
+    "title": "Lab 07: Data types, import & recoding",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-07.html#exercises",
+    "href": "labs/lab-07.html#exercises",
+    "title": "Lab 07: Data types, import & recoding",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "labs/lab-09.html",
+    "href": "labs/lab-09.html",
+    "title": "Lab 09: Study design, confounding & Simpson’s paradox",
+    "section": "",
+    "text": "Data: Whickham smoking & mortality (mosaicData::Whickham)"
+  },
+  {
+    "objectID": "labs/lab-09.html#learning-goals",
+    "href": "labs/lab-09.html#learning-goals",
+    "title": "Lab 09: Study design, confounding & Simpson’s paradox",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nClassify a study as observational or experimental\nIdentify a potential confounder in a public health question\nShow Simpson’s paradox with a grouped summary"
+  },
+  {
+    "objectID": "labs/lab-09.html#getting-started",
+    "href": "labs/lab-09.html#getting-started",
+    "title": "Lab 09: Study design, confounding & Simpson’s paradox",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-09.html#exercises",
+    "href": "labs/lab-09.html#exercises",
+    "title": "Lab 09: Study design, confounding & Simpson’s paradox",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "labs/lab-11.html",
+    "href": "labs/lab-11.html",
+    "title": "Lab 11: Linear regression I",
+    "section": "",
+    "text": "Data: NHANES: systolic BP ~ age"
+  },
+  {
+    "objectID": "labs/lab-11.html#learning-goals",
+    "href": "labs/lab-11.html#learning-goals",
+    "title": "Lab 11: Linear regression I",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nFit a model with lm() and interpret its coefficients\nVisualize the fitted line and residuals\nExplain what R-squared does and does not tell you"
+  },
+  {
+    "objectID": "labs/lab-11.html#getting-started",
+    "href": "labs/lab-11.html#getting-started",
+    "title": "Lab 11: Linear regression I",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-11.html#exercises",
+    "href": "labs/lab-11.html#exercises",
+    "title": "Lab 11: Linear regression I",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "labs/lab-13.html",
+    "href": "labs/lab-13.html",
+    "title": "Lab 13: Logistic regression & model validation",
+    "section": "",
+    "text": "Data: NHANES: diabetes ~ age + BMI + physical activity"
+  },
+  {
+    "objectID": "labs/lab-13.html#learning-goals",
+    "href": "labs/lab-13.html#learning-goals",
+    "title": "Lab 13: Logistic regression & model validation",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nFit a logistic regression and report odds ratios with CIs\nEvaluate predictions on held-out data\nDescribe how a prediction model can treat groups unfairly"
+  },
+  {
+    "objectID": "labs/lab-13.html#getting-started",
+    "href": "labs/lab-13.html#getting-started",
+    "title": "Lab 13: Logistic regression & model validation",
+    "section": "Getting started",
+    "text": "Getting started\n\nSetup instructions and starter repo link to come."
+  },
+  {
+    "objectID": "labs/lab-13.html#exercises",
+    "href": "labs/lab-13.html#exercises",
+    "title": "Lab 13: Logistic regression & model validation",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided exercises to come."
+  },
+  {
+    "objectID": "project/index.html",
+    "href": "project/index.html",
+    "title": "Final group project",
+    "section": "",
+    "text": "Teams of up to 4 complete a public health data analysis from question to reproducible report. The project is worth 40% of the final grade."
+  },
+  {
+    "objectID": "project/index.html#milestones",
+    "href": "project/index.html#milestones",
+    "title": "Final group project",
+    "section": "Milestones",
+    "text": "Milestones\n\n\n\nWeek\nMilestone\n\n\n\n\n5\nProject teams formed\n\n\n8\nProject proposal due\n\n\n10\nProject data analysis checkpoint\n\n\n14\nFinal presentations; written report due finals week\n\n\n\n\nPlaceholder. Add the proposal guidelines, dataset suggestions, rubric, and presentation format."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Assignments are released with each weekly module and are due the following Wednesday at 11:59 pm.\n\n\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nUnit\nData\nAssignment\nProject\n\n\n\n\n1\nWelcome & the R toolkit\nHello world\nNHANES (NHANES package)\n—\n\n\n\n2\nReproducible research: Quarto, Git & GitHub\nReproducible research\nmedicaldata::covid_testing\nHW 01\n\n\n\n3\nData visualization I: the grammar of graphics\nExploring data\nNHANES: BMI, blood pressure, age, sex\nHW 02\n\n\n\n4\nData visualization II: numeric & categorical data\nExploring data\nNHANES; CDC COVID-era public charts (critique examples)\nHW 03\n\n\n\n5\nData wrangling I: tidy data & dplyr\nExploring data\nmedicaldata::covid_testing\nHW 04\nProject teams formed\n\n\n6\nData wrangling II: joins & reshaping\nExploring data\nWHO tuberculosis data (tidyr::who2, tidyr::population)\nHW 05\n\n\n\n7\nData types, import & recoding\nExploring data\nA messy surveillance line list (CSV/Excel, built for the course); medicaldata::strep_tb\nHW 06\n\n\n\n8\nFunctions & iteration\nExploring data\nNHANES; a folder of county-level files (built for the course)\nHW 07\nProject proposal due\n\n\n9\nStudy design, confounding & Simpson’s paradox\nMaking rigorous conclusions\nWhickham smoking & mortality (mosaicData::Whickham)\nHW 08\n\n\n\n10\nComparing groups: correlation, t-tests & chi-square\nMaking rigorous conclusions\nNHANES: blood pressure by sex, smoking x diabetes, BMI vs. BP\nHW 09\nProject data analysis checkpoint\n\n\n11\nLinear regression I\nMaking rigorous conclusions\nNHANES: systolic BP ~ age\nHW 10\n\n\n\n12\nLinear regression II: multiple predictors & model building\nMaking rigorous conclusions\nNHANES: systolic BP ~ age + BMI + sex + smoking\nHW 11\n\n\n\n13\nLogistic regression & model validation\nMaking rigorous conclusions\nNHANES: diabetes ~ age + BMI + physical activity\nHW 12\n\n\n\n14\nReproducible reporting & final projects\nReproducible research\nEach team’s project data\nHW 13\nFinal presentations; written report due finals week"
+  },
+  {
+    "objectID": "slides/week-02.html#this-week",
+    "href": "slides/week-02.html#this-week",
+    "title": "Reproducible research: Quarto, Git & GitHub",
+    "section": "This week",
+    "text": "This week\n\nRender a Quarto document to HTML\nControl chunk output with execution options\nClone a GitHub repo, commit changes, and push them back"
+  },
+  {
+    "objectID": "slides/week-02.html#before-next-class",
+    "href": "slides/week-02.html#before-next-class",
+    "title": "Reproducible research: Quarto, Git & GitHub",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 01"
+  },
+  {
+    "objectID": "slides/week-04.html#this-week",
+    "href": "slides/week-04.html#this-week",
+    "title": "Data visualization II: numeric & categorical data",
+    "section": "This week",
+    "text": "This week\n\nChoose an appropriate plot for one or two variables\nImprove a plot’s readability (scales, themes, labels)\nRecognize misleading axes and cherry-picked comparisons"
+  },
+  {
+    "objectID": "slides/week-04.html#before-next-class",
+    "href": "slides/week-04.html#before-next-class",
+    "title": "Data visualization II: numeric & categorical data",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 03"
+  },
+  {
+    "objectID": "slides/week-06.html#this-week",
+    "href": "slides/week-06.html#this-week",
+    "title": "Data wrangling II: joins & reshaping",
+    "section": "This week",
+    "text": "This week\n\nChoose the right join for a question\nReshape between long and wide formats\nJoin case counts to population to compute incidence rates"
+  },
+  {
+    "objectID": "slides/week-06.html#before-next-class",
+    "href": "slides/week-06.html#before-next-class",
+    "title": "Data wrangling II: joins & reshaping",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 05"
+  },
+  {
+    "objectID": "slides/week-08.html#this-week",
+    "href": "slides/week-08.html#this-week",
+    "title": "Functions & iteration",
+    "section": "This week",
+    "text": "This week\n\nWrite a function that removes repeated code\nApply a summary across many columns with across()\nRead a folder of files into one data frame"
+  },
+  {
+    "objectID": "slides/week-08.html#before-next-class",
+    "href": "slides/week-08.html#before-next-class",
+    "title": "Functions & iteration",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 07"
+  },
+  {
+    "objectID": "slides/week-10.html#this-week",
+    "href": "slides/week-10.html#this-week",
+    "title": "Comparing groups: correlation, t-tests & chi-square",
+    "section": "This week",
+    "text": "This week\n\nChoose a test that matches the variable types\nRun and interpret cor.test(), t.test(), chisq.test()\nReport results in a sentence with estimate, CI, and p-value"
+  },
+  {
+    "objectID": "slides/week-10.html#before-next-class",
+    "href": "slides/week-10.html#before-next-class",
+    "title": "Comparing groups: correlation, t-tests & chi-square",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 09"
+  },
+  {
+    "objectID": "slides/week-12.html#this-week",
+    "href": "slides/week-12.html#this-week",
+    "title": "Linear regression II: multiple predictors & model building",
+    "section": "This week",
+    "text": "This week\n\nFit and interpret a multiple regression\nInterpret a categorical predictor and an interaction\nCompare candidate models and justify a choice"
+  },
+  {
+    "objectID": "slides/week-12.html#before-next-class",
+    "href": "slides/week-12.html#before-next-class",
+    "title": "Linear regression II: multiple predictors & model building",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 11"
+  },
+  {
+    "objectID": "slides/week-14.html#this-week",
+    "href": "slides/week-14.html#this-week",
+    "title": "Reproducible reporting & final projects",
+    "section": "This week",
+    "text": "This week\n\nProduce a polished, fully reproducible Quarto report\nMake a Table 1 with gtsummary\nOrganize a project so someone else can rerun it"
+  },
+  {
+    "objectID": "slides/week-14.html#before-next-class",
+    "href": "slides/week-14.html#before-next-class",
+    "title": "Reproducible reporting & final projects",
+    "section": "Before next class",
+    "text": "Before next class\n\nReview the cheat sheet\nStart HW 13"
+  },
+  {
+    "objectID": "weeks/week-01.html",
+    "href": "weeks/week-01.html",
+    "title": "Week 1: Welcome & the R toolkit",
+    "section": "",
+    "text": "Hello world\nSlides\nLab\nCheat sheet",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 01: Welcome & the R toolkit"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#topics",
+    "href": "weeks/week-01.html#topics",
+    "title": "Week 1: Welcome & the R toolkit",
+    "section": "Topics",
+    "text": "Topics\n\nCourse overview and what data science looks like in public health\nR, RStudio, and projects\nObjects, functions, packages\nA first look at a real dataset",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 01: Welcome & the R toolkit"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#learning-objectives",
+    "href": "weeks/week-01.html#learning-objectives",
+    "title": "Week 1: Welcome & the R toolkit",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nNavigate RStudio and create an RStudio Project\nRun code in the console and in a Quarto document\nInstall and load packages; use glimpse() to inspect a data frame",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 01: Welcome & the R toolkit"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#data",
+    "href": "weeks/week-01.html#data",
+    "title": "Week 1: Welcome & the R toolkit",
+    "section": "Data",
+    "text": "Data\nNHANES (NHANES package)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 01: Welcome & the R toolkit"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-01.html#adapted-from-data-science-in-a-box",
+    "title": "Week 1: Welcome & the R toolkit",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu1-d01-welcome\nu1-d02-toolkit-r",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 01: Welcome & the R toolkit"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html",
+    "href": "weeks/week-03.html",
+    "title": "Week 3: Data visualization I: the grammar of graphics",
+    "section": "",
+    "text": "Exploring data\nSlides\nLab\nCheat sheet\nAssignment (HW 02)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 03: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#topics",
+    "href": "weeks/week-03.html#topics",
+    "title": "Week 3: Data visualization I: the grammar of graphics",
+    "section": "Topics",
+    "text": "Topics\n\nWhy visualize?\nAesthetics, geoms, and layers in ggplot2\nMapping vs. setting\nFaceting",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 03: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#learning-objectives",
+    "href": "weeks/week-03.html#learning-objectives",
+    "title": "Week 3: Data visualization I: the grammar of graphics",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nBuild a ggplot layer by layer\nMap variables to color, shape, and size\nUse facets to compare subgroups",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 03: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#data",
+    "href": "weeks/week-03.html#data",
+    "title": "Week 3: Data visualization I: the grammar of graphics",
+    "section": "Data",
+    "text": "Data\nNHANES: BMI, blood pressure, age, sex",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 03: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-03.html#adapted-from-data-science-in-a-box",
+    "title": "Week 3: Data visualization I: the grammar of graphics",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu2-d01-data-viz\nu2-d02-ggplot2\nae-03-starwars-dataviz",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 03: Data visualization I: the grammar of graphics"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html",
+    "href": "weeks/week-05.html",
+    "title": "Week 5: Data wrangling I: tidy data & dplyr",
+    "section": "",
+    "text": "Exploring data\nSlides\nLab\nCheat sheet\nAssignment (HW 04)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 05: Data wrangling I: tidy data & dplyr"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#topics",
+    "href": "weeks/week-05.html#topics",
+    "title": "Week 5: Data wrangling I: tidy data & dplyr",
+    "section": "Topics",
+    "text": "Topics\n\nWhat makes data tidy\nThe pipe\nfilter(), select(), arrange(), mutate()\ngroup_by() + summarize(), count()",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 05: Data wrangling I: tidy data & dplyr"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#learning-objectives",
+    "href": "weeks/week-05.html#learning-objectives",
+    "title": "Week 5: Data wrangling I: tidy data & dplyr",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nIdentify tidy vs. untidy data\nChain dplyr verbs with the pipe\nCompute grouped summary statistics",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 05: Data wrangling I: tidy data & dplyr"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#data",
+    "href": "weeks/week-05.html#data",
+    "title": "Week 5: Data wrangling I: tidy data & dplyr",
+    "section": "Data",
+    "text": "Data\nmedicaldata::covid_testing",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 05: Data wrangling I: tidy data & dplyr"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#project",
+    "href": "weeks/week-05.html#project",
+    "title": "Week 5: Data wrangling I: tidy data & dplyr",
+    "section": "Project",
+    "text": "Project\nProject teams formed",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 05: Data wrangling I: tidy data & dplyr"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-05.html#adapted-from-data-science-in-a-box",
+    "title": "Week 5: Data wrangling I: tidy data & dplyr",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu2-d05-tidy-data\nu2-d06-grammar-wrangle\nu2-d07-single-df\nae-04-hotels-datawrangling",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 05: Data wrangling I: tidy data & dplyr"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html",
+    "href": "weeks/week-07.html",
+    "title": "Week 7: Data types, import & recoding",
+    "section": "",
+    "text": "Exploring data\nSlides\nLab\nCheat sheet\nAssignment (HW 06)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#topics",
+    "href": "weeks/week-07.html#topics",
+    "title": "Week 7: Data types, import & recoding",
+    "section": "Topics",
+    "text": "Topics\n\nData types and classes: numeric, character, logical, factor, Date\nImporting CSV and Excel files\nCleaning messy column names and values\nRecoding with case_when() and forcats\nEthics: privacy and de-identification of health data",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#learning-objectives",
+    "href": "weeks/week-07.html#learning-objectives",
+    "title": "Week 7: Data types, import & recoding",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nDiagnose and fix variable type problems\nImport CSV and Excel files with readr / readxl\nRecode and reorder factor levels\nExplain why de-identified data can still put people at risk",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#data",
+    "href": "weeks/week-07.html#data",
+    "title": "Week 7: Data types, import & recoding",
+    "section": "Data",
+    "text": "Data\nA messy surveillance line list (CSV/Excel, built for the course); medicaldata::strep_tb",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-07.html#adapted-from-data-science-in-a-box",
+    "title": "Week 7: Data types, import & recoding",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu2-d10-data-types\nu2-d11-data-classes\nu2-d12-data-import\nu2-d13-data-recode\nu3-d02-privacy\nae-05-hotels-datatypes\nae-06-nobels-sales-dataimport",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 07: Data types, import & recoding"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html",
+    "href": "weeks/week-09.html",
+    "title": "Week 9: Study design, confounding & Simpson’s paradox",
+    "section": "",
+    "text": "Making rigorous conclusions\nSlides\nLab\nCheat sheet\nAssignment (HW 08)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 09: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#topics",
+    "href": "weeks/week-09.html#topics",
+    "title": "Week 9: Study design, confounding & Simpson’s paradox",
+    "section": "Topics",
+    "text": "Topics\n\nObservational studies vs. experiments\nConfounding variables\nSimpson’s paradox\nCorrelation is not causation",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 09: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#learning-objectives",
+    "href": "weeks/week-09.html#learning-objectives",
+    "title": "Week 9: Study design, confounding & Simpson’s paradox",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nClassify a study as observational or experimental\nIdentify a potential confounder in a public health question\nShow Simpson’s paradox with a grouped summary",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 09: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#data",
+    "href": "weeks/week-09.html#data",
+    "title": "Week 9: Study design, confounding & Simpson’s paradox",
+    "section": "Data",
+    "text": "Data\nWhickham smoking & mortality (mosaicData::Whickham)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 09: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-09.html#adapted-from-data-science-in-a-box",
+    "title": "Week 9: Study design, confounding & Simpson’s paradox",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu2-d15-studies-confounding\nu2-d16-simpsons-paradox",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 09: Study design, confounding & Simpson's paradox"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html",
+    "href": "weeks/week-11.html",
+    "title": "Week 11: Linear regression I",
+    "section": "",
+    "text": "Making rigorous conclusions\nSlides\nLab\nCheat sheet\nAssignment (HW 10)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 11: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#topics",
+    "href": "weeks/week-11.html#topics",
+    "title": "Week 11: Linear regression I",
+    "section": "Topics",
+    "text": "Topics\n\nThe language of models\nFitting a simple linear regression\nInterpreting slope and intercept\nResiduals and R-squared",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 11: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#learning-objectives",
+    "href": "weeks/week-11.html#learning-objectives",
+    "title": "Week 11: Linear regression I",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nFit a model with lm() and interpret its coefficients\nVisualize the fitted line and residuals\nExplain what R-squared does and does not tell you",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 11: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#data",
+    "href": "weeks/week-11.html#data",
+    "title": "Week 11: Linear regression I",
+    "section": "Data",
+    "text": "Data\nNHANES: systolic BP ~ age",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 11: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-11.html#adapted-from-data-science-in-a-box",
+    "title": "Week 11: Linear regression I",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu4-d01-language-of-models\nu4-d02-fitting-interpreting-models\nu4-d03-modeling-nonlinear-relationships",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 11: Linear regression I"
+    ]
+  },
+  {
+    "objectID": "weeks/week-13.html",
+    "href": "weeks/week-13.html",
+    "title": "Week 13: Logistic regression & model validation",
+    "section": "",
+    "text": "Making rigorous conclusions\nSlides\nLab\nCheat sheet\nAssignment (HW 12)",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 13: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "weeks/week-13.html#topics",
+    "href": "weeks/week-13.html#topics",
+    "title": "Week 13: Logistic regression & model validation",
+    "section": "Topics",
+    "text": "Topics\n\nBinary outcomes and log odds\nFitting glm(family = binomial)\nOdds ratios\nTrain/test splits and cross-validation\nEthics: algorithmic bias in health prediction",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 13: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "weeks/week-13.html#learning-objectives",
+    "href": "weeks/week-13.html#learning-objectives",
+    "title": "Week 13: Logistic regression & model validation",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this week you should be able to:\n\nFit a logistic regression and report odds ratios with CIs\nEvaluate predictions on held-out data\nDescribe how a prediction model can treat groups unfairly",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 13: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "weeks/week-13.html#data",
+    "href": "weeks/week-13.html#data",
+    "title": "Week 13: Logistic regression & model validation",
+    "section": "Data",
+    "text": "Data\nNHANES: diabetes ~ age + BMI + physical activity",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 13: Logistic regression & model validation"
+    ]
+  },
+  {
+    "objectID": "weeks/week-13.html#adapted-from-data-science-in-a-box",
+    "href": "weeks/week-13.html#adapted-from-data-science-in-a-box",
+    "title": "Week 13: Logistic regression & model validation",
+    "section": "Adapted from Data Science in a Box",
+    "text": "Adapted from Data Science in a Box\n\nu4-d06-logistic-reg\nu4-d07-prediction-overfitting\nu4-d09-cross-validation\nu3-d03-algorithmic-bias\nae-09-feat-eng-cv",
+    "crumbs": [
+      "Home",
+      "Weeks",
+      "Week 13: Logistic regression & model validation"
+    ]
+  }
+]
