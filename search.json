@@ -586,7 +586,7 @@
     "href": "slides/week-05.html#your-turn-filter",
     "title": "Data wrangling I: tidy data & dplyr",
     "section": "Your turn: filter()",
-    "text": "Your turn: filter()\nKeep the tests collected at the emergency dept that were positive. How many rows?"
+    "text": "Your turn: filter()\nKeep the tests collected at the emergency dept that were positive. How many rows?\nUse: column clinic_name · value \"emergency dept\" · column result · value \"positive\""
   },
   {
     "objectID": "slides/week-05.html#arrange-sort-rows",
@@ -649,7 +649,7 @@
     "href": "slides/week-05.html#your-turn-grouped-summary",
     "title": "Data wrangling I: tidy data & dplyr",
     "section": "Your turn: grouped summary",
-    "text": "Your turn: grouped summary\nFor each demo_group, find the number of tests and the median age."
+    "text": "Your turn: grouped summary\nFor each demographic group, find the number of tests and the median age.\nUse: group by demo_group · n() · median(age)"
   },
   {
     "objectID": "slides/week-05.html#a-full-pipeline",
@@ -663,7 +663,7 @@
     "href": "slides/week-05.html#your-turn-build-a-pipeline",
     "title": "Data wrangling I: tidy data & dplyr",
     "section": "Your turn: build a pipeline",
-    "text": "Your turn: build a pipeline\nWhich clinic had the highest percent positive among clinics with at least 100 tests?"
+    "text": "Your turn: build a pipeline\nWhich clinic had the highest percent positive among clinics with at least 100 tests?\nUse: keep rows where n &gt;= 100 · sort by desc(pct_positive)"
   },
   {
     "objectID": "slides/week-05.html#recap",
@@ -2534,28 +2534,28 @@
     "href": "labs/lab-05.html#part-2-working-with-rows",
     "title": "Lab 05: Data wrangling with dplyr",
     "section": "Part 2: Working with rows",
-    "text": "Part 2: Working with rows\n\nExercise 1: filter()\nKeep only the positive tests.\n\n\n\n\n\n\n\n\n\nresult is a character column, so the value goes in quotes: \"positive\".\n\n\ncovid |&gt;\n  filter(result == \"positive\")\nThere are 865 positive tests.\n\n\n\n\n\n\nExercise 2: filter() with two conditions\nKeep positive tests from people who are 18 or older.\n\n\n\n\n\n\n\n\n\nSeparating conditions with a comma inside filter() means both must be true. Use &gt;= for “greater than or equal to.”\n\n\ncovid |&gt;\n  filter(result == \"positive\", age &gt;= 18)\n\n\n\n\n\n\nExercise 3: arrange()\nSort the tests from oldest to youngest person. Look at the top of the result.\n\n\n\n\n\n\n\n\n\narrange() sorts smallest-to-largest by default. Wrap the column in desc() to reverse it.\n\n\ncovid |&gt;\n  select(subject_id, age, demo_group) |&gt;\n  arrange(desc(age))\n\n\n\n\n\n\n\n\n\n\nImportantThink about it: what’s wrong with the top rows?\n\n\n\n\n\nThe oldest “person” is 138, and several are 119. Those ages are almost certainly data entry errors or placeholder values. Real data always needs a sanity check before analysis. Sorting is one of the quickest ways to find problems."
+    "text": "Part 2: Working with rows\n\nExercise 1: filter()\nKeep only the positive tests.\n\nUse: column result · value \"positive\"\n\n\n\n\n\n\n\n\n\n\nresult is a character column, so the value goes in quotes: \"positive\".\n\n\ncovid |&gt;\n  filter(result == \"positive\")\nThere are 865 positive tests.\n\n\n\n\n\n\nExercise 2: filter() with two conditions\nKeep positive tests from people who are 18 or older.\n\nUse: column result · value \"positive\" · column age · value 18 · operator &gt;=\n\n\n\n\n\n\n\n\n\n\nSeparating conditions with a comma inside filter() means both must be true. Use &gt;= for “greater than or equal to.”\n\n\ncovid |&gt;\n  filter(result == \"positive\", age &gt;= 18)\n\n\n\n\n\n\nExercise 3: arrange()\nSort the tests from oldest to youngest person. Look at the top of the result.\n\nUse: column age · function desc()\n\n\n\n\n\n\n\n\n\n\narrange() sorts smallest-to-largest by default. Wrap the column in desc() to reverse it.\n\n\ncovid |&gt;\n  select(subject_id, age, demo_group) |&gt;\n  arrange(desc(age))\n\n\n\n\n\n\n\n\n\n\nImportantThink about it: what’s wrong with the top rows?\n\n\n\n\n\nThe oldest “person” is 138, and several are 119. Those ages are almost certainly data entry errors or placeholder values. Real data always needs a sanity check before analysis. Sorting is one of the quickest ways to find problems."
   },
   {
     "objectID": "labs/lab-05.html#part-3-working-with-columns",
     "href": "labs/lab-05.html#part-3-working-with-columns",
     "title": "Lab 05: Data wrangling with dplyr",
     "section": "Part 3: Working with columns",
-    "text": "Part 3: Working with columns\n\nExercise 4: select()\nKeep only the columns subject_id, age, clinic_name, and result, in that order.\n\n\n\n\n\n\n\n\n\nList the column names inside select(), separated by commas. No quotes needed.\n\n\ncovid |&gt;\n  select(subject_id, age, clinic_name, result)\n\n\n\n\n\n\nExercise 5: mutate()\nAdd a new column age_months that is age in months.\n\n\n\n\n\n\n\n\n\nThere are 12 months in a year. Columns can be used in arithmetic: age * 2.\n\n\ncovid |&gt;\n  mutate(age_months = age * 12) |&gt;\n  select(subject_id, age, age_months)"
+    "text": "Part 3: Working with columns\n\nExercise 4: select()\nKeep only four columns, in this order.\n\nUse: columns subject_id, age, clinic_name, result\n\n\n\n\n\n\n\n\n\n\nList the column names inside select(), separated by commas. No quotes needed.\n\n\ncovid |&gt;\n  select(subject_id, age, clinic_name, result)\n\n\n\n\n\n\nExercise 5: mutate()\nAdd a new column that is age in months.\n\nUse: new column age_months · existing column age · multiply by 12\n\n\n\n\n\n\n\n\n\n\nThere are 12 months in a year. Columns can be used in arithmetic: age * 2.\n\n\ncovid |&gt;\n  mutate(age_months = age * 12) |&gt;\n  select(subject_id, age, age_months)"
   },
   {
     "objectID": "labs/lab-05.html#part-4-summarizing",
     "href": "labs/lab-05.html#part-4-summarizing",
     "title": "Lab 05: Data wrangling with dplyr",
     "section": "Part 4: Summarizing",
-    "text": "Part 4: Summarizing\n\nExercise 6: count()\nHow many tests came from each clinic_name? Show the largest first.\n\n\n\n\n\n\n\n\n\ncount() has an argument sort. Set it to TRUE.\n\n\ncovid |&gt;\n  count(clinic_name, sort = TRUE)\n\n\n\n\n\n\nExercise 7: group_by() + summarize()\nWere drive-through tests more likely to be positive? For each value of drive_thru_ind, compute the number of tests (n) and the percent positive (pct_positive).\n\n\n\n\n\n\n\n\n\nGroup by the column that marks drive-through tests.\nWhy does mean(result == \"positive\") work? result == \"positive\" gives TRUE/FALSE, which R treats as 1/0. The mean of 1s and 0s is a proportion.\n\n\ncovid |&gt;\n  group_by(drive_thru_ind) |&gt;\n  summarize(\n    n = n(),\n    pct_positive = mean(result == \"positive\") * 100\n  )\n\n\n\n\n\n\nExercise 8: your turn, from scratch\nFind the median age for each demo_group. Call the summary column median_age.\n\n\n\n\n\n\n\n\n\nSame pattern as Exercise 7: group_by() then summarize(). Use median(age).\n\n\ncovid |&gt;\n  group_by(demo_group) |&gt;\n  summarize(median_age = median(age))"
+    "text": "Part 4: Summarizing\n\nExercise 6: count()\nHow many tests came from each clinic? Show the largest first.\n\nUse: column clinic_name · argument sort = TRUE\n\n\n\n\n\n\n\n\n\n\ncount() has an argument sort. Set it to TRUE.\n\n\ncovid |&gt;\n  count(clinic_name, sort = TRUE)\n\n\n\n\n\n\nExercise 7: group_by() + summarize()\nWere drive-through tests more likely to be positive? Compute the number of tests and the percent positive for drive-through vs. other tests.\n\nUse: group by column drive_thru_ind (1 = drive-through, 0 = not) · summary columns n and pct_positive\n\n\n\n\n\n\n\n\n\n\nGroup by the column that marks drive-through tests.\nWhy does mean(result == \"positive\") work? result == \"positive\" gives TRUE/FALSE, which R treats as 1/0. The mean of 1s and 0s is a proportion.\n\n\ncovid |&gt;\n  group_by(drive_thru_ind) |&gt;\n  summarize(\n    n = n(),\n    pct_positive = mean(result == \"positive\") * 100\n  )\n\n\n\n\n\n\nExercise 8: your turn, from scratch\nFind the median age for each demographic group.\n\nUse: group by column demo_group · column age · function median() · summary column median_age\n\n\n\n\n\n\n\n\n\n\nSame pattern as Exercise 7: group_by() then summarize(). Use median(age).\n\n\ncovid |&gt;\n  group_by(demo_group) |&gt;\n  summarize(median_age = median(age))"
   },
   {
     "objectID": "labs/lab-05.html#part-5-put-it-all-together",
     "href": "labs/lab-05.html#part-5-put-it-all-together",
     "title": "Lab 05: Data wrangling with dplyr",
     "section": "Part 5: Put it all together",
-    "text": "Part 5: Put it all together\n\nExercise 9\nAmong patients only, and excluding invalid tests, what percent of tests were positive for each gender? Round pct_positive to 1 decimal place.\n\n\n\n\n\n\n\n\n\nTwo conditions in filter(): demo_group == \"patient\" and result != \"invalid\" (!= means “not equal to”).\n\n\nFor the percent, reuse mean(result == \"positive\") * 100 from Exercise 7.\n\n\ncovid |&gt;\n  filter(demo_group == \"patient\", result != \"invalid\") |&gt;\n  group_by(gender) |&gt;\n  summarize(\n    n = n(),\n    pct_positive = round(mean(result == \"positive\") * 100, 1)\n  )"
+    "text": "Part 5: Put it all together\n\nExercise 9\nAmong patients only, and excluding invalid tests, what percent of tests were positive for each gender? Round to 1 decimal place.\n\nUse:\n\nkeep: column demo_group · value \"patient\"\ndrop: column result · value \"invalid\" · operator !=\ngroup by: column gender\nsummary columns: n and pct_positive · positive value \"positive\" · round(..., 1)\n\n\n\n\n\n\n\n\n\n\n\nTwo conditions in filter(): demo_group == \"patient\" and result != \"invalid\" (!= means “not equal to”).\n\n\nFor the percent, reuse mean(result == \"positive\") * 100 from Exercise 7.\n\n\ncovid |&gt;\n  filter(demo_group == \"patient\", result != \"invalid\") |&gt;\n  group_by(gender) |&gt;\n  summarize(\n    n = n(),\n    pct_positive = round(mean(result == \"positive\") * 100, 1)\n  )"
   },
   {
     "objectID": "labs/lab-05.html#wrap-up",

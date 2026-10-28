@@ -80,7 +80,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-9728add8566cab53d3b79af368b2af2f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d30ce87287aa9dfa37e65b147f75ec95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/live-runtime/live-runtime.js" type="module"></script>
 <link href="../site_libs/quarto-contrib/live-runtime/live-runtime.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -535,7 +535,7 @@ eyJhdHRyIjp7ImF1dG9ydW4iOnRydWUsImVjaG8iOmZhbHNlLCJlZGl0IjpmYWxzZSwiZXZhbCI6dHJ1
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Everything runs <strong>in your browser</strong>, so there’s nothing to install. Fill in each <code>______</code> and click <strong>Run Code</strong>. The box tells you if you got it right. Stuck? Click <strong>Show Hint</strong>; still stuck, <strong>Show Solution</strong>.</p>
+<p>Everything runs <strong>in your browser</strong>, so there’s nothing to install. Fill in each <code>______</code> and click <strong>Run Code</strong>. Each exercise lists the exact <strong>column names and values</strong> to use, so you don’t need the codebook. The box tells you if you got it right. Stuck? Click <strong>Show Hint</strong>; still stuck, <strong>Show Solution</strong>.</p>
 <p>The first time you click Run, R takes a few seconds to load.</p>
 </div>
 </div>
@@ -645,6 +645,9 @@ eyJhdHRyIjp7ImVkaXQiOnRydWUsImV2YWwiOnRydWV9LCJjb2RlIjoiZ2xpbXBzZShjb3ZpZCkifQ==
 <section id="exercise-1-filter" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-1-filter">Exercise 1: filter()</h3>
 <p>Keep only the <strong>positive</strong> tests.</p>
+<div class="use-box">
+<p><strong>Use:</strong> column <code>result</code> · value <code>"positive"</code></p>
+</div>
 <div class="cell" data-exercise="ex1">
 <div>
 <div id="webr-3" class="exercise-cell">
@@ -672,6 +675,9 @@ eyJhdHRyIjp7ImNoZWNrIjp0cnVlLCJlZGl0Ijp0cnVlLCJldmFsIjp0cnVlLCJleGVyY2lzZSI6ImV4
 <section id="exercise-2-filter-with-two-conditions" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-2-filter-with-two-conditions">Exercise 2: filter() with two conditions</h3>
 <p>Keep positive tests from people who are <strong>18 or older</strong>.</p>
+<div class="use-box">
+<p><strong>Use:</strong> column <code>result</code> · value <code>"positive"</code> · column <code>age</code> · value <code>18</code> · operator <code>&gt;=</code></p>
+</div>
 <div class="cell" data-exercise="ex2">
 <div>
 <div id="webr-5" class="exercise-cell">
@@ -698,6 +704,9 @@ eyJhdHRyIjp7ImNoZWNrIjp0cnVlLCJlZGl0Ijp0cnVlLCJldmFsIjp0cnVlLCJleGVyY2lzZSI6ImV4
 <section id="exercise-3-arrange" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-3-arrange">Exercise 3: arrange()</h3>
 <p>Sort the tests from <strong>oldest to youngest</strong> person. Look at the top of the result.</p>
+<div class="use-box">
+<p><strong>Use:</strong> column <code>age</code> · function <code>desc()</code></p>
+</div>
 <div class="cell" data-exercise="ex3">
 <div>
 <div id="webr-7" class="exercise-cell">
@@ -743,7 +752,10 @@ eyJhdHRyIjp7ImNoZWNrIjp0cnVlLCJlZGl0Ijp0cnVlLCJldmFsIjp0cnVlLCJleGVyY2lzZSI6ImV4
 <h2 class="anchored" data-anchor-id="part-3-working-with-columns">Part 3: Working with columns</h2>
 <section id="exercise-4-select" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-4-select">Exercise 4: select()</h3>
-<p>Keep only the columns <code>subject_id</code>, <code>age</code>, <code>clinic_name</code>, and <code>result</code>, in that order.</p>
+<p>Keep only four columns, in this order.</p>
+<div class="use-box">
+<p><strong>Use:</strong> columns <code>subject_id</code>, <code>age</code>, <code>clinic_name</code>, <code>result</code></p>
+</div>
 <div class="cell" data-exercise="ex4">
 <div>
 <div id="webr-9" class="exercise-cell">
@@ -769,7 +781,10 @@ eyJhdHRyIjp7ImNoZWNrIjp0cnVlLCJlZGl0Ijp0cnVlLCJldmFsIjp0cnVlLCJleGVyY2lzZSI6ImV4
 </section>
 <section id="exercise-5-mutate" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-5-mutate">Exercise 5: mutate()</h3>
-<p>Add a new column <code>age_months</code> that is age in <strong>months</strong>.</p>
+<p>Add a new column that is age in <strong>months</strong>.</p>
+<div class="use-box">
+<p><strong>Use:</strong> new column <code>age_months</code> · existing column <code>age</code> · multiply by <code>12</code></p>
+</div>
 <div class="cell" data-exercise="ex5">
 <div>
 <div id="webr-11" class="exercise-cell">
@@ -799,7 +814,10 @@ eyJhdHRyIjp7ImNoZWNrIjp0cnVlLCJlZGl0Ijp0cnVlLCJldmFsIjp0cnVlLCJleGVyY2lzZSI6ImV4
 <h2 class="anchored" data-anchor-id="part-4-summarizing">Part 4: Summarizing</h2>
 <section id="exercise-6-count" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-6-count">Exercise 6: count()</h3>
-<p>How many tests came from each <code>clinic_name</code>? Show the <strong>largest first</strong>.</p>
+<p>How many tests came from each clinic? Show the <strong>largest first</strong>.</p>
+<div class="use-box">
+<p><strong>Use:</strong> column <code>clinic_name</code> · argument <code>sort = TRUE</code></p>
+</div>
 <div class="cell" data-exercise="ex6">
 <div>
 <div id="webr-13" class="exercise-cell">
@@ -825,7 +843,10 @@ eyJhdHRyIjp7ImNoZWNrIjp0cnVlLCJlZGl0Ijp0cnVlLCJldmFsIjp0cnVlLCJleGVyY2lzZSI6ImV4
 </section>
 <section id="exercise-7-group_by-summarize" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-7-group_by-summarize">Exercise 7: group_by() + summarize()</h3>
-<p>Were drive-through tests more likely to be positive? For each value of <code>drive_thru_ind</code>, compute the number of tests (<code>n</code>) and the percent positive (<code>pct_positive</code>).</p>
+<p>Were drive-through tests more likely to be positive? Compute the number of tests and the percent positive for drive-through vs.&nbsp;other tests.</p>
+<div class="use-box">
+<p><strong>Use:</strong> group by column <code>drive_thru_ind</code> (<code>1</code> = drive-through, <code>0</code> = not) · summary columns <code>n</code> and <code>pct_positive</code></p>
+</div>
 <div class="cell" data-exercise="ex7">
 <div>
 <div id="webr-15" class="exercise-cell">
@@ -856,7 +877,10 @@ eyJhdHRyIjp7ImNoZWNrIjp0cnVlLCJlZGl0Ijp0cnVlLCJldmFsIjp0cnVlLCJleGVyY2lzZSI6ImV4
 </section>
 <section id="exercise-8-your-turn-from-scratch" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-8-your-turn-from-scratch">Exercise 8: your turn, from scratch</h3>
-<p>Find the <strong>median age</strong> for each <code>demo_group</code>. Call the summary column <code>median_age</code>.</p>
+<p>Find the <strong>median age</strong> for each demographic group.</p>
+<div class="use-box">
+<p><strong>Use:</strong> group by column <code>demo_group</code> · column <code>age</code> · function <code>median()</code> · summary column <code>median_age</code></p>
+</div>
 <div class="cell" data-exercise="ex8">
 <div>
 <div id="webr-17" class="exercise-cell">
@@ -886,7 +910,16 @@ eyJhdHRyIjp7ImNoZWNrIjp0cnVlLCJlZGl0Ijp0cnVlLCJldmFsIjp0cnVlLCJleGVyY2lzZSI6ImV4
 <h2 class="anchored" data-anchor-id="part-5-put-it-all-together">Part 5: Put it all together</h2>
 <section id="exercise-9" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-9">Exercise 9</h3>
-<p>Among <strong>patients</strong> only, and <strong>excluding invalid</strong> tests, what percent of tests were positive for each gender? Round <code>pct_positive</code> to 1 decimal place.</p>
+<p>Among <strong>patients</strong> only, and <strong>excluding invalid</strong> tests, what percent of tests were positive for each gender? Round to 1 decimal place.</p>
+<div class="use-box">
+<p><strong>Use:</strong></p>
+<ul>
+<li>keep: column <code>demo_group</code> · value <code>"patient"</code></li>
+<li>drop: column <code>result</code> · value <code>"invalid"</code> · operator <code>!=</code></li>
+<li>group by: column <code>gender</code></li>
+<li>summary columns: <code>n</code> and <code>pct_positive</code> · positive value <code>"positive"</code> · <code>round(..., 1)</code></li>
+</ul>
+</div>
 <div class="cell" data-exercise="ex9">
 <div>
 <div id="webr-19" class="exercise-cell">

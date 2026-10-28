@@ -435,6 +435,7 @@ $ rec_ver_tat     &lt;dbl&gt; 5.2, 5.8, 4.7, 5.0, 6.4, 7.0, 4.2, 6.3, 5.6,…</c
 <section id="your-turn-filter" class="slide level2">
 <h2>Your turn: <code>filter()</code></h2>
 <p>Keep the tests collected at the <strong>emergency dept</strong> that were <strong>positive</strong>. How many rows?</p>
+<p><strong>Use:</strong> column <code>clinic_name</code> · value <code>"emergency dept"</code> · column <code>result</code> · value <code>"positive"</code></p>
 <div class="cell" data-caption="Try it">
 <div>
 <div id="webr-2" class="exercise-cell">
@@ -634,7 +635,8 @@ eyJhdHRyIjp7ImNhcHRpb24iOiJUcnkgaXQiLCJlZGl0Ijp0cnVlLCJldmFsIjp0cnVlLCJmaWctaGVp
 </div></aside></section>
 <section id="your-turn-grouped-summary" class="slide level2">
 <h2>Your turn: grouped summary</h2>
-<p>For each <code>demo_group</code>, find the number of tests and the <strong>median age</strong>.</p>
+<p>For each demographic group, find the number of tests and the <strong>median age</strong>.</p>
+<p><strong>Use:</strong> group by <code>demo_group</code> · <code>n()</code> · <code>median(age)</code></p>
 <div class="cell" data-caption="Try it">
 <div>
 <div id="webr-3" class="exercise-cell">
@@ -674,6 +676,7 @@ eyJhdHRyIjp7ImNhcHRpb24iOiJUcnkgaXQiLCJlZGl0Ijp0cnVlLCJldmFsIjp0cnVlLCJmaWctaGVp
 <section id="your-turn-build-a-pipeline" class="slide level2">
 <h2>Your turn: build a pipeline</h2>
 <p>Which <strong>clinic</strong> had the highest percent positive among clinics with <strong>at least 100 tests</strong>?</p>
+<p><strong>Use:</strong> keep rows where <code>n &gt;= 100</code> · sort by <code>desc(pct_positive)</code></p>
 <div class="cell" data-caption="Try it">
 <div>
 <div id="webr-4" class="exercise-cell">
