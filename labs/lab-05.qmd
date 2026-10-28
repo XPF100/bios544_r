@@ -21,6 +21,7 @@ live:
 #| autorun: true
 library(dplyr)
 covid <- read.csv("data/covid_testing.csv") |> as_tibble()
+options(width = 70)
 
 # grading helpers
 pass <- function(msg = "Nice work!") list(correct = TRUE, message = msg)

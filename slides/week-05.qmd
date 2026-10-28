@@ -34,6 +34,7 @@ options(width = 70, pillar.print_min = 5, pillar.print_max = 5)
 #| autorun: true
 library(dplyr)
 covid <- read.csv("data/covid_testing.csv") |> as_tibble()
+options(width = 70)
 ```
 
 ## This week
