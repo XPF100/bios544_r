@@ -86,6 +86,8 @@ $link-color: #0033a0;
 $font-size-root: 17px;
 
 /*-- scss:rules --*/
+.use-box { background: #eef3fb; border-left: 4px solid $primary; border-radius: 4px; padding: .5rem .9rem; margin: .5rem 0 1rem; font-size: .95rem; }
+.use-box p, .use-box ul { margin-bottom: 0; }
 .unit-badge { display:inline-block; padding:.15rem .55rem; border-radius:999px;
   font-size:.8rem; font-weight:600; color:#fff; }
 .material-links a { margin-right: 1rem; font-weight: 600; }

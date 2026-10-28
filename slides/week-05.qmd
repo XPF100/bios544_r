@@ -153,6 +153,8 @@ covid |> filter(result != "invalid")
 
 Keep the tests collected at the **emergency dept** that were **positive**. How many rows?
 
+**Use:** column `clinic_name` · value `"emergency dept"` · column `result` · value `"positive"`
+
 ```{webr}
 #| caption: Try it
 covid |>
@@ -272,7 +274,9 @@ One `NA` makes the whole mean `NA`. Use `na.rm = TRUE`, and think about *why* va
 
 ## Your turn: grouped summary
 
-For each `demo_group`, find the number of tests and the **median age**.
+For each demographic group, find the number of tests and the **median age**.
+
+**Use:** group by `demo_group` · `n()` · `median(age)`
 
 ```{webr}
 #| caption: Try it
@@ -303,6 +307,8 @@ covid |>
 ## Your turn: build a pipeline
 
 Which **clinic** had the highest percent positive among clinics with **at least 100 tests**?
+
+**Use:** keep rows where `n >= 100` · sort by `desc(pct_positive)`
 
 ```{webr}
 #| caption: Try it

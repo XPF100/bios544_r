@@ -36,7 +36,7 @@ not_df <- fail("Your code should return a data frame. Start with `covid |>` and 
 ::: {.callout-note}
 ## How this lab works
 Everything runs **in your browser**, so there's nothing to install. Fill in each `______` and click **Run Code**.
-The box tells you if you got it right. Stuck? Click **Show Hint**; still stuck, **Show Solution**.
+Each exercise lists the exact **column names and values** to use, so you don't need the codebook. The box tells you if you got it right. Stuck? Click **Show Hint**; still stuck, **Show Solution**.
 
 The first time you click Run, R takes a few seconds to load.
 :::
@@ -87,6 +87,10 @@ You'll learn to fix that shape with `pivot_longer()` next week.
 
 Keep only the **positive** tests.
 
+::: {.use-box}
+**Use:** column `result` · value `"positive"`
+:::
+
 ```{webr}
 #| exercise: ex1
 covid |>
@@ -122,6 +126,10 @@ if (!is.data.frame(.result)) {
 ### Exercise 2: filter() with two conditions
 
 Keep positive tests from people who are **18 or older**.
+
+::: {.use-box}
+**Use:** column `result` · value `"positive"` · column `age` · value `18` · operator `>=`
+:::
 
 ```{webr}
 #| exercise: ex2
@@ -159,6 +167,10 @@ if (!is.data.frame(.result)) {
 ### Exercise 3: arrange()
 
 Sort the tests from **oldest to youngest** person. Look at the top of the result.
+
+::: {.use-box}
+**Use:** column `age` · function `desc()`
+:::
 
 ```{webr}
 #| exercise: ex3
@@ -205,7 +217,11 @@ quickest ways to find problems.
 
 ### Exercise 4: select()
 
-Keep only the columns `subject_id`, `age`, `clinic_name`, and `result`, in that order.
+Keep only four columns, in this order.
+
+::: {.use-box}
+**Use:** columns `subject_id`, `age`, `clinic_name`, `result`
+:::
 
 ```{webr}
 #| exercise: ex4
@@ -242,7 +258,11 @@ if (!is.data.frame(.result)) {
 
 ### Exercise 5: mutate()
 
-Add a new column `age_months` that is age in **months**.
+Add a new column that is age in **months**.
+
+::: {.use-box}
+**Use:** new column `age_months` · existing column `age` · multiply by `12`
+:::
 
 ```{webr}
 #| exercise: ex5
@@ -281,7 +301,11 @@ if (!is.data.frame(.result)) {
 
 ### Exercise 6: count()
 
-How many tests came from each `clinic_name`? Show the **largest first**.
+How many tests came from each clinic? Show the **largest first**.
+
+::: {.use-box}
+**Use:** column `clinic_name` · argument `sort = TRUE`
+:::
 
 ```{webr}
 #| exercise: ex6
@@ -317,8 +341,12 @@ if (!is.data.frame(.result)) {
 
 ### Exercise 7: group_by() + summarize()
 
-Were drive-through tests more likely to be positive? For each value of `drive_thru_ind`, compute
-the number of tests (`n`) and the percent positive (`pct_positive`).
+Were drive-through tests more likely to be positive? Compute the number of tests and the percent
+positive for drive-through vs. other tests.
+
+::: {.use-box}
+**Use:** group by column `drive_thru_ind` (`1` = drive-through, `0` = not) · summary columns `n` and `pct_positive`
+:::
 
 ```{webr}
 #| exercise: ex7
@@ -366,7 +394,11 @@ if (!is.data.frame(.result)) {
 
 ### Exercise 8: your turn, from scratch
 
-Find the **median age** for each `demo_group`. Call the summary column `median_age`.
+Find the **median age** for each demographic group.
+
+::: {.use-box}
+**Use:** group by column `demo_group` · column `age` · function `median()` · summary column `median_age`
+:::
 
 ```{webr}
 #| exercise: ex8
@@ -406,7 +438,16 @@ if (!is.data.frame(.result)) {
 ### Exercise 9
 
 Among **patients** only, and **excluding invalid** tests, what percent of tests were positive for each
-gender? Round `pct_positive` to 1 decimal place.
+gender? Round to 1 decimal place.
+
+::: {.use-box}
+**Use:**
+
+- keep: column `demo_group` · value `"patient"`
+- drop: column `result` · value `"invalid"` · operator `!=`
+- group by: column `gender`
+- summary columns: `n` and `pct_positive` · positive value `"positive"` · `round(..., 1)`
+:::
 
 ```{webr}
 #| exercise: ex9
