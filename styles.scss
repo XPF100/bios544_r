@@ -1,0 +1,20 @@
+/*-- scss:defaults --*/
+$primary: #012169;   // Emory blue
+$link-color: #0033a0;
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+.unit-badge { display:inline-block; padding:.15rem .55rem; border-radius:999px;
+  font-size:.8rem; font-weight:600; color:#fff; }
+.material-links a { margin-right: 1rem; font-weight: 600; }
+.stub { border-left: 4px solid #f2a900; background: #fff8e6; padding: .6rem 1rem; }
+.cheat-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; margin: 1rem 0 2rem; }
+.cheat-card { border: 1px solid #dee2e6; border-top: 4px solid $primary; border-radius: 6px; padding: .75rem 1rem; background: #fff; }
+.cheat-card h3 { margin-top: 0; font-size: 1.1rem; color: $primary; }
+.cheat-card pre { font-size: .8rem; }
+.cheat-card table { font-size: .85rem; }
+@media print {
+  .cheat-grid { grid-template-columns: 1fr 1fr; gap: .5rem; }
+  .cheat-card { break-inside: avoid; }
+  #try-it, #try-it ~ *, .callout-tip, .callout-danger, nav, #quarto-sidebar, #quarto-margin-sidebar, footer { display: none !important; }
+}

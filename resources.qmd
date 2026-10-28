@@ -1,0 +1,28 @@
+---
+title: "Resources"
+---
+
+## Textbook
+- [R for Data Science (2e)](https://r4ds.hadley.nz) (required)
+
+## Public health R references
+- [The Epidemiologist R Handbook](https://epirhandbook.com/en/index.html)
+- [R Cookbook](https://rc2e.com/)
+- [R Graphics Cookbook](https://r-graphics.org/)
+
+## Course datasets (R packages)
+- `NHANES`: US National Health and Nutrition Examination Survey
+- `medicaldata`: teaching datasets from published medical studies
+- `mosaicData`: includes the Whickham smoking study
+- `tidyr::who2`, `tidyr::population`: WHO tuberculosis surveillance
+
+```r
+install.packages(c("tidyverse", "NHANES", "medicaldata", "mosaicData",
+                   "janitor", "readxl", "broom", "gtsummary", "rsample"))
+```
+
+## Acknowledgement and license
+Much of this course is adapted from [Data Science in a Box](https://datasciencebox.org)
+by Mine Çetinkaya-Rundel and contributors, licensed under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Adapted materials on this site are shared under the same license.

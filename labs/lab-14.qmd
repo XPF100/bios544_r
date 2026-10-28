@@ -1,0 +1,22 @@
+---
+title: "Lab 14: Reproducible reporting & final projects"
+---
+
+**Data:** Each team's project data
+
+## Learning goals
+- Produce a polished, fully reproducible Quarto report
+- Make a Table 1 with gtsummary
+- Organize a project so someone else can rerun it
+
+## Getting started
+
+::: stub
+Setup instructions and starter repo link to come.
+:::
+
+## Exercises
+
+::: stub
+Guided exercises to come.
+:::

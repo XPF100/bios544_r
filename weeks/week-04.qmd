@@ -1,0 +1,35 @@
+---
+title: "Week 4: Data visualization II: numeric & categorical data"
+---
+
+```{=html}
+<span class="unit-badge" style="background:#0d6efd">Exploring data</span>
+<p class="material-links" style="margin-top:1rem">
+<a href="../slides/week-04.html">Slides</a>
+<a href="../labs/lab-04.html">Lab</a>
+<a href="../cheatsheets/cheatsheet-04.html">Cheat sheet</a>
+<a href="../homework/hw-03.html">Assignment (HW 03)</a>
+</p>
+```
+
+## Topics
+- Histograms, density plots, boxplots, scatterplots
+- Bar charts and segmented bars
+- Principles of effective visualization
+- Ethics: misrepresentation with graphs
+
+## Learning objectives
+By the end of this week you should be able to:
+
+- Choose an appropriate plot for one or two variables
+- Improve a plot's readability (scales, themes, labels)
+- Recognize misleading axes and cherry-picked comparisons
+
+## Data
+NHANES; CDC COVID-era public charts (critique examples)
+
+## Adapted from Data Science in a Box
+- [`u2-d03-viz-num`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d03-viz-num)
+- [`u2-d04-viz-cat`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d04-viz-cat)
+- [`u2-d14-effective-dataviz`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d14-effective-dataviz)
+- [`u3-d01-misrepresentation`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u3-d01-misrepresentation)

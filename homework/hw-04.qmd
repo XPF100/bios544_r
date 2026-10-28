@@ -1,0 +1,81 @@
+---
+title: "HW 04: Data wrangling with dplyr"
+subtitle: "Week 5 · due Wednesday 11:59 pm · 20 points"
+---
+
+## Before you start
+
+This assignment is done in **RStudio**, not in the browser.
+
+1. Download the starter file: [**hw-04-starter.qmd**](starters/hw-04-starter.qmd){download="hw-04-starter.qmd"}
+2. Save it in your BIOS 544 RStudio Project and open it.
+3. Put your name in the `author:` field.
+4. If you haven't installed the data package yet, run this **once in the Console** (not in your .qmd):
+   ```r
+   install.packages("medicaldata")
+   ```
+
+**Submit on Canvas:** the rendered **.html** file *and* your **.qmd** file.
+If the file won't render, submit the .qmd and note where it breaks.
+
+## Data
+
+`covid_testing` from the `medicaldata` package: 15,524 COVID-19 tests from the first 107 days of the
+pandemic at the Children's Hospital of Philadelphia. It's the same data as the lab.
+Run `?covid_testing` in the Console for the codebook.
+
+## Questions
+
+Write your code in the chunks provided. Answer the written parts in **complete sentences**
+below each chunk, outside the code.
+
+**1. Getting oriented (2 pts).** Load the packages and use `glimpse()` on `covid_testing`. How many rows and
+columns are there? What does one row represent?
+
+**2. Tests vs. people (2 pts).** Use `n_distinct()` to count the number of unique people (`subject_id`).
+Why is this number smaller than the number of rows?
+
+**3. Filtering (3 pts).**
+
+a. How many tests had an `"invalid"` result?
+
+b. How many tests were collected in the NICU or PICU (`clinic_name` is `"nicu"` or `"picu"`)? Use `%in%`.
+
+**4. A data quality check (3 pts).** Use `arrange()` to look at the oldest ages in the data.
+
+a. How many tests have an age **over 100**?
+
+b. Create a new data frame `covid_clean` that removes those rows. Use `covid_clean` for the rest of the assignment.
+
+c. In one or two sentences, explain why you think those values are in the data, and whether removing them is the right call.
+
+**5. Creating variables (3 pts).** Using `covid_clean`, add two columns with `mutate()`:
+
+- `age_group`: `"child"` if age is under 18, otherwise `"adult"` (use `if_else()`)
+- `positive`: `TRUE` if the result is `"positive"`, otherwise `FALSE`
+
+Save the result back to `covid_clean`, then use `count()` to show how many tests are in each `age_group`.
+
+**6. Grouped summaries (4 pts).** Excluding invalid tests, compute the number of tests and the percent positive:
+
+a. for each `age_group`
+
+b. for each `demo_group`, sorted from highest to lowest percent positive
+
+c. Write two sentences describing what you found.
+
+**7. Early vs. later in the pandemic (2 pts).** `pan_day` is the day of the pandemic the sample was collected.
+Create a variable `period` that is `"early"` for days 1–50 and `"later"` for days 51 and up.
+Compare the percent positive between the two periods (excluding invalid tests).
+
+**8. Reflection (1 pt).** Name one question about COVID-19 in Philadelphia that this data **cannot**
+answer, and explain why. (Hint: who gets tested at a children's hospital?)
+
+## Grading
+
+| | Points |
+|---|---:|
+| Code runs and the document renders | built into each question |
+| Correct code and output | 14 |
+| Written answers in complete sentences | 6 |
+| **Total** | **20** |

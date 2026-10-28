@@ -1,0 +1,33 @@
+---
+title: "Week 2: Reproducible research: Quarto, Git & GitHub"
+---
+
+```{=html}
+<span class="unit-badge" style="background:#6f42c1">Reproducible research</span>
+<p class="material-links" style="margin-top:1rem">
+<a href="../slides/week-02.html">Slides</a>
+<a href="../labs/lab-02.html">Lab</a>
+<a href="../cheatsheets/cheatsheet-02.html">Cheat sheet</a>
+<a href="../homework/hw-01.html">Assignment (HW 01)</a>
+</p>
+```
+
+## Topics
+- Why reproducibility matters in public health research
+- Quarto documents: YAML, text, code chunks, rendering
+- Version control with Git; GitHub repositories
+- Commit, push, pull from RStudio
+
+## Learning objectives
+By the end of this week you should be able to:
+
+- Render a Quarto document to HTML
+- Control chunk output with execution options
+- Clone a GitHub repo, commit changes, and push them back
+
+## Data
+`medicaldata::covid_testing`
+
+## Adapted from Data Science in a Box
+- [`u1-d03-toolkit-git`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u1-d03-toolkit-git)
+- [`ae-02-bechdel-rmarkdown`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/application-exercises/ae-02-bechdel-rmarkdown)

@@ -1,0 +1,25 @@
+---
+title: "Schedule"
+page-layout: full
+tbl-colwidths: [6, 34, 14, 22, 10, 14]
+---
+
+Assignments are released with each weekly module and are due the following
+**Wednesday at 11:59 pm**.
+
+| Week | Topic | Unit | Data | Assignment | Project |
+|---:|---|---|---|---|---|
+| 1 | [Welcome & the R toolkit](weeks/week-01.qmd) | Hello world | NHANES (`NHANES` package) | — |  |
+| 2 | [Reproducible research: Quarto, Git & GitHub](weeks/week-02.qmd) | Reproducible research | `medicaldata::covid_testing` | [HW 01](homework/hw-01.qmd) |  |
+| 3 | [Data visualization I: the grammar of graphics](weeks/week-03.qmd) | Exploring data | NHANES: BMI, blood pressure, age, sex | [HW 02](homework/hw-02.qmd) |  |
+| 4 | [Data visualization II: numeric & categorical data](weeks/week-04.qmd) | Exploring data | NHANES; CDC COVID-era public charts (critique examples) | [HW 03](homework/hw-03.qmd) |  |
+| 5 | [Data wrangling I: tidy data & dplyr](weeks/week-05.qmd) | Exploring data | `medicaldata::covid_testing` | [HW 04](homework/hw-04.qmd) | Project teams formed |
+| 6 | [Data wrangling II: joins & reshaping](weeks/week-06.qmd) | Exploring data | WHO tuberculosis data (`tidyr::who2`, `tidyr::population`) | [HW 05](homework/hw-05.qmd) |  |
+| 7 | [Data types, import & recoding](weeks/week-07.qmd) | Exploring data | A messy surveillance line list (CSV/Excel, built for the course); `medicaldata::strep_tb` | [HW 06](homework/hw-06.qmd) |  |
+| 8 | [Functions & iteration](weeks/week-08.qmd) | Exploring data | NHANES; a folder of county-level files (built for the course) | [HW 07](homework/hw-07.qmd) | Project proposal due |
+| 9 | [Study design, confounding & Simpson's paradox](weeks/week-09.qmd) | Making rigorous conclusions | Whickham smoking & mortality (`mosaicData::Whickham`) | [HW 08](homework/hw-08.qmd) |  |
+| 10 | [Comparing groups: correlation, t-tests & chi-square](weeks/week-10.qmd) | Making rigorous conclusions | NHANES: blood pressure by sex, smoking x diabetes, BMI vs. BP | [HW 09](homework/hw-09.qmd) | Project data analysis checkpoint |
+| 11 | [Linear regression I](weeks/week-11.qmd) | Making rigorous conclusions | NHANES: systolic BP ~ age | [HW 10](homework/hw-10.qmd) |  |
+| 12 | [Linear regression II: multiple predictors & model building](weeks/week-12.qmd) | Making rigorous conclusions | NHANES: systolic BP ~ age + BMI + sex + smoking | [HW 11](homework/hw-11.qmd) |  |
+| 13 | [Logistic regression & model validation](weeks/week-13.qmd) | Making rigorous conclusions | NHANES: diabetes ~ age + BMI + physical activity | [HW 12](homework/hw-12.qmd) |  |
+| 14 | [Reproducible reporting & final projects](weeks/week-14.qmd) | Reproducible research | Each team's project data | [HW 13](homework/hw-13.qmd) | Final presentations; written report due finals week |

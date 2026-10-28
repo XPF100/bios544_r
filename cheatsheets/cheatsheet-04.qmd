@@ -1,0 +1,40 @@
+---
+title: "Cheat sheet 04: Data visualization II: numeric & categorical data"
+toc: false
+---
+
+## Which plot for which variables?
+
+::: stub
+To come.
+:::
+
+## Geoms for numeric data
+
+::: stub
+To come.
+:::
+
+## Geoms for categorical data
+
+::: stub
+To come.
+:::
+
+## position = 'fill' / 'dodge'
+
+::: stub
+To come.
+:::
+
+## Themes and scales
+
+::: stub
+To come.
+:::
+
+## Red flags of misleading graphs
+
+::: stub
+To come.
+:::

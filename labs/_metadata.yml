@@ -1,0 +1,7 @@
+# Pages here use Quarto Live (format: live-html); give them the site look
+format:
+  live-html:
+    theme: [cosmo, ../styles.scss]
+    toc: true
+    code-copy: true
+    code-overflow: wrap

@@ -1,0 +1,23 @@
+---
+title: "Lab 07: Data types, import & recoding"
+---
+
+**Data:** A messy surveillance line list (CSV/Excel, built for the course); `medicaldata::strep_tb`
+
+## Learning goals
+- Diagnose and fix variable type problems
+- Import CSV and Excel files with readr / readxl
+- Recode and reorder factor levels
+- Explain why de-identified data can still put people at risk
+
+## Getting started
+
+::: stub
+Setup instructions and starter repo link to come.
+:::
+
+## Exercises
+
+::: stub
+Guided exercises to come.
+:::

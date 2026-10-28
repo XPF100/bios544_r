@@ -1,0 +1,39 @@
+---
+title: "Week 5: Data wrangling I: tidy data & dplyr"
+---
+
+```{=html}
+<span class="unit-badge" style="background:#0d6efd">Exploring data</span>
+<p class="material-links" style="margin-top:1rem">
+<a href="../slides/week-05.html">Slides</a>
+<a href="../labs/lab-05.html">Lab</a>
+<a href="../cheatsheets/cheatsheet-05.html">Cheat sheet</a>
+<a href="../homework/hw-04.html">Assignment (HW 04)</a>
+</p>
+```
+
+## Topics
+- What makes data tidy
+- The pipe
+- filter(), select(), arrange(), mutate()
+- group_by() + summarize(), count()
+
+## Learning objectives
+By the end of this week you should be able to:
+
+- Identify tidy vs. untidy data
+- Chain dplyr verbs with the pipe
+- Compute grouped summary statistics
+
+## Data
+`medicaldata::covid_testing`
+
+## Project
+
+**Project teams formed**
+
+## Adapted from Data Science in a Box
+- [`u2-d05-tidy-data`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d05-tidy-data)
+- [`u2-d06-grammar-wrangle`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d06-grammar-wrangle)
+- [`u2-d07-single-df`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d07-single-df)
+- [`ae-04-hotels-datawrangling`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/application-exercises/ae-04-hotels-datawrangling)

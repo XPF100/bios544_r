@@ -1,0 +1,17 @@
+---
+title: "HW 03: Data visualization II: numeric & categorical data"
+subtitle: "Week 4 · due Wednesday 11:59 pm"
+---
+
+**Data:** NHANES; CDC COVID-era public charts (critique examples)
+
+## What this assignment practices
+- Choose an appropriate plot for one or two variables
+- Improve a plot's readability (scales, themes, labels)
+- Recognize misleading axes and cherry-picked comparisons
+
+## Instructions
+
+::: stub
+Questions to come. Submit the rendered HTML and the .qmd on Canvas.
+:::

@@ -1,0 +1,40 @@
+---
+title: "Week 7: Data types, import & recoding"
+---
+
+```{=html}
+<span class="unit-badge" style="background:#0d6efd">Exploring data</span>
+<p class="material-links" style="margin-top:1rem">
+<a href="../slides/week-07.html">Slides</a>
+<a href="../labs/lab-07.html">Lab</a>
+<a href="../cheatsheets/cheatsheet-07.html">Cheat sheet</a>
+<a href="../homework/hw-06.html">Assignment (HW 06)</a>
+</p>
+```
+
+## Topics
+- Data types and classes: numeric, character, logical, factor, Date
+- Importing CSV and Excel files
+- Cleaning messy column names and values
+- Recoding with case_when() and forcats
+- Ethics: privacy and de-identification of health data
+
+## Learning objectives
+By the end of this week you should be able to:
+
+- Diagnose and fix variable type problems
+- Import CSV and Excel files with readr / readxl
+- Recode and reorder factor levels
+- Explain why de-identified data can still put people at risk
+
+## Data
+A messy surveillance line list (CSV/Excel, built for the course); `medicaldata::strep_tb`
+
+## Adapted from Data Science in a Box
+- [`u2-d10-data-types`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d10-data-types)
+- [`u2-d11-data-classes`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d11-data-classes)
+- [`u2-d12-data-import`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d12-data-import)
+- [`u2-d13-data-recode`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d13-data-recode)
+- [`u3-d02-privacy`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u3-d02-privacy)
+- [`ae-05-hotels-datatypes`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/application-exercises/ae-05-hotels-datatypes)
+- [`ae-06-nobels-sales-dataimport`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/application-exercises/ae-06-nobels-sales-dataimport)

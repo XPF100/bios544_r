@@ -1,0 +1,44 @@
+---
+title: "Data visualization I: the grammar of graphics"
+subtitle: "BIOS 544 · Week 3"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Week 3"
+---
+
+## This week
+
+- Build a ggplot layer by layer
+- Map variables to color, shape, and size
+- Use facets to compare subgroups
+
+# Why visualize?
+
+::: stub
+Slides to come.
+:::
+
+# Aesthetics, geoms, and layers in ggplot2
+
+::: stub
+Slides to come.
+:::
+
+# Mapping vs. setting
+
+::: stub
+Slides to come.
+:::
+
+# Faceting
+
+::: stub
+Slides to come.
+:::
+
+## Before next class
+
+- Review the [cheat sheet](../cheatsheets/cheatsheet-03.html)
+- Start [HW 02](../homework/hw-02.html)

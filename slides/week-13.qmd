@@ -1,0 +1,50 @@
+---
+title: "Logistic regression & model validation"
+subtitle: "BIOS 544 · Week 13"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Week 13"
+---
+
+## This week
+
+- Fit a logistic regression and report odds ratios with CIs
+- Evaluate predictions on held-out data
+- Describe how a prediction model can treat groups unfairly
+
+# Binary outcomes and log odds
+
+::: stub
+Slides to come.
+:::
+
+# Fitting glm(family = binomial)
+
+::: stub
+Slides to come.
+:::
+
+# Odds ratios
+
+::: stub
+Slides to come.
+:::
+
+# Train/test splits and cross-validation
+
+::: stub
+Slides to come.
+:::
+
+# Ethics: algorithmic bias in health prediction
+
+::: stub
+Slides to come.
+:::
+
+## Before next class
+
+- Review the [cheat sheet](../cheatsheets/cheatsheet-13.html)
+- Start [HW 12](../homework/hw-12.html)

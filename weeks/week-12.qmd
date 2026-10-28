@@ -1,0 +1,33 @@
+---
+title: "Week 12: Linear regression II: multiple predictors & model building"
+---
+
+```{=html}
+<span class="unit-badge" style="background:#198754">Making rigorous conclusions</span>
+<p class="material-links" style="margin-top:1rem">
+<a href="../slides/week-12.html">Slides</a>
+<a href="../labs/lab-12.html">Lab</a>
+<a href="../cheatsheets/cheatsheet-12.html">Cheat sheet</a>
+<a href="../homework/hw-11.html">Assignment (HW 11)</a>
+</p>
+```
+
+## Topics
+- Adding predictors and adjusting for confounders
+- Categorical predictors and interaction terms
+- Comparing models (adjusted R-squared, AIC)
+- Checking model assumptions
+
+## Learning objectives
+By the end of this week you should be able to:
+
+- Fit and interpret a multiple regression
+- Interpret a categorical predictor and an interaction
+- Compare candidate models and justify a choice
+
+## Data
+NHANES: systolic BP ~ age + BMI + sex + smoking
+
+## Adapted from Data Science in a Box
+- [`u4-d04-model-multiple-predictors`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u4-d04-model-multiple-predictors)
+- [`u4-d05-more-model-multiple-predictors`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u4-d05-more-model-multiple-predictors)

@@ -1,0 +1,34 @@
+---
+title: "Week 3: Data visualization I: the grammar of graphics"
+---
+
+```{=html}
+<span class="unit-badge" style="background:#0d6efd">Exploring data</span>
+<p class="material-links" style="margin-top:1rem">
+<a href="../slides/week-03.html">Slides</a>
+<a href="../labs/lab-03.html">Lab</a>
+<a href="../cheatsheets/cheatsheet-03.html">Cheat sheet</a>
+<a href="../homework/hw-02.html">Assignment (HW 02)</a>
+</p>
+```
+
+## Topics
+- Why visualize?
+- Aesthetics, geoms, and layers in ggplot2
+- Mapping vs. setting
+- Faceting
+
+## Learning objectives
+By the end of this week you should be able to:
+
+- Build a ggplot layer by layer
+- Map variables to color, shape, and size
+- Use facets to compare subgroups
+
+## Data
+NHANES: BMI, blood pressure, age, sex
+
+## Adapted from Data Science in a Box
+- [`u2-d01-data-viz`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d01-data-viz)
+- [`u2-d02-ggplot2`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d02-ggplot2)
+- [`ae-03-starwars-dataviz`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/application-exercises/ae-03-starwars-dataviz)

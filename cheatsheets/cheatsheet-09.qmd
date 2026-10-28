@@ -1,0 +1,28 @@
+---
+title: "Cheat sheet 09: Study design, confounding & Simpson's paradox"
+toc: false
+---
+
+## Study design vocabulary
+
+::: stub
+To come.
+:::
+
+## Spotting confounders
+
+::: stub
+To come.
+:::
+
+## Stratifying with group_by()
+
+::: stub
+To come.
+:::
+
+## Simpson's paradox in 3 steps
+
+::: stub
+To come.
+:::

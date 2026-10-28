@@ -1,0 +1,472 @@
+---
+title: "Lab 05: Data wrangling with dplyr"
+subtitle: "Week 5 · COVID-19 testing at a children's hospital"
+format: live-html
+engine: knitr
+toc: true
+webr:
+  packages:
+    - dplyr
+  resources:
+    - ../data/covid_testing.csv
+live:
+  show-hints: true
+  show-solutions: true
+---
+
+{{< include ../_extensions/r-wasm/live/_knitr.qmd >}}
+
+```{webr}
+#| include: false
+#| autorun: true
+library(dplyr)
+covid <- read.csv("../data/covid_testing.csv") |> as_tibble()
+
+# grading helpers
+pass <- function(msg = "Nice work!") list(correct = TRUE, message = msg)
+fail <- function(msg) list(correct = FALSE, message = msg)
+same_df <- function(a, b) {
+  is.data.frame(a) && nrow(a) == nrow(b) && ncol(a) == ncol(b) &&
+    isTRUE(all.equal(as.data.frame(a), as.data.frame(b), check.attributes = FALSE))
+}
+not_df <- fail("Your code should return a data frame. Start with `covid |>` and don't save the result with `<-`.")
+```
+
+::: {.callout-note}
+## How this lab works
+Everything runs **in your browser**, so there's nothing to install. Fill in each `______` and click **Run Code**.
+The box tells you if you got it right. Stuck? Click **Show Hint**; still stuck, **Show Solution**.
+
+The first time you click Run, R takes a few seconds to load.
+:::
+
+## The data
+
+`covid` holds **15,524 COVID-19 tests** from the first 107 days of the pandemic at the Children's Hospital of
+Philadelphia (from the `medicaldata` package). Names in the data are fake. Some of the columns:
+
+| Column | Meaning |
+|---|---|
+| `subject_id` | Person tested |
+| `gender` | Gender |
+| `age` | Age in years |
+| `pan_day` | Day of the pandemic the test was collected (day 1 = start of data) |
+| `clinic_name` | Where the sample was collected |
+| `result` | `"positive"`, `"negative"`, or `"invalid"` |
+| `demo_group` | `"patient"`, `"client"`, `"misc adult"`, `"other adult"`, `"unidentified"` |
+| `drive_thru_ind` | 1 = collected at a drive-through site, 0 = not |
+| `ct_result` | PCR cycle threshold (45 = virus not detected) |
+
+Run this block to take a look:
+
+```{webr}
+glimpse(covid)
+```
+
+## Part 1: Is it tidy?
+
+Remember the three rules of tidy data: each **variable** is a column, each **observation** is a row,
+and each **value** is a cell.
+
+::: {.callout-tip collapse="true"}
+## Question: What is one row of `covid`? Think, then click to check.
+One row is **one test**. Some people were tested more than once, so one row is *not* one person.
+That matters when you count: `nrow(covid)` counts tests, not people.
+:::
+
+::: {.callout-tip collapse="true"}
+## Question: Imagine a table with one row per clinic and a separate column for each pandemic day's test count. Is that tidy?
+No. "Day" is a variable, but in that table its values are spread across column names.
+You'll learn to fix that shape with `pivot_longer()` next week.
+:::
+
+## Part 2: Working with rows
+
+### Exercise 1: filter()
+
+Keep only the **positive** tests.
+
+```{webr}
+#| exercise: ex1
+covid |>
+  filter(result == ______)
+```
+
+::: {.hint exercise="ex1"}
+`result` is a character column, so the value goes in quotes: `"positive"`.
+:::
+
+::: {.solution exercise="ex1"}
+```r
+covid |>
+  filter(result == "positive")
+```
+There are 865 positive tests.
+:::
+
+```{webr}
+#| exercise: ex1
+#| check: true
+if (!is.data.frame(.result)) {
+  not_df
+} else if (same_df(.result, filter(covid, result == "positive"))) {
+  pass("Correct! 865 of the 15,524 tests were positive.")
+} else if (nrow(.result) == 0) {
+  fail("You got zero rows. Check spelling and capitalization: the value is \"positive\", all lowercase.")
+} else {
+  fail("Not quite. You should end up with only rows where `result` is \"positive\".")
+}
+```
+
+### Exercise 2: filter() with two conditions
+
+Keep positive tests from people who are **18 or older**.
+
+```{webr}
+#| exercise: ex2
+covid |>
+  filter(result == "positive", ______)
+```
+
+::: {.hint exercise="ex2"}
+Separating conditions with a comma inside `filter()` means *both* must be true.
+Use `>=` for "greater than or equal to."
+:::
+
+::: {.solution exercise="ex2"}
+```r
+covid |>
+  filter(result == "positive", age >= 18)
+```
+:::
+
+```{webr}
+#| exercise: ex2
+#| check: true
+target <- filter(covid, result == "positive", age >= 18)
+if (!is.data.frame(.result)) {
+  not_df
+} else if (same_df(.result, target)) {
+  pass("Correct! 342 positive tests came from adults.")
+} else if (nrow(.result) == nrow(filter(covid, result == "positive", age > 18))) {
+  fail("Close. Did you use `>` instead of `>=`? 18-year-olds count.")
+} else {
+  fail("Not quite. Keep rows that are positive AND have age of at least 18.")
+}
+```
+
+### Exercise 3: arrange()
+
+Sort the tests from **oldest to youngest** person. Look at the top of the result.
+
+```{webr}
+#| exercise: ex3
+covid |>
+  select(subject_id, age, demo_group) |>
+  arrange(______)
+```
+
+::: {.hint exercise="ex3"}
+`arrange()` sorts smallest-to-largest by default. Wrap the column in `desc()` to reverse it.
+:::
+
+::: {.solution exercise="ex3"}
+```r
+covid |>
+  select(subject_id, age, demo_group) |>
+  arrange(desc(age))
+```
+:::
+
+```{webr}
+#| exercise: ex3
+#| check: true
+if (!is.data.frame(.result)) {
+  not_df
+} else if (nrow(.result) == nrow(covid) && isTRUE(.result$age[1] == max(covid$age)) &&
+           !is.unsorted(rev(.result$age))) {
+  pass("Sorted! Now look at the top rows. Do those ages look believable?")
+} else if (isTRUE(.result$age[1] == min(covid$age))) {
+  fail("That's youngest to oldest. Use `desc(age)` to flip the order.")
+} else {
+  fail("Not quite. Sort by `age`, largest first.")
+}
+```
+
+::: {.callout-important collapse="true"}
+## Think about it: what's wrong with the top rows?
+The oldest "person" is 138, and several are 119. Those ages are almost certainly **data entry errors**
+or placeholder values. Real data always needs a sanity check before analysis. Sorting is one of the
+quickest ways to find problems.
+:::
+
+## Part 3: Working with columns
+
+### Exercise 4: select()
+
+Keep only the columns `subject_id`, `age`, `clinic_name`, and `result`, in that order.
+
+```{webr}
+#| exercise: ex4
+covid |>
+  select(______)
+```
+
+::: {.hint exercise="ex4"}
+List the column names inside `select()`, separated by commas. No quotes needed.
+:::
+
+::: {.solution exercise="ex4"}
+```r
+covid |>
+  select(subject_id, age, clinic_name, result)
+```
+:::
+
+```{webr}
+#| exercise: ex4
+#| check: true
+want <- c("subject_id", "age", "clinic_name", "result")
+if (!is.data.frame(.result)) {
+  not_df
+} else if (identical(names(.result), want)) {
+  pass()
+} else if (setequal(names(.result), want)) {
+  fail("Right columns, wrong order. List them in the order asked.")
+} else {
+  fail(paste0("Your columns are: ", paste(names(.result), collapse = ", "),
+              ". You need: ", paste(want, collapse = ", "), "."))
+}
+```
+
+### Exercise 5: mutate()
+
+Add a new column `age_months` that is age in **months**.
+
+```{webr}
+#| exercise: ex5
+covid |>
+  mutate(age_months = ______) |>
+  select(subject_id, age, age_months)
+```
+
+::: {.hint exercise="ex5"}
+There are 12 months in a year. Columns can be used in arithmetic: `age * 2`.
+:::
+
+::: {.solution exercise="ex5"}
+```r
+covid |>
+  mutate(age_months = age * 12) |>
+  select(subject_id, age, age_months)
+```
+:::
+
+```{webr}
+#| exercise: ex5
+#| check: true
+if (!is.data.frame(.result)) {
+  not_df
+} else if (!"age_months" %in% names(.result)) {
+  fail("I can't find a column called `age_months`. Check the spelling on the left of `=`.")
+} else if (isTRUE(all.equal(.result$age_months, covid$age * 12))) {
+  pass()
+} else {
+  fail("`age_months` has the wrong values. Multiply `age` by 12.")
+}
+```
+
+## Part 4: Summarizing
+
+### Exercise 6: count()
+
+How many tests came from each `clinic_name`? Show the **largest first**.
+
+```{webr}
+#| exercise: ex6
+covid |>
+  count(clinic_name, ______)
+```
+
+::: {.hint exercise="ex6"}
+`count()` has an argument `sort`. Set it to `TRUE`.
+:::
+
+::: {.solution exercise="ex6"}
+```r
+covid |>
+  count(clinic_name, sort = TRUE)
+```
+:::
+
+```{webr}
+#| exercise: ex6
+#| check: true
+target <- count(covid, clinic_name, sort = TRUE)
+if (!is.data.frame(.result)) {
+  not_df
+} else if (same_df(.result, target)) {
+  pass("Correct! The clinical lab collected the most tests (7,500).")
+} else if (same_df(arrange(.result, clinic_name), arrange(target, clinic_name))) {
+  fail("Right counts, but sort them so the biggest is at the top.")
+} else {
+  fail("Not quite. Count by `clinic_name` and sort.")
+}
+```
+
+### Exercise 7: group_by() + summarize()
+
+Were drive-through tests more likely to be positive? For each value of `drive_thru_ind`, compute
+the number of tests (`n`) and the percent positive (`pct_positive`).
+
+```{webr}
+#| exercise: ex7
+covid |>
+  group_by(______) |>
+  summarize(
+    n = n(),
+    pct_positive = mean(result == "positive") * 100
+  )
+```
+
+::: {.hint exercise="ex7"}
+Group by the column that marks drive-through tests.
+
+Why does `mean(result == "positive")` work? `result == "positive"` gives `TRUE`/`FALSE`, which R treats as 1/0.
+The mean of 1s and 0s is a proportion.
+:::
+
+::: {.solution exercise="ex7"}
+```r
+covid |>
+  group_by(drive_thru_ind) |>
+  summarize(
+    n = n(),
+    pct_positive = mean(result == "positive") * 100
+  )
+```
+:::
+
+```{webr}
+#| exercise: ex7
+#| check: true
+target <- covid |> group_by(drive_thru_ind) |>
+  summarize(n = n(), pct_positive = mean(result == "positive") * 100)
+if (!is.data.frame(.result)) {
+  not_df
+} else if (same_df(.result, target)) {
+  pass("Correct! About 6.0% positive at the drive-through vs. 5.1% elsewhere.")
+} else if (nrow(.result) == 1) {
+  fail("Only one row came back, so nothing was grouped. Fill in `group_by()`.")
+} else {
+  fail("Not quite. Group by `drive_thru_ind`.")
+}
+```
+
+### Exercise 8: your turn, from scratch
+
+Find the **median age** for each `demo_group`. Call the summary column `median_age`.
+
+```{webr}
+#| exercise: ex8
+covid |>
+  ______
+```
+
+::: {.hint exercise="ex8"}
+Same pattern as Exercise 7: `group_by()` then `summarize()`. Use `median(age)`.
+:::
+
+::: {.solution exercise="ex8"}
+```r
+covid |>
+  group_by(demo_group) |>
+  summarize(median_age = median(age))
+```
+:::
+
+```{webr}
+#| exercise: ex8
+#| check: true
+target <- covid |> group_by(demo_group) |> summarize(median_age = median(age))
+if (!is.data.frame(.result)) {
+  not_df
+} else if (same_df(.result, target)) {
+  pass("Correct! Patients have a median age of 5. This is a children's hospital.")
+} else if (!"median_age" %in% names(.result)) {
+  fail("Name your summary column `median_age`.")
+} else {
+  fail("Not quite. Group by `demo_group`, then summarize `median(age)`.")
+}
+```
+
+## Part 5: Put it all together
+
+### Exercise 9
+
+Among **patients** only, and **excluding invalid** tests, what percent of tests were positive for each
+gender? Round `pct_positive` to 1 decimal place.
+
+```{webr}
+#| exercise: ex9
+covid |>
+  filter(______, ______) |>
+  group_by(______) |>
+  summarize(
+    n = n(),
+    pct_positive = round(______, 1)
+  )
+```
+
+::: {.hint exercise="ex9"}
+Two conditions in `filter()`: `demo_group == "patient"` and `result != "invalid"`
+(`!=` means "not equal to").
+:::
+
+::: {.hint exercise="ex9"}
+For the percent, reuse `mean(result == "positive") * 100` from Exercise 7.
+:::
+
+::: {.solution exercise="ex9"}
+```r
+covid |>
+  filter(demo_group == "patient", result != "invalid") |>
+  group_by(gender) |>
+  summarize(
+    n = n(),
+    pct_positive = round(mean(result == "positive") * 100, 1)
+  )
+```
+:::
+
+```{webr}
+#| exercise: ex9
+#| check: true
+target <- covid |>
+  filter(demo_group == "patient", result != "invalid") |>
+  group_by(gender) |>
+  summarize(n = n(), pct_positive = round(mean(result == "positive") * 100, 1))
+if (!is.data.frame(.result)) {
+  not_df
+} else if (same_df(.result, target)) {
+  pass("Excellent! 4.9% of tests for female patients and 4.2% for male patients were positive.")
+} else if (nrow(.result) == 2 && isTRUE(sum(.result$n) != sum(target$n))) {
+  fail("You have the right groups but the wrong number of tests. Check both `filter()` conditions.")
+} else {
+  fail("Not quite. Filter, then group by `gender`, then summarize.")
+}
+```
+
+## Wrap-up
+
+You used the five core dplyr verbs today:
+
+| Verb | Does what to the data |
+|---|---|
+| `filter()` | keeps **rows** that meet a condition |
+| `arrange()` | **sorts** rows |
+| `select()` | keeps **columns** |
+| `mutate()` | **adds** or changes columns |
+| `group_by()` + `summarize()` | **collapses** each group to one row |
+
+Next: **HW 04** practices these verbs in RStudio. The [Week 5 cheat sheet](../cheatsheets/cheatsheet-05.qmd) has all the syntax on one page.

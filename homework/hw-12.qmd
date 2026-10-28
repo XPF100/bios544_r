@@ -1,0 +1,17 @@
+---
+title: "HW 12: Logistic regression & model validation"
+subtitle: "Week 13 · due Wednesday 11:59 pm"
+---
+
+**Data:** NHANES: diabetes ~ age + BMI + physical activity
+
+## What this assignment practices
+- Fit a logistic regression and report odds ratios with CIs
+- Evaluate predictions on held-out data
+- Describe how a prediction model can treat groups unfairly
+
+## Instructions
+
+::: stub
+Questions to come. Submit the rendered HTML and the .qmd on Canvas.
+:::

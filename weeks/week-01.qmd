@@ -1,0 +1,33 @@
+---
+title: "Week 1: Welcome & the R toolkit"
+---
+
+```{=html}
+<span class="unit-badge" style="background:#6c757d">Hello world</span>
+<p class="material-links" style="margin-top:1rem">
+<a href="../slides/week-01.html">Slides</a>
+<a href="../labs/lab-01.html">Lab</a>
+<a href="../cheatsheets/cheatsheet-01.html">Cheat sheet</a>
+
+</p>
+```
+
+## Topics
+- Course overview and what data science looks like in public health
+- R, RStudio, and projects
+- Objects, functions, packages
+- A first look at a real dataset
+
+## Learning objectives
+By the end of this week you should be able to:
+
+- Navigate RStudio and create an RStudio Project
+- Run code in the console and in a Quarto document
+- Install and load packages; use glimpse() to inspect a data frame
+
+## Data
+NHANES (`NHANES` package)
+
+## Adapted from Data Science in a Box
+- [`u1-d01-welcome`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u1-d01-welcome)
+- [`u1-d02-toolkit-r`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u1-d02-toolkit-r)

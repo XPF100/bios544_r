@@ -1,0 +1,19 @@
+---
+title: "Final group project"
+---
+
+Teams of up to 4 complete a public health data analysis from question to reproducible
+report. The project is worth 40% of the final grade.
+
+## Milestones
+
+| Week | Milestone |
+|---:|---|
+| 5 | Project teams formed |
+| 8 | Project proposal due |
+| 10 | Project data analysis checkpoint |
+| 14 | Final presentations; written report due finals week |
+
+::: stub
+Placeholder. Add the proposal guidelines, dataset suggestions, rubric, and presentation format.
+:::

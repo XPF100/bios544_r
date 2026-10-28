@@ -1,0 +1,22 @@
+---
+title: "Lab 10: Comparing groups: correlation, t-tests & chi-square"
+---
+
+**Data:** NHANES: blood pressure by sex, smoking x diabetes, BMI vs. BP
+
+## Learning goals
+- Choose a test that matches the variable types
+- Run and interpret cor.test(), t.test(), chisq.test()
+- Report results in a sentence with estimate, CI, and p-value
+
+## Getting started
+
+::: stub
+Setup instructions and starter repo link to come.
+:::
+
+## Exercises
+
+::: stub
+Guided exercises to come.
+:::

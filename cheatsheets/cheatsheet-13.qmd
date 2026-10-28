@@ -1,0 +1,40 @@
+---
+title: "Cheat sheet 13: Logistic regression & model validation"
+toc: false
+---
+
+## glm() for logistic regression
+
+::: stub
+To come.
+:::
+
+## Odds ratios: exp(coef)
+
+::: stub
+To come.
+:::
+
+## tidy(exponentiate = TRUE, conf.int = TRUE)
+
+::: stub
+To come.
+:::
+
+## Train/test split
+
+::: stub
+To come.
+:::
+
+## Cross-validation in brief
+
+::: stub
+To come.
+:::
+
+## Questions to ask about bias
+
+::: stub
+To come.
+:::

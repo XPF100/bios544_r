@@ -1,0 +1,17 @@
+---
+title: "HW 05: Data wrangling II: joins & reshaping"
+subtitle: "Week 6 · due Wednesday 11:59 pm"
+---
+
+**Data:** WHO tuberculosis data (`tidyr::who2`, `tidyr::population`)
+
+## What this assignment practices
+- Choose the right join for a question
+- Reshape between long and wide formats
+- Join case counts to population to compute incidence rates
+
+## Instructions
+
+::: stub
+Questions to come. Submit the rendered HTML and the .qmd on Canvas.
+:::

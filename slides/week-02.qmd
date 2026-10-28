@@ -1,0 +1,44 @@
+---
+title: "Reproducible research: Quarto, Git & GitHub"
+subtitle: "BIOS 544 · Week 2"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Week 2"
+---
+
+## This week
+
+- Render a Quarto document to HTML
+- Control chunk output with execution options
+- Clone a GitHub repo, commit changes, and push them back
+
+# Why reproducibility matters in public health research
+
+::: stub
+Slides to come.
+:::
+
+# Quarto documents: YAML, text, code chunks, rendering
+
+::: stub
+Slides to come.
+:::
+
+# Version control with Git; GitHub repositories
+
+::: stub
+Slides to come.
+:::
+
+# Commit, push, pull from RStudio
+
+::: stub
+Slides to come.
+:::
+
+## Before next class
+
+- Review the [cheat sheet](../cheatsheets/cheatsheet-02.html)
+- Start [HW 01](../homework/hw-01.html)

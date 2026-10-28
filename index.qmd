@@ -1,0 +1,34 @@
+---
+title: "BIOS 544: R Programming"
+subtitle: "Department of Biostatistics and Bioinformatics · Rollins School of Public Health"
+toc: false
+---
+
+Welcome! This course teaches R for public health data analysis: importing, wrangling,
+visualizing, and modeling real health data, and reporting it reproducibly with Quarto
+and GitHub.
+
+## How each week works
+
+| Material | What it's for |
+|---|---|
+| **Slides** | Concepts and live-coding examples from class |
+| **Lab** | Guided, in-class practice with a partner |
+| **Cheat sheet** | One page of the week's key functions, for reference |
+| **Assignment** | Independent practice, due Wednesday 11:59 pm (weeks 2–14) |
+
+Start with the [Schedule](schedule.qmd) to see the whole semester.
+
+## Course units
+
+```{=html}
+<p>
+<span class="unit-badge" style="background:#6c757d">Hello world</span>
+<span class="unit-badge" style="background:#6f42c1">Reproducible research</span>
+<span class="unit-badge" style="background:#0d6efd">Exploring data</span>
+<span class="unit-badge" style="background:#198754">Making rigorous conclusions</span>
+</p>
+```
+
+Ethics is woven through the semester: misleading graphs (week 4), privacy (week 7),
+and algorithmic bias (week 13).

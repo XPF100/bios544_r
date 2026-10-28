@@ -1,0 +1,46 @@
+---
+title: "Cheat sheet 07: Data types, import & recoding"
+toc: false
+---
+
+## Type checks: class(), typeof()
+
+::: stub
+To come.
+:::
+
+## Converting types (as.*)
+
+::: stub
+To come.
+:::
+
+## read_csv() / read_excel() arguments
+
+::: stub
+To come.
+:::
+
+## janitor::clean_names()
+
+::: stub
+To come.
+:::
+
+## case_when() / if_else()
+
+::: stub
+To come.
+:::
+
+## forcats: fct_relevel, fct_recode, fct_lump
+
+::: stub
+To come.
+:::
+
+## Dates with lubridate (dates only)
+
+::: stub
+To come.
+:::

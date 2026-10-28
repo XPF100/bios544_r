@@ -1,0 +1,34 @@
+---
+title: "Cheat sheet 08: Functions & iteration"
+toc: false
+---
+
+## Function anatomy
+
+::: stub
+To come.
+:::
+
+## When to write a function
+
+::: stub
+To come.
+:::
+
+## across() patterns
+
+::: stub
+To come.
+:::
+
+## map(), map_dbl(), map_dfr()
+
+::: stub
+To come.
+:::
+
+## Reading many files
+
+::: stub
+To come.
+:::

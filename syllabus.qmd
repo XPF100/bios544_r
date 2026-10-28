@@ -1,0 +1,14 @@
+---
+title: "Syllabus"
+---
+
+::: stub
+Placeholder. Paste the final BIOS 544 Fall 2026 syllabus text here, or link the PDF.
+:::
+
+## Grading
+
+| Component | Weight |
+|---|---|
+| Assignments and labs | 60% |
+| Final group project | 40% |

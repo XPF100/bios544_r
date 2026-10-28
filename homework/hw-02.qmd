@@ -1,0 +1,17 @@
+---
+title: "HW 02: Data visualization I: the grammar of graphics"
+subtitle: "Week 3 · due Wednesday 11:59 pm"
+---
+
+**Data:** NHANES: BMI, blood pressure, age, sex
+
+## What this assignment practices
+- Build a ggplot layer by layer
+- Map variables to color, shape, and size
+- Use facets to compare subgroups
+
+## Instructions
+
+::: stub
+Questions to come. Submit the rendered HTML and the .qmd on Canvas.
+:::

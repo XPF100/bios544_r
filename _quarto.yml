@@ -1,0 +1,77 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - data/
+    - homework/starters/
+  render:
+    - "*.qmd"
+    - "!README.md"
+    - "!homework/starters/"
+    - "!instructor/"
+
+website:
+  title: "BIOS 544: R Programming"
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: schedule.qmd
+        text: Schedule
+      - href: project/index.qmd
+        text: Project
+      - href: resources.qmd
+        text: Resources
+  sidebar:
+    style: docked
+    contents:
+      - section: "Weeks"
+        contents:
+          - text: "Week 01: Welcome & the R toolkit"
+            href: weeks/week-01.qmd
+          - text: "Week 02: Reproducible research: Quarto, Git & GitHub"
+            href: weeks/week-02.qmd
+          - text: "Week 03: Data visualization I: the grammar of graphics"
+            href: weeks/week-03.qmd
+          - text: "Week 04: Data visualization II: numeric & categorical data"
+            href: weeks/week-04.qmd
+          - text: "Week 05: Data wrangling I: tidy data & dplyr"
+            href: weeks/week-05.qmd
+          - text: "Week 06: Data wrangling II: joins & reshaping"
+            href: weeks/week-06.qmd
+          - text: "Week 07: Data types, import & recoding"
+            href: weeks/week-07.qmd
+          - text: "Week 08: Functions & iteration"
+            href: weeks/week-08.qmd
+          - text: "Week 09: Study design, confounding & Simpson's paradox"
+            href: weeks/week-09.qmd
+          - text: "Week 10: Comparing groups: correlation, t-tests & chi-square"
+            href: weeks/week-10.qmd
+          - text: "Week 11: Linear regression I"
+            href: weeks/week-11.qmd
+          - text: "Week 12: Linear regression II: multiple predictors & model building"
+            href: weeks/week-12.qmd
+          - text: "Week 13: Logistic regression & model validation"
+            href: weeks/week-13.qmd
+          - text: "Week 14: Reproducible reporting & final projects"
+            href: weeks/week-14.qmd
+      - section: "Cheat sheets"
+        contents: cheatsheets/*.qmd
+      - section: "Assignments"
+        contents: homework/*.qmd
+  page-footer:
+    left: "Adapted from [Data Science in a Box](https://datasciencebox.org) (CC BY-SA 4.0)."
+    right: "Rollins School of Public Health, Emory University"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+
+execute:
+  freeze: auto

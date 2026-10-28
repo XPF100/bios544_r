@@ -1,0 +1,34 @@
+---
+title: "Week 11: Linear regression I"
+---
+
+```{=html}
+<span class="unit-badge" style="background:#198754">Making rigorous conclusions</span>
+<p class="material-links" style="margin-top:1rem">
+<a href="../slides/week-11.html">Slides</a>
+<a href="../labs/lab-11.html">Lab</a>
+<a href="../cheatsheets/cheatsheet-11.html">Cheat sheet</a>
+<a href="../homework/hw-10.html">Assignment (HW 10)</a>
+</p>
+```
+
+## Topics
+- The language of models
+- Fitting a simple linear regression
+- Interpreting slope and intercept
+- Residuals and R-squared
+
+## Learning objectives
+By the end of this week you should be able to:
+
+- Fit a model with lm() and interpret its coefficients
+- Visualize the fitted line and residuals
+- Explain what R-squared does and does not tell you
+
+## Data
+NHANES: systolic BP ~ age
+
+## Adapted from Data Science in a Box
+- [`u4-d01-language-of-models`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u4-d01-language-of-models)
+- [`u4-d02-fitting-interpreting-models`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u4-d02-fitting-interpreting-models)
+- [`u4-d03-modeling-nonlinear-relationships`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u4-d03-modeling-nonlinear-relationships)

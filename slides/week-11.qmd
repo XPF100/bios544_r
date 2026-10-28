@@ -1,0 +1,44 @@
+---
+title: "Linear regression I"
+subtitle: "BIOS 544 · Week 11"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Week 11"
+---
+
+## This week
+
+- Fit a model with lm() and interpret its coefficients
+- Visualize the fitted line and residuals
+- Explain what R-squared does and does not tell you
+
+# The language of models
+
+::: stub
+Slides to come.
+:::
+
+# Fitting a simple linear regression
+
+::: stub
+Slides to come.
+:::
+
+# Interpreting slope and intercept
+
+::: stub
+Slides to come.
+:::
+
+# Residuals and R-squared
+
+::: stub
+Slides to come.
+:::
+
+## Before next class
+
+- Review the [cheat sheet](../cheatsheets/cheatsheet-11.html)
+- Start [HW 10](../homework/hw-10.html)
