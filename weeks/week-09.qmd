@@ -5,10 +5,10 @@ title: "Week 9: Study design, confounding & Simpson's paradox"
 ```{=html}
 <span class="unit-badge" style="background:#198754">Making rigorous conclusions</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-09.html">Slides</a>
-<a href="../labs/lab-09.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-09.html">Cheat sheet</a>
-<a href="../homework/hw-08.html">Assignment (HW 08)</a>
+<a href="../slides/confounding.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/confounding.html">Lab</a>
+<a href="../cheatsheets/confounding.html">Cheat sheet</a>
+<a href="../homework/confounding.html">Assignment (HW 08)</a>
 </p>
 ```
 
@@ -19,7 +19,7 @@ title: "Week 9: Study design, confounding & Simpson's paradox"
 - Correlation is not causation
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
 - Classify a study as observational or experimental
 - Identify a potential confounder in a public health question

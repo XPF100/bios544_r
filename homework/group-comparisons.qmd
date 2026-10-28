@@ -1,0 +1,17 @@
+---
+title: "Assignment: Comparing groups: Table 1, t-tests, chi-square & correlation"
+---
+
+**Data:** NHANES: blood pressure by sex, smoking x diabetes, BMI vs. BP
+
+## What this assignment practices
+- Build a Table 1 stratified by a grouping variable
+- Choose a test that matches the variable types
+- Run and interpret cor.test(), t.test(), chisq.test()
+- Report results in a sentence with estimate, CI, and p-value
+
+## Instructions
+
+::: stub
+Questions to come. Students work in RStudio from a starter .qmd and submit the rendered HTML and the .qmd on Canvas.
+:::

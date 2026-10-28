@@ -1,0 +1,18 @@
+---
+title: "Lab: Comparing groups: Table 1, t-tests, chi-square & correlation"
+---
+
+**Data:** NHANES: blood pressure by sex, smoking x diabetes, BMI vs. BP
+
+## Learning goals
+- Build a Table 1 stratified by a grouping variable
+- Choose a test that matches the variable types
+- Run and interpret cor.test(), t.test(), chisq.test()
+- Report results in a sentence with estimate, CI, and p-value
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

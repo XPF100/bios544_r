@@ -1,0 +1,17 @@
+---
+title: "Lab: Reproducible reporting & final projects"
+---
+
+**Data:** CDC PLACES county estimates (parameterized report); each team's project data
+
+## Learning goals
+- Produce a polished, fully reproducible Quarto report
+- Render one report template for several counties or states
+- Organize a project so someone else can rerun it
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

@@ -1,26 +1,28 @@
 ---
-title: "Week 10: Comparing groups: correlation, t-tests & chi-square"
+title: "Week 10: Comparing groups: Table 1, t-tests, chi-square & correlation"
 ---
 
 ```{=html}
 <span class="unit-badge" style="background:#198754">Making rigorous conclusions</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-10.html">Slides</a>
-<a href="../labs/lab-10.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-10.html">Cheat sheet</a>
-<a href="../homework/hw-09.html">Assignment (HW 09)</a>
+<a href="../slides/group-comparisons.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/group-comparisons.html">Lab</a>
+<a href="../cheatsheets/group-comparisons.html">Cheat sheet</a>
+<a href="../homework/group-comparisons.html">Assignment (HW 09)</a>
 </p>
 ```
 
 ## Topics
+- Descriptive 'Table 1' with gtsummary
 - Correlation (Pearson, Spearman)
 - Two-sample and paired t-tests
 - Chi-square test of independence
 - Tidy test output with broom
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
+- Build a Table 1 stratified by a grouping variable
 - Choose a test that matches the variable types
 - Run and interpret cor.test(), t.test(), chisq.test()
 - Report results in a sentence with estimate, CI, and p-value
@@ -31,6 +33,10 @@ NHANES: blood pressure by sex, smoking x diabetes, BMI vs. BP
 ## Project
 
 **Project data analysis checkpoint**
+
+## Further reading: The Epidemiologist R Handbook
+- [Descriptive tables](https://epirhandbook.com/en/new_pages/tables_descriptive.html)
+- [Simple statistical tests](https://epirhandbook.com/en/new_pages/stat_tests.html)
 
 ## Adapted from Data Science in a Box
 - [`u4-d12-hypothesis-testing`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u4-d12-hypothesis-testing)

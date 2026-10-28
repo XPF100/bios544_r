@@ -5,10 +5,10 @@ title: "Week 5: Data wrangling I: tidy data & dplyr"
 ```{=html}
 <span class="unit-badge" style="background:#0d6efd">Exploring data</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-05.html">Slides</a>
-<a href="../labs/lab-05.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-05.html">Cheat sheet</a>
-<a href="../homework/hw-04.html">Assignment (HW 04)</a>
+<a href="../slides/dplyr-basics.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/dplyr-basics.html">Lab</a>
+<a href="../cheatsheets/dplyr-basics.html">Cheat sheet</a>
+<a href="../homework/dplyr-basics.html">Assignment (HW 04)</a>
 </p>
 ```
 
@@ -17,9 +17,10 @@ title: "Week 5: Data wrangling I: tidy data & dplyr"
 - The pipe
 - filter(), select(), arrange(), mutate()
 - group_by() + summarize(), count()
+- Sanity-checking values (impossible ages)
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
 - Identify tidy vs. untidy data
 - Chain dplyr verbs with the pipe
@@ -31,6 +32,10 @@ By the end of this week you should be able to:
 ## Project
 
 **Project teams formed**
+
+## Further reading: The Epidemiologist R Handbook
+- [Cleaning data and core functions](https://epirhandbook.com/en/new_pages/cleaning.html)
+- [Grouping data](https://epirhandbook.com/en/new_pages/grouping.html)
 
 ## Adapted from Data Science in a Box
 - [`u2-d05-tidy-data`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d05-tidy-data)

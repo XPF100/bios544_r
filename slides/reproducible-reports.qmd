@@ -1,0 +1,52 @@
+---
+title: "Reproducible reporting & final projects"
+subtitle: "BIOS 544"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Reproducible reporting & final projects"
+execute:
+  echo: true
+---
+
+## Learning objectives
+
+- Produce a polished, fully reproducible Quarto report
+- Render one report template for several counties or states
+- Organize a project so someone else can rerun it
+
+# Writing a reproducible analysis report in Quarto
+
+::: stub
+Slides to come.
+:::
+
+# Tables (gtsummary) and figure captions
+
+::: stub
+Slides to come.
+:::
+
+# Parameterized reports: one template, many reports
+
+::: stub
+Slides to come.
+:::
+
+# Project organization and package versions (renv)
+
+::: stub
+Slides to come.
+:::
+
+# Final project presentations
+
+::: stub
+Slides to come.
+:::
+
+## Practice
+
+- [Lab](../labs/reproducible-reports.html)
+- [Cheat sheet](../cheatsheets/reproducible-reports.html)

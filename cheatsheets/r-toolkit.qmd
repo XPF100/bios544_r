@@ -1,0 +1,34 @@
+---
+title: "Cheat sheet: Welcome & the R toolkit"
+toc: false
+---
+
+## RStudio panes & shortcuts
+
+::: stub
+To come.
+:::
+
+## Objects and assignment
+
+::: stub
+To come.
+:::
+
+## Functions and arguments
+
+::: stub
+To come.
+:::
+
+## Installing vs. loading packages
+
+::: stub
+To come.
+:::
+
+## Inspecting data: glimpse(), head(), View()
+
+::: stub
+To come.
+:::

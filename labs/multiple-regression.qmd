@@ -1,0 +1,18 @@
+---
+title: "Lab: Linear regression II: multiple predictors & model building"
+---
+
+**Data:** NHANES: systolic BP ~ age + BMI + sex + smoking
+
+## Learning goals
+- Fit and interpret a multiple regression
+- Present crude and adjusted estimates in one table
+- Interpret a categorical predictor and an interaction
+- Compare candidate models and justify a choice
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

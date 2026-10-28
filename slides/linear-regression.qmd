@@ -1,0 +1,46 @@
+---
+title: "Linear regression I"
+subtitle: "BIOS 544"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Linear regression I"
+execute:
+  echo: true
+---
+
+## Learning objectives
+
+- Fit a model with lm() and interpret its coefficients
+- Visualize the fitted line and residuals
+- Explain what R-squared does and does not tell you
+
+# The language of models
+
+::: stub
+Slides to come.
+:::
+
+# Fitting a simple linear regression
+
+::: stub
+Slides to come.
+:::
+
+# Interpreting slope and intercept
+
+::: stub
+Slides to come.
+:::
+
+# Residuals and R-squared
+
+::: stub
+Slides to come.
+:::
+
+## Practice
+
+- [Lab](../labs/linear-regression.html)
+- [Cheat sheet](../cheatsheets/linear-regression.html)

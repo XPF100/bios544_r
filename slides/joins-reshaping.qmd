@@ -1,0 +1,59 @@
+---
+title: "Data wrangling II: joins, reshaping & de-duplication"
+subtitle: "BIOS 544"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Data wrangling II: joins, reshaping & de-duplication"
+execute:
+  echo: true
+---
+
+## Learning objectives
+
+- Choose the right join for a question
+- Reshape between long and wide formats
+- Join case counts to population to compute incidence rates
+- Remove duplicate records and keep one row per person
+
+# Working with multiple data frames
+
+::: stub
+Slides to come.
+:::
+
+# left_join(), inner_join(), anti_join()
+
+::: stub
+Slides to come.
+:::
+
+# pivot_longer() and pivot_wider()
+
+::: stub
+Slides to come.
+:::
+
+# Calculating rates per population
+
+::: stub
+Slides to come.
+:::
+
+# De-duplication: one row per person
+
+::: stub
+Slides to come.
+:::
+
+# Stretch: age-standardized rates
+
+::: stub
+Slides to come.
+:::
+
+## Practice
+
+- [Lab](../labs/joins-reshaping.html)
+- [Cheat sheet](../cheatsheets/joins-reshaping.html)

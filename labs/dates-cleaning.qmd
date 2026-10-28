@@ -1,0 +1,19 @@
+---
+title: "Lab: Dates with lubridate & cleaning a line list"
+---
+
+**Data:** H7N9 avian influenza, China 2013 (`outbreaks::fluH7N9_china_2013`); assignment: MERS, South Korea 2015 (`outbreaks::mers_korea_2015`)
+
+## Learning goals
+- Parse text into real dates and pull out date parts
+- Compute intervals in days (e.g., onset to hospitalization)
+- Count cases by week or month and draw an epidemic curve
+- Describe how much data is missing and handle it deliberately
+- Explain why de-identified data can still put people at risk
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

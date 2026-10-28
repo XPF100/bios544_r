@@ -1,0 +1,17 @@
+---
+title: "Lab: Linear regression I"
+---
+
+**Data:** NHANES: systolic BP ~ age
+
+## Learning goals
+- Fit a model with lm() and interpret its coefficients
+- Visualize the fitted line and residuals
+- Explain what R-squared does and does not tell you
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

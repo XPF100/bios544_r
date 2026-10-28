@@ -1,0 +1,53 @@
+---
+title: "Data visualization II: numeric & categorical data"
+subtitle: "BIOS 544"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Data visualization II: numeric & categorical data"
+execute:
+  echo: true
+---
+
+## Learning objectives
+
+- Choose an appropriate plot for one or two variables
+- Build an age-sex pyramid
+- Improve a plot's readability (scales, themes, labels)
+- Recognize misleading axes and cherry-picked comparisons
+
+# Histograms, density plots, boxplots, scatterplots
+
+::: stub
+Slides to come.
+:::
+
+# Bar charts and segmented bars
+
+::: stub
+Slides to come.
+:::
+
+# Demographic (age-sex) pyramids
+
+::: stub
+Slides to come.
+:::
+
+# Principles of effective visualization
+
+::: stub
+Slides to come.
+:::
+
+# Ethics: misrepresentation with graphs
+
+::: stub
+Slides to come.
+:::
+
+## Practice
+
+- [Lab](../labs/viz-types.html)
+- [Cheat sheet](../cheatsheets/viz-types.html)

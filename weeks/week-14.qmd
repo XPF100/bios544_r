@@ -5,32 +5,37 @@ title: "Week 14: Reproducible reporting & final projects"
 ```{=html}
 <span class="unit-badge" style="background:#6f42c1">Reproducible research</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-14.html">Slides</a>
-<a href="../labs/lab-14.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-14.html">Cheat sheet</a>
-<a href="../homework/hw-13.html">Assignment (HW 13)</a>
+<a href="../slides/reproducible-reports.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/reproducible-reports.html">Lab</a>
+<a href="../cheatsheets/reproducible-reports.html">Cheat sheet</a>
+<a href="../homework/reproducible-reports.html">Assignment (HW 13)</a>
 </p>
 ```
 
 ## Topics
 - Writing a reproducible analysis report in Quarto
 - Tables (gtsummary) and figure captions
+- Parameterized reports: one template, many reports
 - Project organization and package versions (renv)
 - Final project presentations
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
 - Produce a polished, fully reproducible Quarto report
-- Make a Table 1 with gtsummary
+- Render one report template for several counties or states
 - Organize a project so someone else can rerun it
 
 ## Data
-Each team's project data
+CDC PLACES county estimates (parameterized report); each team's project data
 
 ## Project
 
 **Final presentations; written report due finals week**
+
+## Further reading: The Epidemiologist R Handbook
+- [Organizing routine reports](https://epirhandbook.com/en/new_pages/reportfactory.html)
+- [Tables for presentation](https://epirhandbook.com/en/new_pages/tables_presentation.html)
 
 ## Adapted from Data Science in a Box
 - [`u2-d17-doing-data-science`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d17-doing-data-science)

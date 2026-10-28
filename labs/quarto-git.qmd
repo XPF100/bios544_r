@@ -1,0 +1,17 @@
+---
+title: "Lab: Reproducible research: Quarto, Git & GitHub"
+---
+
+**Data:** `medicaldata::covid_testing`
+
+## Learning goals
+- Render a Quarto document to HTML
+- Control chunk output with execution options
+- Clone a GitHub repo, commit changes, and push them back
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

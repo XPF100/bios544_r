@@ -1,0 +1,72 @@
+---
+title: "Dates with lubridate & cleaning a line list"
+subtitle: "BIOS 544"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Dates with lubridate & cleaning a line list"
+execute:
+  echo: true
+---
+
+## Learning objectives
+
+- Parse text into real dates and pull out date parts
+- Compute intervals in days (e.g., onset to hospitalization)
+- Count cases by week or month and draw an epidemic curve
+- Describe how much data is missing and handle it deliberately
+- Explain why de-identified data can still put people at risk
+
+# Importing and cleaning a messy line list (readr, janitor)
+
+::: stub
+Slides to come.
+:::
+
+# Parsing dates with lubridate: ymd(), mdy(), dmy()
+
+::: stub
+Slides to come.
+:::
+
+# Date parts and date arithmetic: year(), month(), days between events
+
+::: stub
+Slides to come.
+:::
+
+# Weekly and monthly counts with floor_date()
+
+::: stub
+Slides to come.
+:::
+
+# Epidemic curves
+
+::: stub
+Slides to come.
+:::
+
+# Missing data: finding it and deciding what to do
+
+::: stub
+Slides to come.
+:::
+
+# Recoding with case_when() and forcats
+
+::: stub
+Slides to come.
+:::
+
+# Ethics: privacy and de-identification of health data
+
+::: stub
+Slides to come.
+:::
+
+## Practice
+
+- [Lab](../labs/dates-cleaning.html)
+- [Cheat sheet](../cheatsheets/dates-cleaning.html)

@@ -1,0 +1,46 @@
+---
+title: "Cheat sheet: Data wrangling II: joins, reshaping & de-duplication"
+toc: false
+---
+
+## Join types (with diagrams)
+
+::: stub
+To come.
+:::
+
+## Join keys and by =
+
+::: stub
+To come.
+:::
+
+## Finding unmatched rows
+
+::: stub
+To come.
+:::
+
+## pivot_longer()
+
+::: stub
+To come.
+:::
+
+## pivot_wider()
+
+::: stub
+To come.
+:::
+
+## Rate = cases / population x 100,000
+
+::: stub
+To come.
+:::
+
+## distinct() and slice_min() for de-duplication
+
+::: stub
+To come.
+:::

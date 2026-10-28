@@ -1,0 +1,52 @@
+---
+title: "Cheat sheet: Dates with lubridate & cleaning a line list"
+toc: false
+---
+
+## Parsing dates: ymd(), mdy(), dmy()
+
+::: stub
+To come.
+:::
+
+## Date parts: year(), month(), wday()
+
+::: stub
+To come.
+:::
+
+## Date arithmetic in days
+
+::: stub
+To come.
+:::
+
+## floor_date() for weekly/monthly counts
+
+::: stub
+To come.
+:::
+
+## Epidemic curve recipe
+
+::: stub
+To come.
+:::
+
+## Counting missing values
+
+::: stub
+To come.
+:::
+
+## janitor::clean_names()
+
+::: stub
+To come.
+:::
+
+## case_when() and forcats basics
+
+::: stub
+To come.
+:::

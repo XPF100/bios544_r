@@ -1,34 +1,45 @@
 ---
-title: "Week 7: Data types, import & recoding"
+title: "Week 7: Dates with lubridate & cleaning a line list"
 ---
 
 ```{=html}
 <span class="unit-badge" style="background:#0d6efd">Exploring data</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-07.html">Slides</a>
-<a href="../labs/lab-07.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-07.html">Cheat sheet</a>
-<a href="../homework/hw-06.html">Assignment (HW 06)</a>
+<a href="../slides/dates-cleaning.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/dates-cleaning.html">Lab</a>
+<a href="../cheatsheets/dates-cleaning.html">Cheat sheet</a>
+<a href="../homework/dates-cleaning.html">Assignment (HW 06)</a>
 </p>
 ```
 
 ## Topics
-- Data types and classes: numeric, character, logical, factor, Date
-- Importing CSV and Excel files
-- Cleaning messy column names and values
+- Importing and cleaning a messy line list (readr, janitor)
+- Parsing dates with lubridate: ymd(), mdy(), dmy()
+- Date parts and date arithmetic: year(), month(), days between events
+- Weekly and monthly counts with floor_date()
+- Epidemic curves
+- Missing data: finding it and deciding what to do
 - Recoding with case_when() and forcats
 - Ethics: privacy and de-identification of health data
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
-- Diagnose and fix variable type problems
-- Import CSV and Excel files with readr / readxl
-- Recode and reorder factor levels
+- Parse text into real dates and pull out date parts
+- Compute intervals in days (e.g., onset to hospitalization)
+- Count cases by week or month and draw an epidemic curve
+- Describe how much data is missing and handle it deliberately
 - Explain why de-identified data can still put people at risk
 
 ## Data
-A messy surveillance line list (CSV/Excel, built for the course); `medicaldata::strep_tb`
+H7N9 avian influenza, China 2013 (`outbreaks::fluH7N9_china_2013`); assignment: MERS, South Korea 2015 (`outbreaks::mers_korea_2015`)
+
+## Further reading: The Epidemiologist R Handbook
+- [Working with dates](https://epirhandbook.com/en/new_pages/dates.html)
+- [Epidemic curves](https://epirhandbook.com/en/new_pages/epicurves.html)
+- [Missing data](https://epirhandbook.com/en/new_pages/missing_data.html)
+- [Import and export](https://epirhandbook.com/en/new_pages/importing.html)
+- [Factors](https://epirhandbook.com/en/new_pages/factors.html)
 
 ## Adapted from Data Science in a Box
 - [`u2-d10-data-types`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d10-data-types)
@@ -36,5 +47,3 @@ A messy surveillance line list (CSV/Excel, built for the course); `medicaldata::
 - [`u2-d12-data-import`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d12-data-import)
 - [`u2-d13-data-recode`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d13-data-recode)
 - [`u3-d02-privacy`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u3-d02-privacy)
-- [`ae-05-hotels-datatypes`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/application-exercises/ae-05-hotels-datatypes)
-- [`ae-06-nobels-sales-dataimport`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/application-exercises/ae-06-nobels-sales-dataimport)

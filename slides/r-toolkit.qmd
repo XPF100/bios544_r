@@ -1,0 +1,46 @@
+---
+title: "Welcome & the R toolkit"
+subtitle: "BIOS 544"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Welcome & the R toolkit"
+execute:
+  echo: true
+---
+
+## Learning objectives
+
+- Navigate RStudio and create an RStudio Project
+- Run code in the console and in a Quarto document
+- Install and load packages; use glimpse() to inspect a data frame
+
+# What data science looks like in public health
+
+::: stub
+Slides to come.
+:::
+
+# R, RStudio, and RStudio Projects
+
+::: stub
+Slides to come.
+:::
+
+# Objects, functions, packages
+
+::: stub
+Slides to come.
+:::
+
+# A first look at a real dataset
+
+::: stub
+Slides to come.
+:::
+
+## Practice
+
+- [Lab](../labs/r-toolkit.html)
+- [Cheat sheet](../cheatsheets/r-toolkit.html)

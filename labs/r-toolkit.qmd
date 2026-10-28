@@ -1,0 +1,17 @@
+---
+title: "Lab: Welcome & the R toolkit"
+---
+
+**Data:** NHANES (`NHANES` package)
+
+## Learning goals
+- Navigate RStudio and create an RStudio Project
+- Run code in the console and in a Quarto document
+- Install and load packages; use glimpse() to inspect a data frame
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

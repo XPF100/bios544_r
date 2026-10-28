@@ -5,21 +5,21 @@ title: "Week 1: Welcome & the R toolkit"
 ```{=html}
 <span class="unit-badge" style="background:#6c757d">Hello world</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-01.html">Slides</a>
-<a href="../labs/lab-01.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-01.html">Cheat sheet</a>
+<a href="../slides/r-toolkit.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/r-toolkit.html">Lab</a>
+<a href="../cheatsheets/r-toolkit.html">Cheat sheet</a>
 
 </p>
 ```
 
 ## Topics
-- Course overview and what data science looks like in public health
-- R, RStudio, and projects
+- What data science looks like in public health
+- R, RStudio, and RStudio Projects
 - Objects, functions, packages
 - A first look at a real dataset
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
 - Navigate RStudio and create an RStudio Project
 - Run code in the console and in a Quarto document
@@ -27,6 +27,11 @@ By the end of this week you should be able to:
 
 ## Data
 NHANES (`NHANES` package)
+
+## Further reading: The Epidemiologist R Handbook
+- [Transition to R](https://epirhandbook.com/en/new_pages/transition_to_R.html)
+- [R Basics](https://epirhandbook.com/en/new_pages/basics.html)
+- [R projects](https://epirhandbook.com/en/new_pages/r_projects.html)
 
 ## Adapted from Data Science in a Box
 - [`u1-d01-welcome`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u1-d01-welcome)

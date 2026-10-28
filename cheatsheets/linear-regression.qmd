@@ -1,0 +1,34 @@
+---
+title: "Cheat sheet: Linear regression I"
+toc: false
+---
+
+## lm() formula syntax
+
+::: stub
+To come.
+:::
+
+## Reading tidy() and glance() output
+
+::: stub
+To come.
+:::
+
+## Interpreting coefficients
+
+::: stub
+To come.
+:::
+
+## Residual plots
+
+::: stub
+To come.
+:::
+
+## geom_smooth(method = 'lm')
+
+::: stub
+To come.
+:::

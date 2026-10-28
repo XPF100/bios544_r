@@ -1,0 +1,46 @@
+---
+title: "Functions & iteration"
+subtitle: "BIOS 544"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Functions & iteration"
+execute:
+  echo: true
+---
+
+## Learning objectives
+
+- Write a function that removes repeated code
+- Apply a summary across many columns with across()
+- Read a folder of files into one data frame
+
+# Why write functions
+
+::: stub
+Slides to come.
+:::
+
+# Function arguments and defaults
+
+::: stub
+Slides to come.
+:::
+
+# Iterating with across() and purrr::map()
+
+::: stub
+Slides to come.
+:::
+
+# Reading and combining many files
+
+::: stub
+Slides to come.
+:::
+
+## Practice
+
+- [Lab](../labs/functions-iteration.html)
+- [Cheat sheet](../cheatsheets/functions-iteration.html)

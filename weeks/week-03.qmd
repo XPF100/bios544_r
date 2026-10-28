@@ -5,10 +5,10 @@ title: "Week 3: Data visualization I: the grammar of graphics"
 ```{=html}
 <span class="unit-badge" style="background:#0d6efd">Exploring data</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-03.html">Slides</a>
-<a href="../labs/lab-03.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-03.html">Cheat sheet</a>
-<a href="../homework/hw-02.html">Assignment (HW 02)</a>
+<a href="../slides/ggplot-grammar.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/ggplot-grammar.html">Lab</a>
+<a href="../cheatsheets/ggplot-grammar.html">Cheat sheet</a>
+<a href="../homework/ggplot-grammar.html">Assignment (HW 02)</a>
 </p>
 ```
 
@@ -19,7 +19,7 @@ title: "Week 3: Data visualization I: the grammar of graphics"
 - Faceting
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
 - Build a ggplot layer by layer
 - Map variables to color, shape, and size
@@ -27,6 +27,9 @@ By the end of this week you should be able to:
 
 ## Data
 NHANES: BMI, blood pressure, age, sex
+
+## Further reading: The Epidemiologist R Handbook
+- [ggplot basics](https://epirhandbook.com/en/new_pages/ggplot_basics.html)
 
 ## Adapted from Data Science in a Box
 - [`u2-d01-data-viz`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d01-data-viz)

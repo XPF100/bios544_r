@@ -1,0 +1,17 @@
+---
+title: "Lab: Study design, confounding & Simpson's paradox"
+---
+
+**Data:** Whickham smoking & mortality (`mosaicData::Whickham`)
+
+## Learning goals
+- Classify a study as observational or experimental
+- Identify a potential confounder in a public health question
+- Show Simpson's paradox with a grouped summary
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

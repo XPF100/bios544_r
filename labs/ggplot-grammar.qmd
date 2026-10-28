@@ -1,0 +1,17 @@
+---
+title: "Lab: Data visualization I: the grammar of graphics"
+---
+
+**Data:** NHANES: BMI, blood pressure, age, sex
+
+## Learning goals
+- Build a ggplot layer by layer
+- Map variables to color, shape, and size
+- Use facets to compare subgroups
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

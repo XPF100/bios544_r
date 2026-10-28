@@ -1,0 +1,46 @@
+---
+title: "Data visualization I: the grammar of graphics"
+subtitle: "BIOS 544"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Data visualization I: the grammar of graphics"
+execute:
+  echo: true
+---
+
+## Learning objectives
+
+- Build a ggplot layer by layer
+- Map variables to color, shape, and size
+- Use facets to compare subgroups
+
+# Why visualize?
+
+::: stub
+Slides to come.
+:::
+
+# Aesthetics, geoms, and layers in ggplot2
+
+::: stub
+Slides to come.
+:::
+
+# Mapping vs. setting
+
+::: stub
+Slides to come.
+:::
+
+# Faceting
+
+::: stub
+Slides to come.
+:::
+
+## Practice
+
+- [Lab](../labs/ggplot-grammar.html)
+- [Cheat sheet](../cheatsheets/ggplot-grammar.html)

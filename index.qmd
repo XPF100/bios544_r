@@ -12,10 +12,10 @@ and GitHub.
 
 | Material | What it's for |
 |---|---|
-| **Slides** | Concepts and live-coding examples from class |
-| **Lab** | Guided, in-class practice with a partner |
-| **Cheat sheet** | One page of the week's key functions, for reference |
-| **Assignment** | Independent practice, due Wednesday 11:59 pm (weeks 2–14) |
+| **Slides** | Concepts and live-coding examples from class (open in a new tab) |
+| **Lab** | Guided, in-class practice; code runs right in your browser |
+| **Cheat sheet** | One page of key functions, for reference |
+| **Assignment** | Independent practice in RStudio; due dates are on the [Schedule](schedule.qmd) |
 
 Start with the [Schedule](schedule.qmd) to see the whole semester.
 
@@ -30,5 +30,5 @@ Start with the [Schedule](schedule.qmd) to see the whole semester.
 </p>
 ```
 
-Ethics is woven through the semester: misleading graphs (week 4), privacy (week 7),
-and algorithmic bias (week 13).
+Ethics is woven through the semester: misleading graphs (week 4),
+privacy (week 7), and algorithmic bias (week 13).

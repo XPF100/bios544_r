@@ -1,0 +1,17 @@
+---
+title: "Lab: Functions & iteration"
+---
+
+**Data:** NHANES; CDC PLACES county estimates split into one file per state (built for the course)
+
+## Learning goals
+- Write a function that removes repeated code
+- Apply a summary across many columns with across()
+- Read a folder of files into one data frame
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

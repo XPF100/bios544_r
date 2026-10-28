@@ -3,7 +3,7 @@ title: "Syllabus"
 ---
 
 ::: stub
-Placeholder. Paste the final BIOS 544 Fall 2026 syllabus text here, or link the PDF.
+Placeholder. Paste the final BIOS 544 syllabus text here, or link the PDF.
 :::
 
 ## Grading

@@ -1,0 +1,18 @@
+---
+title: "Lab: Data wrangling II: joins, reshaping & de-duplication"
+---
+
+**Data:** WHO tuberculosis data (`tidyr::who2`, `tidyr::population`); `medicaldata::covid_testing` (repeat tests)
+
+## Learning goals
+- Choose the right join for a question
+- Reshape between long and wide formats
+- Join case counts to population to compute incidence rates
+- Remove duplicate records and keep one row per person
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

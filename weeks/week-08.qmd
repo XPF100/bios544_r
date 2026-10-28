@@ -5,10 +5,10 @@ title: "Week 8: Functions & iteration"
 ```{=html}
 <span class="unit-badge" style="background:#0d6efd">Exploring data</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-08.html">Slides</a>
-<a href="../labs/lab-08.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-08.html">Cheat sheet</a>
-<a href="../homework/hw-07.html">Assignment (HW 07)</a>
+<a href="../slides/functions-iteration.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/functions-iteration.html">Lab</a>
+<a href="../cheatsheets/functions-iteration.html">Cheat sheet</a>
+<a href="../homework/functions-iteration.html">Assignment (HW 07)</a>
 </p>
 ```
 
@@ -19,18 +19,22 @@ title: "Week 8: Functions & iteration"
 - Reading and combining many files
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
 - Write a function that removes repeated code
 - Apply a summary across many columns with across()
 - Read a folder of files into one data frame
 
 ## Data
-NHANES; a folder of county-level files (built for the course)
+NHANES; CDC PLACES county estimates split into one file per state (built for the course)
 
 ## Project
 
 **Project proposal due**
+
+## Further reading: The Epidemiologist R Handbook
+- [Writing functions](https://epirhandbook.com/en/new_pages/writing_functions.html)
+- [Iteration, loops, and lists](https://epirhandbook.com/en/new_pages/iteration.html)
 
 ## Adapted from Data Science in a Box
 - [`u2-d21-functions`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d21-functions)

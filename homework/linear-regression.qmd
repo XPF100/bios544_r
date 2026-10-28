@@ -1,0 +1,16 @@
+---
+title: "Assignment: Linear regression I"
+---
+
+**Data:** NHANES: systolic BP ~ age
+
+## What this assignment practices
+- Fit a model with lm() and interpret its coefficients
+- Visualize the fitted line and residuals
+- Explain what R-squared does and does not tell you
+
+## Instructions
+
+::: stub
+Questions to come. Students work in RStudio from a starter .qmd and submit the rendered HTML and the .qmd on Canvas.
+:::

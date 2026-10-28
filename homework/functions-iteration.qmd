@@ -1,0 +1,16 @@
+---
+title: "Assignment: Functions & iteration"
+---
+
+**Data:** NHANES; CDC PLACES county estimates split into one file per state (built for the course)
+
+## What this assignment practices
+- Write a function that removes repeated code
+- Apply a summary across many columns with across()
+- Read a folder of files into one data frame
+
+## Instructions
+
+::: stub
+Questions to come. Students work in RStudio from a starter .qmd and submit the rendered HTML and the .qmd on Canvas.
+:::

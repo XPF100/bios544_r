@@ -1,14 +1,14 @@
 ---
-title: "Week 6: Data wrangling II: joins & reshaping"
+title: "Week 6: Data wrangling II: joins, reshaping & de-duplication"
 ---
 
 ```{=html}
 <span class="unit-badge" style="background:#0d6efd">Exploring data</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-06.html">Slides</a>
-<a href="../labs/lab-06.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-06.html">Cheat sheet</a>
-<a href="../homework/hw-05.html">Assignment (HW 05)</a>
+<a href="../slides/joins-reshaping.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/joins-reshaping.html">Lab</a>
+<a href="../cheatsheets/joins-reshaping.html">Cheat sheet</a>
+<a href="../homework/joins-reshaping.html">Assignment (HW 05)</a>
 </p>
 ```
 
@@ -17,16 +17,25 @@ title: "Week 6: Data wrangling II: joins & reshaping"
 - left_join(), inner_join(), anti_join()
 - pivot_longer() and pivot_wider()
 - Calculating rates per population
+- De-duplication: one row per person
+- Stretch: age-standardized rates
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
 - Choose the right join for a question
 - Reshape between long and wide formats
 - Join case counts to population to compute incidence rates
+- Remove duplicate records and keep one row per person
 
 ## Data
-WHO tuberculosis data (`tidyr::who2`, `tidyr::population`)
+WHO tuberculosis data (`tidyr::who2`, `tidyr::population`); `medicaldata::covid_testing` (repeat tests)
+
+## Further reading: The Epidemiologist R Handbook
+- [Joining data](https://epirhandbook.com/en/new_pages/joining_matching.html)
+- [Pivoting data](https://epirhandbook.com/en/new_pages/pivoting.html)
+- [De-duplication](https://epirhandbook.com/en/new_pages/deduplication.html)
+- [Standardised rates](https://epirhandbook.com/en/new_pages/standardization.html)
 
 ## Adapted from Data Science in a Box
 - [`u2-d08-multi-df`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u2-d08-multi-df)

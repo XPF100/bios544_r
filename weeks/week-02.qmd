@@ -5,10 +5,10 @@ title: "Week 2: Reproducible research: Quarto, Git & GitHub"
 ```{=html}
 <span class="unit-badge" style="background:#6f42c1">Reproducible research</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-02.html">Slides</a>
-<a href="../labs/lab-02.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-02.html">Cheat sheet</a>
-<a href="../homework/hw-01.html">Assignment (HW 01)</a>
+<a href="../slides/quarto-git.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/quarto-git.html">Lab</a>
+<a href="../cheatsheets/quarto-git.html">Cheat sheet</a>
+<a href="../homework/quarto-git.html">Assignment (HW 01)</a>
 </p>
 ```
 
@@ -19,7 +19,7 @@ title: "Week 2: Reproducible research: Quarto, Git & GitHub"
 - Commit, push, pull from RStudio
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
 - Render a Quarto document to HTML
 - Control chunk output with execution options
@@ -27,6 +27,10 @@ By the end of this week you should be able to:
 
 ## Data
 `medicaldata::covid_testing`
+
+## Further reading: The Epidemiologist R Handbook
+- [Reports with R Markdown](https://epirhandbook.com/en/new_pages/rmarkdown.html)
+- [Version control with Git and GitHub](https://epirhandbook.com/en/new_pages/collaboration.html)
 
 ## Adapted from Data Science in a Box
 - [`u1-d03-toolkit-git`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u1-d03-toolkit-git)

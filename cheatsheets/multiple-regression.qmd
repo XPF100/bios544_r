@@ -1,0 +1,40 @@
+---
+title: "Cheat sheet: Linear regression II: multiple predictors & model building"
+toc: false
+---
+
+## Multiple predictors in a formula
+
+::: stub
+To come.
+:::
+
+## Reference levels for factors
+
+::: stub
+To come.
+:::
+
+## Interaction terms (* vs :)
+
+::: stub
+To come.
+:::
+
+## tbl_uvregression() + tbl_regression() + tbl_merge()
+
+::: stub
+To come.
+:::
+
+## Comparing models
+
+::: stub
+To come.
+:::
+
+## Assumption checks
+
+::: stub
+To come.
+:::

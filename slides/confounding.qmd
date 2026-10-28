@@ -1,0 +1,46 @@
+---
+title: "Study design, confounding & Simpson's paradox"
+subtitle: "BIOS 544"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Study design, confounding & Simpson's paradox"
+execute:
+  echo: true
+---
+
+## Learning objectives
+
+- Classify a study as observational or experimental
+- Identify a potential confounder in a public health question
+- Show Simpson's paradox with a grouped summary
+
+# Observational studies vs. experiments
+
+::: stub
+Slides to come.
+:::
+
+# Confounding variables
+
+::: stub
+Slides to come.
+:::
+
+# Simpson's paradox
+
+::: stub
+Slides to come.
+:::
+
+# Correlation is not causation
+
+::: stub
+Slides to come.
+:::
+
+## Practice
+
+- [Lab](../labs/confounding.html)
+- [Cheat sheet](../cheatsheets/confounding.html)

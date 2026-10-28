@@ -1,0 +1,53 @@
+---
+title: "Comparing groups: Table 1, t-tests, chi-square & correlation"
+subtitle: "BIOS 544"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Comparing groups: Table 1, t-tests, chi-square & correlation"
+execute:
+  echo: true
+---
+
+## Learning objectives
+
+- Build a Table 1 stratified by a grouping variable
+- Choose a test that matches the variable types
+- Run and interpret cor.test(), t.test(), chisq.test()
+- Report results in a sentence with estimate, CI, and p-value
+
+# Descriptive 'Table 1' with gtsummary
+
+::: stub
+Slides to come.
+:::
+
+# Correlation (Pearson, Spearman)
+
+::: stub
+Slides to come.
+:::
+
+# Two-sample and paired t-tests
+
+::: stub
+Slides to come.
+:::
+
+# Chi-square test of independence
+
+::: stub
+Slides to come.
+:::
+
+# Tidy test output with broom
+
+::: stub
+Slides to come.
+:::
+
+## Practice
+
+- [Lab](../labs/group-comparisons.html)
+- [Cheat sheet](../cheatsheets/group-comparisons.html)

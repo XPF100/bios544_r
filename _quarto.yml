@@ -40,15 +40,15 @@ website:
             href: weeks/week-04.qmd
           - text: "Week 05: Data wrangling I: tidy data & dplyr"
             href: weeks/week-05.qmd
-          - text: "Week 06: Data wrangling II: joins & reshaping"
+          - text: "Week 06: Data wrangling II: joins, reshaping & de-duplication"
             href: weeks/week-06.qmd
-          - text: "Week 07: Data types, import & recoding"
+          - text: "Week 07: Dates with lubridate & cleaning a line list"
             href: weeks/week-07.qmd
           - text: "Week 08: Functions & iteration"
             href: weeks/week-08.qmd
           - text: "Week 09: Study design, confounding & Simpson's paradox"
             href: weeks/week-09.qmd
-          - text: "Week 10: Comparing groups: correlation, t-tests & chi-square"
+          - text: "Week 10: Comparing groups: Table 1, t-tests, chi-square & correlation"
             href: weeks/week-10.qmd
           - text: "Week 11: Linear regression I"
             href: weeks/week-11.qmd
@@ -59,9 +59,63 @@ website:
           - text: "Week 14: Reproducible reporting & final projects"
             href: weeks/week-14.qmd
       - section: "Cheat sheets"
-        contents: cheatsheets/*.qmd
+        contents:
+          - text: "Welcome & the R toolkit"
+            href: cheatsheets/r-toolkit.qmd
+          - text: "Reproducible research: Quarto, Git & GitHub"
+            href: cheatsheets/quarto-git.qmd
+          - text: "Data visualization I: the grammar of graphics"
+            href: cheatsheets/ggplot-grammar.qmd
+          - text: "Data visualization II: numeric & categorical data"
+            href: cheatsheets/viz-types.qmd
+          - text: "Data wrangling I: tidy data & dplyr"
+            href: cheatsheets/dplyr-basics.qmd
+          - text: "Data wrangling II: joins, reshaping & de-duplication"
+            href: cheatsheets/joins-reshaping.qmd
+          - text: "Dates with lubridate & cleaning a line list"
+            href: cheatsheets/dates-cleaning.qmd
+          - text: "Functions & iteration"
+            href: cheatsheets/functions-iteration.qmd
+          - text: "Study design, confounding & Simpson's paradox"
+            href: cheatsheets/confounding.qmd
+          - text: "Comparing groups: Table 1, t-tests, chi-square & correlation"
+            href: cheatsheets/group-comparisons.qmd
+          - text: "Linear regression I"
+            href: cheatsheets/linear-regression.qmd
+          - text: "Linear regression II: multiple predictors & model building"
+            href: cheatsheets/multiple-regression.qmd
+          - text: "Logistic regression & model validation"
+            href: cheatsheets/logistic-regression.qmd
+          - text: "Reproducible reporting & final projects"
+            href: cheatsheets/reproducible-reports.qmd
       - section: "Assignments"
-        contents: homework/*.qmd
+        contents:
+          - text: "HW 01: Reproducible research: Quarto, Git & GitHub"
+            href: homework/quarto-git.qmd
+          - text: "HW 02: Data visualization I: the grammar of graphics"
+            href: homework/ggplot-grammar.qmd
+          - text: "HW 03: Data visualization II: numeric & categorical data"
+            href: homework/viz-types.qmd
+          - text: "HW 04: Data wrangling I: tidy data & dplyr"
+            href: homework/dplyr-basics.qmd
+          - text: "HW 05: Data wrangling II: joins, reshaping & de-duplication"
+            href: homework/joins-reshaping.qmd
+          - text: "HW 06: Dates with lubridate & cleaning a line list"
+            href: homework/dates-cleaning.qmd
+          - text: "HW 07: Functions & iteration"
+            href: homework/functions-iteration.qmd
+          - text: "HW 08: Study design, confounding & Simpson's paradox"
+            href: homework/confounding.qmd
+          - text: "HW 09: Comparing groups: Table 1, t-tests, chi-square & correlation"
+            href: homework/group-comparisons.qmd
+          - text: "HW 10: Linear regression I"
+            href: homework/linear-regression.qmd
+          - text: "HW 11: Linear regression II: multiple predictors & model building"
+            href: homework/multiple-regression.qmd
+          - text: "HW 12: Logistic regression & model validation"
+            href: homework/logistic-regression.qmd
+          - text: "HW 13: Reproducible reporting & final projects"
+            href: homework/reproducible-reports.qmd
   page-footer:
     left: "Adapted from [Data Science in a Box](https://datasciencebox.org) (CC BY-SA 4.0)."
     right: "Rollins School of Public Health, Emory University"

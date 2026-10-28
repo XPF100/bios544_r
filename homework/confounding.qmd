@@ -1,0 +1,16 @@
+---
+title: "Assignment: Study design, confounding & Simpson's paradox"
+---
+
+**Data:** Whickham smoking & mortality (`mosaicData::Whickham`)
+
+## What this assignment practices
+- Classify a study as observational or experimental
+- Identify a potential confounder in a public health question
+- Show Simpson's paradox with a grouped summary
+
+## Instructions
+
+::: stub
+Questions to come. Students work in RStudio from a starter .qmd and submit the rendered HTML and the .qmd on Canvas.
+:::

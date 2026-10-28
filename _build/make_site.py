@@ -1,22 +1,36 @@
-"""Generate the BIOS 544 Quarto website skeleton from weeks.py."""
+"""Generate the BIOS 544 Quarto website from weeks.py.
+
+Files for each module are named by its slug (slides/<slug>.qmd, labs/<slug>.qmd,
+cheatsheets/<slug>.qmd, homework/<slug>.qmd) and never mention week numbers or
+due dates. The schedule, week pages, home page, and navigation are the only
+places that map modules to weeks; they are regenerated every run.
+Module pages are only (re)written while they are still stubs.
+"""
 import sys, pathlib, textwrap
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from weeks import WEEKS, UNITS
+from weeks import WEEKS, UNITS, EPI
 
 OUT = pathlib.Path(sys.argv[1])
 DSBOX = "https://github.com/rstudio-education/datascience-box/tree/main/course-materials"
 
-def w(path, text):
+def w(path, text, always=False):
     p = OUT / path
-    # never overwrite a page that has real content (no stub marker left)
-    if p.exists() and p.suffix == ".qmd" and "::: stub" not in p.read_text() \
-            and not path in ("schedule.qmd", "index.qmd", "project/index.qmd"):
-        return
+    if (not always) and p.exists() and p.suffix == ".qmd" and "::: stub" not in p.read_text():
+        return  # finished page: never overwrite
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(textwrap.dedent(text).lstrip())
 
 def nn(n): return f"{n:02d}"
-def hw_num(n): return n - 1 if n >= 2 else None  # HW 01 belongs to week 2
+
+# assignment numbers follow module order (only modules with an assignment)
+k = 0
+for m in WEEKS:
+    if m["assignment"]:
+        k += 1; m["hw"] = k
+    else:
+        m["hw"] = None
+BY_SLUG = {m["slug"]: m for m in WEEKS}
+def wk(slug): return BY_SLUG[slug]["n"]
 
 def dsbox_link(item):
     folder = "_slides" if item.startswith("u") else "application-exercises"
@@ -24,8 +38,13 @@ def dsbox_link(item):
 
 # ---------------------------------------------------------------- _quarto.yml
 week_nav = "\n".join(
-    f'          - text: "Week {nn(x["n"])}: {x["title"]}"\n            href: weeks/week-{nn(x["n"])}.qmd'
-    for x in WEEKS)
+    f'          - text: "Week {nn(m["n"])}: {m["title"]}"\n            href: weeks/week-{nn(m["n"])}.qmd'
+    for m in WEEKS)
+cheat_nav = "\n".join(
+    f'          - text: "{m["title"]}"\n            href: cheatsheets/{m["slug"]}.qmd' for m in WEEKS)
+hw_nav = "\n".join(
+    f'          - text: "HW {nn(m["hw"])}: {m["title"]}"\n            href: homework/{m["slug"]}.qmd'
+    for m in WEEKS if m["hw"])
 w("_quarto.yml", f"""
 project:
   type: website
@@ -61,9 +80,11 @@ website:
         contents:
 {week_nav}
       - section: "Cheat sheets"
-        contents: cheatsheets/*.qmd
+        contents:
+{cheat_nav}
       - section: "Assignments"
-        contents: homework/*.qmd
+        contents:
+{hw_nav}
   page-footer:
     left: "Adapted from [Data Science in a Box](https://datasciencebox.org) (CC BY-SA 4.0)."
     right: "Rollins School of Public Health, Emory University"
@@ -77,9 +98,9 @@ format:
 
 execute:
   freeze: auto
-""")
+""", always=True)
 
-w("styles.scss", """
+w("styles.scss", always=True, text="""
 /*-- scss:defaults --*/
 $primary: #012169;   // Emory blue
 $link-color: #0033a0;
@@ -105,7 +126,7 @@ $font-size-root: 17px;
 """)
 
 # ---------------------------------------------------------------- home
-w("index.qmd", """
+w("index.qmd", f"""
 ---
 title: "BIOS 544: R Programming"
 subtitle: "Department of Biostatistics and Bioinformatics · Rollins School of Public Health"
@@ -120,16 +141,16 @@ and GitHub.
 
 | Material | What it's for |
 |---|---|
-| **Slides** | Concepts and live-coding examples from class |
-| **Lab** | Guided, in-class practice with a partner |
-| **Cheat sheet** | One page of the week's key functions, for reference |
-| **Assignment** | Independent practice, due Wednesday 11:59 pm (weeks 2–14) |
+| **Slides** | Concepts and live-coding examples from class (open in a new tab) |
+| **Lab** | Guided, in-class practice; code runs right in your browser |
+| **Cheat sheet** | One page of key functions, for reference |
+| **Assignment** | Independent practice in RStudio; due dates are on the [Schedule](schedule.qmd) |
 
 Start with the [Schedule](schedule.qmd) to see the whole semester.
 
 ## Course units
 
-```{=html}
+```{{=html}}
 <p>
 <span class="unit-badge" style="background:#6c757d">Hello world</span>
 <span class="unit-badge" style="background:#6f42c1">Reproducible research</span>
@@ -138,18 +159,16 @@ Start with the [Schedule](schedule.qmd) to see the whole semester.
 </p>
 ```
 
-Ethics is woven through the semester: misleading graphs (week 4), privacy (week 7),
-and algorithmic bias (week 13).
-""")
+Ethics is woven through the semester: misleading graphs (week {wk("viz-types")}),
+privacy (week {wk("dates-cleaning")}), and algorithmic bias (week {wk("logistic-regression")}).
+""", always=True)
 
 # ---------------------------------------------------------------- schedule
 rows = []
-for x in WEEKS:
-    uname, ucol = UNITS[x["unit"]]
-    hn = hw_num(x["n"])
-    hw = f"[HW {nn(hn)}](homework/hw-{nn(hn)}.qmd)" if hn else "—"
-    ms = x.get("milestone", "")
-    rows.append(f"| {x['n']} | [{x['title']}](weeks/week-{nn(x['n'])}.qmd) | {uname} | {x['data']} | {hw} | {ms} |")
+for m in WEEKS:
+    uname, ucol = UNITS[m["unit"]]
+    hw = f"[HW {nn(m['hw'])}](homework/{m['slug']}.qmd)" if m["hw"] else "—"
+    rows.append(f"| {m['n']} | [{m['title']}](weeks/week-{nn(m['n'])}.qmd) | {uname} | {m['data']} | {hw} | {m.get('milestone', '')} |")
 w("schedule.qmd", f"""
 ---
 title: "Schedule"
@@ -157,13 +176,13 @@ page-layout: full
 tbl-colwidths: [6, 34, 14, 22, 10, 14]
 ---
 
-Assignments are released with each weekly module and are due the following
+Each assignment is released with its week's module and is due the following
 **Wednesday at 11:59 pm**.
 
 | Week | Topic | Unit | Data | Assignment | Project |
 |---:|---|---|---|---|---|
 {chr(10).join(rows)}
-""")
+""", always=True)
 
 # ---------------------------------------------------------------- syllabus / resources
 w("syllabus.qmd", """
@@ -172,7 +191,7 @@ title: "Syllabus"
 ---
 
 ::: stub
-Placeholder. Paste the final BIOS 544 Fall 2026 syllabus text here, or link the PDF.
+Placeholder. Paste the final BIOS 544 syllabus text here, or link the PDF.
 :::
 
 ## Grading
@@ -191,19 +210,25 @@ title: "Resources"
 ## Textbook
 - [R for Data Science (2e)](https://r4ds.hadley.nz) (required)
 
-## Public health R references
-- [The Epidemiologist R Handbook](https://epirhandbook.com/en/index.html)
+## Recommended references
+- [The Epidemiologist R Handbook](https://epirhandbook.com/en/index.html): R for applied
+  epidemiology. Each week page links the chapters that go with that topic. Especially useful:
+  - [Transition to R](https://epirhandbook.com/en/new_pages/transition_to_R.html) (coming from SAS, Stata, or Excel)
+  - [Common errors](https://epirhandbook.com/en/new_pages/errors.html)
+  - [Getting help](https://epirhandbook.com/en/new_pages/help.html)
 - [R Cookbook](https://rc2e.com/)
 - [R Graphics Cookbook](https://r-graphics.org/)
 
-## Course datasets (R packages)
+## Course datasets
 - `NHANES`: US National Health and Nutrition Examination Survey
 - `medicaldata`: teaching datasets from published medical studies
+- `outbreaks`: real outbreak line lists (H7N9 influenza, China 2013; MERS, South Korea 2015)
 - `mosaicData`: includes the Whickham smoking study
 - `tidyr::who2`, `tidyr::population`: WHO tuberculosis surveillance
+- CDC PLACES: county-level chronic disease estimates (provided as CSV files)
 
 ```r
-install.packages(c("tidyverse", "NHANES", "medicaldata", "mosaicData",
+install.packages(c("tidyverse", "NHANES", "medicaldata", "outbreaks", "mosaicData",
                    "janitor", "readxl", "broom", "gtsummary", "rsample"))
 ```
 
@@ -212,10 +237,10 @@ Much of this course is adapted from [Data Science in a Box](https://datascienceb
 by Mine Çetinkaya-Rundel and contributors, licensed under
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 Adapted materials on this site are shared under the same license.
-""")
+""", always=True)
 
 # ---------------------------------------------------------------- project
-mil = "\n".join(f"| {x['n']} | {x['milestone']} |" for x in WEEKS if x.get("milestone"))
+mil = "\n".join(f"| {m['n']} | {m['milestone']} |" for m in WEEKS if m.get("milestone"))
 w("project/index.qmd", f"""
 ---
 title: "Final group project"
@@ -235,29 +260,30 @@ Placeholder. Add the proposal guidelines, dataset suggestions, rubric, and prese
 :::
 """)
 
-# ---------------------------------------------------------------- per-week files
-for x in WEEKS:
-    n = x["n"]; k = nn(n)
-    uname, ucol = UNITS[x["unit"]]
-    hn = hw_num(n)
-    topics = "\n".join(f"- {t}" for t in x["topics"])
-    objs = "\n".join(f"- {o}" for o in x["objectives"])
-    src = "\n".join(f"- {dsbox_link(d)}" for d in x["dsbox"])
-    hw_link = f'<a href="../homework/hw-{nn(hn)}.html">Assignment (HW {nn(hn)})</a>' if hn else ""
-    ms = f"\n## Project\n\n**{x['milestone']}**\n" if x.get("milestone") else ""
+# ---------------------------------------------------------------- per-module files
+for m in WEEKS:
+    n, slug = m["n"], m["slug"]
+    uname, ucol = UNITS[m["unit"]]
+    topics = "\n".join(f"- {t}" for t in m["topics"])
+    objs = "\n".join(f"- {o}" for o in m["objectives"])
+    src = "\n".join(f"- {dsbox_link(d)}" for d in m["dsbox"])
+    epi = "\n".join(f"- [{t}]({EPI}{u})" for t, u in m["epi"])
+    epi_sec = f"\n## Further reading: The Epidemiologist R Handbook\n{epi}\n" if epi else ""
+    hw_link = f'<a href="../homework/{slug}.html">Assignment (HW {nn(m["hw"])})</a>' if m["hw"] else ""
+    ms = f"\n## Project\n\n**{m['milestone']}**\n" if m.get("milestone") else ""
 
-    # week overview page
-    w(f"weeks/week-{k}.qmd", f"""
+    # week page: the ONLY place a module is tied to a week
+    w(f"weeks/week-{nn(n)}.qmd", f"""
 ---
-title: "Week {n}: {x['title']}"
+title: "Week {n}: {m['title']}"
 ---
 
 ```{{=html}}
 <span class="unit-badge" style="background:{ucol}">{uname}</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-{k}.html">Slides</a>
-<a href="../labs/lab-{k}.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-{k}.html">Cheat sheet</a>
+<a href="../slides/{slug}.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/{slug}.html">Lab</a>
+<a href="../cheatsheets/{slug}.html">Cheat sheet</a>
 {hw_link}
 </p>
 ```
@@ -266,85 +292,79 @@ title: "Week {n}: {x['title']}"
 {topics}
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
 {objs}
 
 ## Data
-{x['data']}
-{ms}
+{m['data']}
+{ms}{epi_sec}
 ## Adapted from Data Science in a Box
 {src}
-""")
+""", always=True)
 
-    # slides (revealjs)
-    sections = "\n\n".join(f"# {t}\n\n::: stub\nSlides to come.\n:::" for t in x["topics"])
-    w(f"slides/week-{k}.qmd", f"""
+    # ---- module files: no week numbers, no due dates ----
+    sections = "\n\n".join(f"# {t}\n\n::: stub\nSlides to come.\n:::" for t in m["topics"])
+    w(f"slides/{slug}.qmd", f"""
 ---
-title: "{x['title']}"
-subtitle: "BIOS 544 · Week {n}"
+title: "{m['title']}"
+subtitle: "BIOS 544"
 format:
   revealjs:
     slide-number: true
     code-copy: true
-    footer: "BIOS 544 · Week {n}"
+    footer: "BIOS 544 · {m['title']}"
+execute:
+  echo: true
 ---
 
-## This week
+## Learning objectives
 
 {objs}
 
 {sections}
 
-## Before next class
+## Practice
 
-- Review the [cheat sheet](../cheatsheets/cheatsheet-{k}.html)
-""" + (f"- Start [HW {nn(hn)}](../homework/hw-{nn(hn)}.html)\n" if hn else ""))
+- [Lab](../labs/{slug}.html)
+- [Cheat sheet](../cheatsheets/{slug}.html)
+""")
 
-    # lab
-    w(f"labs/lab-{k}.qmd", f"""
+    w(f"labs/{slug}.qmd", f"""
 ---
-title: "Lab {k}: {x['title']}"
+title: "Lab: {m['title']}"
 ---
 
-**Data:** {x['data']}
+**Data:** {m['data']}
 
 ## Learning goals
 {objs}
 
-## Getting started
-
-::: stub
-Setup instructions and starter repo link to come.
-:::
-
 ## Exercises
 
 ::: stub
-Guided exercises to come.
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
 :::
 """)
 
-    # cheat sheet
-    cs = "\n\n".join(f"## {c}\n\n::: stub\nTo come.\n:::" for c in x["cheats"])
-    w(f"cheatsheets/cheatsheet-{k}.qmd", f"""
+    cs = "\n\n".join(f"## {c}\n\n::: stub\nTo come.\n:::" for c in m["cheats"])
+    w(f"cheatsheets/{slug}.qmd", f"""
 ---
-title: "Cheat sheet {k}: {x['title']}"
+title: "Cheat sheet: {m['title']}"
 toc: false
 ---
 
 {cs}
 """)
 
-    # homework (weeks 2-14)
-    if hn:
-        w(f"homework/hw-{nn(hn)}.qmd", f"""
+    if m["hw"]:
+        w(f"homework/{slug}.qmd", f"""
 ---
-title: "HW {nn(hn)}: {x['title']}"
-subtitle: "Week {n} · due Wednesday 11:59 pm"
+title: "Assignment: {m['title']}"
 ---
 
-**Data:** {x['data']}
+**Data:** {m['data']}
 
 ## What this assignment practices
 {objs}
@@ -352,20 +372,10 @@ subtitle: "Week {n} · due Wednesday 11:59 pm"
 ## Instructions
 
 ::: stub
-Questions to come. Submit the rendered HTML and the .qmd on Canvas.
+Questions to come. Students work in RStudio from a starter .qmd and submit the rendered HTML and the .qmd on Canvas.
 :::
 """)
 
-w("README.md", """
-# BIOS 544 course website (Quarto)
-
-- Edit the topic map in `_build/weeks.py`; `_build/make_site.py` regenerates the stub
-  pages. Don't rerun it after you start writing real content, because it overwrites the stubs.
-- Preview: open `bios544.Rproj` in RStudio, then run `quarto preview` in the Terminal.
-- Publish: `quarto publish gh-pages` (GitHub Pages) or `quarto publish quarto-pub`.
-
-Adapted from Data Science in a Box (CC BY-SA 4.0).
-""")
 w("bios544.Rproj", """
 Version: 1.0
 
@@ -375,5 +385,5 @@ AlwaysSaveHistory: No
 
 BuildType: Website
 """)
-w(".gitignore", "_site/\n.quarto/\n.Rproj.user/\n*_files/\ninstructor/\n")
+w(".gitignore", "_site/\n.quarto/\n.Rproj.user/\n*_files/\ninstructor/\n", always=True)
 print("done")

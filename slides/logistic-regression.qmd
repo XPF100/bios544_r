@@ -1,0 +1,53 @@
+---
+title: "Logistic regression & model validation"
+subtitle: "BIOS 544"
+format:
+  revealjs:
+    slide-number: true
+    code-copy: true
+    footer: "BIOS 544 · Logistic regression & model validation"
+execute:
+  echo: true
+---
+
+## Learning objectives
+
+- Fit a logistic regression and report odds ratios with CIs
+- Present crude and adjusted ORs side by side
+- Evaluate predictions on held-out data
+- Describe how a prediction model can treat groups unfairly
+
+# Binary outcomes and log odds
+
+::: stub
+Slides to come.
+:::
+
+# Fitting glm(family = binomial)
+
+::: stub
+Slides to come.
+:::
+
+# Crude and adjusted odds ratios
+
+::: stub
+Slides to come.
+:::
+
+# Train/test splits and cross-validation
+
+::: stub
+Slides to come.
+:::
+
+# Ethics: algorithmic bias in health prediction
+
+::: stub
+Slides to come.
+:::
+
+## Practice
+
+- [Lab](../labs/logistic-regression.html)
+- [Cheat sheet](../cheatsheets/logistic-regression.html)

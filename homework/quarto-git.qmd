@@ -1,0 +1,16 @@
+---
+title: "Assignment: Reproducible research: Quarto, Git & GitHub"
+---
+
+**Data:** `medicaldata::covid_testing`
+
+## What this assignment practices
+- Render a Quarto document to HTML
+- Control chunk output with execution options
+- Clone a GitHub repo, commit changes, and push them back
+
+## Instructions
+
+::: stub
+Questions to come. Students work in RStudio from a starter .qmd and submit the rendered HTML and the .qmd on Canvas.
+:::

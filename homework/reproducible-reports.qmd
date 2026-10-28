@@ -1,0 +1,16 @@
+---
+title: "Assignment: Reproducible reporting & final projects"
+---
+
+**Data:** CDC PLACES county estimates (parameterized report); each team's project data
+
+## What this assignment practices
+- Produce a polished, fully reproducible Quarto report
+- Render one report template for several counties or states
+- Organize a project so someone else can rerun it
+
+## Instructions
+
+::: stub
+Questions to come. Students work in RStudio from a starter .qmd and submit the rendered HTML and the .qmd on Canvas.
+:::

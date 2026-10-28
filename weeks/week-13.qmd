@@ -5,29 +5,33 @@ title: "Week 13: Logistic regression & model validation"
 ```{=html}
 <span class="unit-badge" style="background:#198754">Making rigorous conclusions</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-13.html">Slides</a>
-<a href="../labs/lab-13.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-13.html">Cheat sheet</a>
-<a href="../homework/hw-12.html">Assignment (HW 12)</a>
+<a href="../slides/logistic-regression.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/logistic-regression.html">Lab</a>
+<a href="../cheatsheets/logistic-regression.html">Cheat sheet</a>
+<a href="../homework/logistic-regression.html">Assignment (HW 12)</a>
 </p>
 ```
 
 ## Topics
 - Binary outcomes and log odds
 - Fitting glm(family = binomial)
-- Odds ratios
+- Crude and adjusted odds ratios
 - Train/test splits and cross-validation
 - Ethics: algorithmic bias in health prediction
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
 - Fit a logistic regression and report odds ratios with CIs
+- Present crude and adjusted ORs side by side
 - Evaluate predictions on held-out data
 - Describe how a prediction model can treat groups unfairly
 
 ## Data
 NHANES: diabetes ~ age + BMI + physical activity
+
+## Further reading: The Epidemiologist R Handbook
+- [Univariate and multivariable regression](https://epirhandbook.com/en/new_pages/regression.html)
 
 ## Adapted from Data Science in a Box
 - [`u4-d06-logistic-reg`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u4-d06-logistic-reg)

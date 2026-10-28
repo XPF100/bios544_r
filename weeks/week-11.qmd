@@ -5,10 +5,10 @@ title: "Week 11: Linear regression I"
 ```{=html}
 <span class="unit-badge" style="background:#198754">Making rigorous conclusions</span>
 <p class="material-links" style="margin-top:1rem">
-<a href="../slides/week-11.html">Slides</a>
-<a href="../labs/lab-11.html">Lab</a>
-<a href="../cheatsheets/cheatsheet-11.html">Cheat sheet</a>
-<a href="../homework/hw-10.html">Assignment (HW 10)</a>
+<a href="../slides/linear-regression.html" target="_blank" rel="noopener">Slides &#8599;</a>
+<a href="../labs/linear-regression.html">Lab</a>
+<a href="../cheatsheets/linear-regression.html">Cheat sheet</a>
+<a href="../homework/linear-regression.html">Assignment (HW 10)</a>
 </p>
 ```
 
@@ -19,7 +19,7 @@ title: "Week 11: Linear regression I"
 - Residuals and R-squared
 
 ## Learning objectives
-By the end of this week you should be able to:
+By the end of this module you should be able to:
 
 - Fit a model with lm() and interpret its coefficients
 - Visualize the fitted line and residuals
@@ -27,6 +27,9 @@ By the end of this week you should be able to:
 
 ## Data
 NHANES: systolic BP ~ age
+
+## Further reading: The Epidemiologist R Handbook
+- [Univariate and multivariable regression](https://epirhandbook.com/en/new_pages/regression.html)
 
 ## Adapted from Data Science in a Box
 - [`u4-d01-language-of-models`](https://github.com/rstudio-education/datascience-box/tree/main/course-materials/_slides/u4-d01-language-of-models)

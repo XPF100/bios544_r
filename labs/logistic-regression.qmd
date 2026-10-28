@@ -1,0 +1,18 @@
+---
+title: "Lab: Logistic regression & model validation"
+---
+
+**Data:** NHANES: diabetes ~ age + BMI + physical activity
+
+## Learning goals
+- Fit a logistic regression and report odds ratios with CIs
+- Present crude and adjusted ORs side by side
+- Evaluate predictions on held-out data
+- Describe how a prediction model can treat groups unfairly
+
+## Exercises
+
+::: stub
+Guided exercises to come. Each exercise gets a **Use:** box naming exact columns and values,
+plus a hint, a solution, and a check.
+:::

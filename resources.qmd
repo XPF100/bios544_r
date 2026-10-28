@@ -5,19 +5,25 @@ title: "Resources"
 ## Textbook
 - [R for Data Science (2e)](https://r4ds.hadley.nz) (required)
 
-## Public health R references
-- [The Epidemiologist R Handbook](https://epirhandbook.com/en/index.html)
+## Recommended references
+- [The Epidemiologist R Handbook](https://epirhandbook.com/en/index.html): R for applied
+  epidemiology. Each week page links the chapters that go with that topic. Especially useful:
+  - [Transition to R](https://epirhandbook.com/en/new_pages/transition_to_R.html) (coming from SAS, Stata, or Excel)
+  - [Common errors](https://epirhandbook.com/en/new_pages/errors.html)
+  - [Getting help](https://epirhandbook.com/en/new_pages/help.html)
 - [R Cookbook](https://rc2e.com/)
 - [R Graphics Cookbook](https://r-graphics.org/)
 
-## Course datasets (R packages)
+## Course datasets
 - `NHANES`: US National Health and Nutrition Examination Survey
 - `medicaldata`: teaching datasets from published medical studies
+- `outbreaks`: real outbreak line lists (H7N9 influenza, China 2013; MERS, South Korea 2015)
 - `mosaicData`: includes the Whickham smoking study
 - `tidyr::who2`, `tidyr::population`: WHO tuberculosis surveillance
+- CDC PLACES: county-level chronic disease estimates (provided as CSV files)
 
 ```r
-install.packages(c("tidyverse", "NHANES", "medicaldata", "mosaicData",
+install.packages(c("tidyverse", "NHANES", "medicaldata", "outbreaks", "mosaicData",
                    "janitor", "readxl", "broom", "gtsummary", "rsample"))
 ```
 
