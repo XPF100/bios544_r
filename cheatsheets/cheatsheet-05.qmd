@@ -17,7 +17,7 @@ webr:
 #| include: false
 #| autorun: true
 library(dplyr)
-covid <- read.csv("../data/covid_testing.csv") |> as_tibble()
+covid <- read.csv("data/covid_testing.csv") |> as_tibble()
 ```
 
 ::: {.callout-tip appearance="simple"}
